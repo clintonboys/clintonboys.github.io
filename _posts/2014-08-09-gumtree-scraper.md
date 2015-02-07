@@ -3,7 +3,7 @@ layout: post
 title: Scraping Gumtree
 image:
   feature: sample-image-9.jpg
-  credit: WeGraphics
+  credit: Cascade Mountains, Oregon, 2013
 
 ---
 

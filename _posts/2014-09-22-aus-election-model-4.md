@@ -3,7 +3,7 @@ layout: post
 title: Difficulties in forecasting elections in Australia IV: Redistributions
 image:
   feature: sample-image-6.jpg
-  credit: WeGraphics
+  credit: Big Sur National Park, California, 2013
 
 ---
 

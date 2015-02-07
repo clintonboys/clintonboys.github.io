@@ -3,7 +3,7 @@ layout: post
 title: Difficulties in forecasting elections in Australia II: Constituency sizes
 image:
   feature: sample-image-7.jpg
-  credit: WeGraphics
+  credit: Spencer Butte, Oregon, 2013
 
 ---
 A successful forecasting model for elections in Australia needs to take into account its unique preferential voting system. In federal elections, voters are required to number all candidates in order of preference: only numbering a first preference results in an informal vote (in various states, preferential voting is optional, and there is a significant movement, particularly among prominent psephologists, to move to optional preferential voting on a federal level).

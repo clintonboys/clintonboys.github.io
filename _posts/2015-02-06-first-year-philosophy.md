@@ -3,7 +3,7 @@ layout: post
 title: First-year philosophy
 image:
   feature: sample-image-2.jpg
-  credit: WeGraphics
+  credit: Cradle Mountain National Park, Tasmania, 2014
 ---
 
 I've been spending January and February teaching MATH1002 Linear Algebra at the Summer School at the University of Sydney. I'm trying a whole bunch of new things this year: the most significant change from previous years is the [Wordpress blog](http://ss1002.wordpress.com) that I'm running the whole site through. 

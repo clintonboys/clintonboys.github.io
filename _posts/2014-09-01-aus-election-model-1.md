@@ -3,7 +3,7 @@ layout: post
 title: Difficulties in forecasting elections in Australia I: Sample sizes and poll frequencies
 image:
   feature: sample-image-10.jpg
-  credit: WeGraphics
+  credit: Stella Maris, Haifa, Israel, 2014
 
 ---
 
