@@ -5,10 +5,6 @@ image:
   feature: sample-image-3.jpg
   credit: Hawkesbury River, New South Wales, 2014
 ---
----
-layout: page
-title: Projects
----
 
 ## Data
 
