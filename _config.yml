@@ -1,7 +1,7 @@
 # Site wide configuration
 
-title:            Site Title
-locale:           en_US
+title:            Clinton Boys
+locale:           en_AU
 url:              
 
 
@@ -26,13 +26,13 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
+  name: Clinton Boys
   avatar: bio-photo.jpg
-  bio: "Describe your self."
-  email: 
+  bio: "I am a 26-year old Australian, just completed my PhD in Pure Mathematics and teaching myself how to be a Data Scientist."
+  email: cdsboys@gmail.com
   disqus-shortname: 
-  twitter: #username
-  facebook: #username
+  twitter: psephologue
+  facebook: clintonboys
   google:
     plus: #username
     analytics: 
@@ -40,10 +40,10 @@ owner:
     ad-client: 
     ad-slot: 
   bing-verify: 
-  github: #username
+  github: clintonboys
   stackoverflow: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
-  instagram: #username
+  linkedin: clintonboys
+  instagram: cboy5675
   lastfm: #username
   tumblr: #username
   pinterest: #username
