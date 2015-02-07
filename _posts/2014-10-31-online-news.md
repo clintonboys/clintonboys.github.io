@@ -3,7 +3,7 @@ layout: post
 title: Paying for online news
 image:
   feature: sample-image-4.jpg
-  credit: WeGraphics
+  credit: Rob Roy National Park, New Zealand, 2014
 
 ---
 
