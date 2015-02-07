@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Difficulties in forecasting elections in Australia I: Sample sizes and poll frequencies
+title: Difficulties in forecasting elections in Australia I - Sample sizes and poll frequencies
 image:
   feature: sample-image-10.jpg
   credit: Stella Maris, Haifa, Israel, 2014
-  
+
 ---
 
 In recent years, statistical approaches to electoral forecasting have become particularly popular. The most famous example in the past decade has been the rise of Nate Silver and his FiveThirtyEight model, which has been immensely successful in predicting outcomes of American elections, as well as bringing the notion of precise and robust electoral forecasting to the forefront of public discourse.
