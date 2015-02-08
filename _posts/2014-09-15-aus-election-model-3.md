@@ -1,11 +1,13 @@
 ---
 layout: post
-title: Difficulties in forecasting elections in Australia II: Constituency sizes
+title: Difficulties in forecasting elections in Australia III - Preferential voting
 image:
   feature: sample-image-7.jpg
   credit: Spencer Butte, Oregon, 2013
 
 ---
+
+
 A successful forecasting model for elections in Australia needs to take into account its unique preferential voting system. In federal elections, voters are required to number all candidates in order of preference: only numbering a first preference results in an informal vote (in various states, preferential voting is optional, and there is a significant movement, particularly among prominent psephologists, to move to optional preferential voting on a federal level).
 
 The deciding metric in the election of an Australian Member of Parliament is his/her two-party preferred vote, which is obtained through a complicated process of simulating multiple elections using preferences from voters. Data on preferences is very difficult to obtain precisely, since it changes from year-to-year quite significantly, usually based on "how-to-vote cards", which are materials handed out by party volunteers at polling places suggesting preference orderings.
