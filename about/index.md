@@ -9,4 +9,4 @@ Welcome to the personal website of Clinton Boys. I am a 26-year old Australian, 
 
 I am very interested in the crossover between mathematics, data and the social sciences, with a keen interest in elections and forecasting, as well as using data to solve and explore social problems.
 
-The photographs across this website were all taken by me during my various travels. 
+The photographs across this website were all taken by me during my various travels. The website itself is served off [Github pages](https://pages.github.com/), using the [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) theme by Michael Rose. 
