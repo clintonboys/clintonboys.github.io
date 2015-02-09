@@ -87,11 +87,57 @@ which contains all the relevant information. This took me a while to write as I'
 
 ## 3. Mandrill email automation
 
-I wanted to run the scraper constantly in the background, preferably on an Amazon Web Server instance, and have it send automated emails every time it found a new result. 
+I wanted to run the scraper constantly in the background, preferably on an Amazon Web Server instance, and have it send automated emails every time it found a new result. I had to register a Mandrill account to use their API; once an API key was generated I wrote the following very basic email template:
 
+	def new_result_email(result,artist,city):
+	    subj=artist+' '+city
+	    body=json.dumps(result)
+	    message = {
+	     'from_email': 'cboys@maths.usyd.edu.au',
+	     'from_name': 'Clinton Boys',
+	     'headers': {'Reply-To': 'cdsboys@gmail.com'},
+	     'important': True,
+	     'preserve_recipients': None,
+	     'return_path_domain': None,
+	     'signing_domain': None,
+	     'subject': subj,
+	     'text': body,
+	     'to': [{'email': 'cdsboys@gmail.com',
+	             'name': 'Clinton Boys',
+	             'type': 'to'}],
+	    }
+	    result = mandrill_client.messages.send(message=message)
+	    print(result)
 
+which I called in my function "regular_scraping":
 
+	def regular_scraping():
+	    json_file=open('master_file.text',"r")
+	    json_file_contents= json_file.read()
+	    if not os.stat('master_file.text')[6]==0:
+	        old_data=json.loads(json_file_contents)
+	    else:
+	        old_data=[]
+	    this_scrape=[]
+	    for n in range(1,pages_to_scrape()+1):
+	        this_scrape.append(html_parser(scrape_gumtree_page_n(n)))
+	        data_ids=[]
+	        new_entries=[]
+	        new_entry_count=0
+	        for entry in old_data:
+	            data_ids.append(entry[u'ad_id'])
+	        for entry in this_scrape[n-1]:
+	            if entry[u'ad_id'] not in data_ids:
+	                old_data.append(entry)
+	                new_entry_count += 1
+	                new_entries.append(entry)
+	                new_result_email(entry,artist,city)
+	    json_file.close()
+	    json_file=open('master_file.text',"w")
+	    json_file.write(json.dumps(old_data))
+	    json_file.close()
 
+The last step was to set this up on an Amazon Web Server instance: I made a master file which put all these ingredients together: every x seconds (by default I chose 120), it ran the scraper across all results pages, looked through the neatened JSON for results, compared these to a master results file on disk, and if there were any new results, added to the file and sent an email through Mandrill. This was easy enough to set up, although there's still a bunch of memory leak issues because my code isn't great; after a while it will eventually crash the AWS instance. It did solve my initial problem though, which was the whole point of the exercise, and I did learn a whole lot of new techniques. 
 
 
 
