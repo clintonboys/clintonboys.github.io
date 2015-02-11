@@ -2,8 +2,8 @@
 layout: post
 title: Difficulties in forecasting elections in Australia I - Introduction
 image:
-  feature: sample-image-10.jpg
-  credit: Stella Maris, Haifa, Israel, 2014
+  feature: sample-image-5.jpg
+  credit: New York City, 2013
 
 ---
 
@@ -22,5 +22,6 @@ There is an understandable desire for electoral forecasting to be accurate. Nate
 - past election data
 - redistrubution data
 - preference data
+- an economic index
 
 to obtain probabilistic forecasts for each seat (this is my ultimate goal). 
