@@ -2,8 +2,8 @@
 layout: post
 title: Difficulties in forecasting elections in Australia I - Introduction
 image:
-  feature: sample-image-5.jpg
-  credit: New York City, 2013
+  feature: sample-image-16.jpg
+  credit: Sydney, New South Wales, 2014
 
 ---
 
