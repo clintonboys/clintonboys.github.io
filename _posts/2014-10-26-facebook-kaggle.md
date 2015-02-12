@@ -1,0 +1,10 @@
+---
+layout: post
+title: Facebook Kaggle competition, first pass
+image:
+  feature: sample-image-15.jpg
+  credit: Negev Desert, Israel, 2014. 
+
+---
+
+I spent most of today writing small Python scripts to clean and parse the Facebook social circles data from a Kaggle competition. The competition gives egonets, i.e. lists of mutual friends of a user’s Facebook friends, together with a list of features for each friend. The goal is to draw ‘circles’ around various clusters in the friendship graph; around fifty groups of training circles are provided for some users. The competition is passed the new submissions phase, so I’m not going to go very deep into designing models for this competition because I can’t submit to see how well my models are doing (although someone on the forums has written an estimator for the metric Kaggle uses so you can test yourself by bootstrapping the training data). My code currently cleans the traning circles data and looks in circles for common features; as I expected most circles have no features in common, and some small circles have gender, location or work in common. No other features appeared as common. I also wrote a script using networkx to split the graphs into connected components, an obvious benchmark, and read someone else’s script using networkx to split the graph into ‘k-clique communities’, a small generalisation of connected components. If I was to pursue this problem, which I might come back to a bit, I would be interested in learning some more sophisticated machine learning clustering algorithms for graphable data, to explore the networkx package again, and to actually think hard about the features which are relevant to define social circles, beyond my simple-minded features-in-common approach (which doesn’t really allow for drawing meaningful new circles).
