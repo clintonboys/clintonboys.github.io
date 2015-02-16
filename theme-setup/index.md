@@ -12,7 +12,7 @@ image:
 - I worked on a [Kaggle competition](https://github.com/clintonboys/kaggle_fb_circles) for learning social circles from Facebook data and have written some basic models using the Python package networkx for thinking about the data and the problem.
 - I've been working on the John Hopkins University Coursera [Data Science specialization](https://www.coursera.org/specialization/jhudatascience/1), which consists of nine courses in various aspects of data science (although I'm not working to their timetable or paying for the courses).
 - I completed the Stanford University [Algorithms](https://www.coursera.org/course/algo) Coursera course.
-- It's an ongoing project of mine to develop a forecasting model for elections in Australia. I've made a number of posts on this website about the pitfalls and difficulties of coming up with such a model (starting [here](http://www.clintonboys.com/aus-election-model-1/)). 
+- It's an ongoing project of mine to develop a forecasting model for elections in Australia. I've made a number of posts on this website about the pitfalls and difficulties of coming up with such a model, as well as some small steps towards creating the model (starting [here](http://www.clintonboys.com/aus-election-model-1/)). 
 
 ## Mathematics
 
