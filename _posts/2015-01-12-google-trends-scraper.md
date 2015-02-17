@@ -9,7 +9,7 @@ image:
 
 If you search Google trends for a term like "taylor+swift", and set your timescale to "2004 to present", you'll get an interesting graph that does demonstrate the meteoric rise to stardom of the pop star. 
 
-![Taylor swift](taylorswift.png)
+![Taylor swift](posts/taylorswift.png)
 
 
 Google also gives you an option to download the data as a .CSV file; this is a great option if you want to compare trends in a more rigorous way than looking at their graphs side by side.
