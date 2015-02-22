@@ -15,7 +15,4 @@ In this post I just want to come up with a simple poll aggregator that adjusts f
 
 I looked at the Wikipedia pages for each election, which contain a lot of opinion polling information, and compiled them into tables. For example, the following table has the election result, together with the final polls of six top pollsters:
 
-**Poll** | Kadima | Likud | Labor | Shas | UTJ | HaBayit | UAL | Hadash | Balad | Meretz | Yesh Atid | Otzman | Am Shalem | Hatnuah
---- | --- | ---
-*Election* | *2* | *31* | *15* | *11* | *7* | *12* | *4* | *4* | *3* | *6* | *19* | *0* | *0* | *6* 
-Dahaf | 2 | 32 | 17 | 11 | 6 | 12 | 4 | 4 | 3 | 6 | 13 | 2 | - |  8
+![Polls](https://github.com/clintonboys/clintonboys.github.io/blob/master/_posts/polls.png?raw=true)
