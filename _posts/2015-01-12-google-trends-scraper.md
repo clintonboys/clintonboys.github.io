@@ -25,7 +25,9 @@ Because Google offers the option of downloading the results of a search as a .CS
     import os
     import shutil
     import copy
-    import pandas
+    import re
+    import csv
+    import pandas as pd
 
     keyword = "taylor+swift"
 
@@ -97,8 +99,58 @@ Now we define a function that gets all two-month data for a particular timespan,
             newname = full_path+'/'+str(os.path.getmtime(full_path+'/'+newfiles[i]))[:-2]+".csv"
             os.rename(oldname, newname)       
 
-Now we need pandas to join all the bimonthly files together into a single big file, and rescale all the values so they are consistent with the large weekly file. This is a bit fiddly because we have to chop all the irrelevant stuff off the csv files before pandas will read them properly. 
+Now we need pandas to join all the bimonthly files together into a single big pandas data frame. This is a bit fiddly because we have to chop all the irrelevant stuff off the csv files before pandas will read them properly. Use a bit of regular expressions because they're cool.
 
+    def CreateDailyFrame():
+
+        files = copy.deepcopy(os.listdir(path+'/'+scrapings_dir))[:-1]
+        print files
+        date_pattern = re.compile('\d\d\d\d-\d\d-\d\d')
+        for i in range(0,len(files)):
+            if files[i].lower().endswith('.csv'):
+                oldname = path+'/'+scrapings_dir+'/'+files[i]
+                newname = path+'/'+scrapings_dir+'/'+'bimonthly'+str(i)+'.csv'
+                temp_file = csv.reader(open(oldname,'ru'))
+                with open(newname,'wb') as write_to:
+                    write_data = csv.writer(write_to, delimiter=',')
+                    for row in temp_file:
+                        if len(row)==2:
+                            if re.search(date_pattern,row[0]) is not None:
+                                write_data.writerows([row])
+                os.remove(oldname)
+
+        files = [fn for fn in copy.deepcopy(os.listdir(path+'/'+scrapings_dir))[:-1] if fn.lower().startswith('bimonthly')]
+
+        frames_list = []
+
+        for file in files:
+            df = pd.read_csv(path+'/'+scrapings_dir+'/'+file,index_col=None,header=None)
+            list.append(df)
+
+        frame = pd.concat(list,ignore_index=True)
+
+        return frame
+
+A similar function cleans up the weekly data and makes a pandas frame so everything is ready to be stitched together. 
+
+def CreateWeeklyFrame():
+
+        date_pattern = re.compile('\d\d\d\d-\d\d-\d\d\s-\s\d\d\d\d-\d\d-\d\d')
+
+        oldname = path+'/'+scrapings_dir+'/'+'weekly_data.csv'
+        newname = path+'/'+scrapings_dir+'/'+'weekly.csv'
+        temp_file = csv.reader(open(oldname,'ru'))
+        with open(newname,'wb') as write_to:
+            write_data = csv.writer(write_to, delimiter=',')
+            for row in temp_file:
+                if len(row) == 2:
+                    if re.search(date_pattern,row[0]) is not None:
+                        write_data.writerows([row])
+        os.remove(oldname)
+
+        frame = pd.read_csv(newname,index_col=None,header=None)
+
+        return frame
 
 
 
