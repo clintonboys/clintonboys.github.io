@@ -7,4 +7,4 @@ image:
 
 ---
 
-Post about coming up with a pollster reliability index (doing this at the moment). 
+I wanted to come up with a Nate Silver-style pollster reliability weighting to include in a future model. The first step was to collect all the final polls for the major polling firms before federal elections in the past: because modern polling is quite different to the pre-Internet and mobile phone era, I just chose the federal elections in 2013, 2010, 2007 and 2004. 

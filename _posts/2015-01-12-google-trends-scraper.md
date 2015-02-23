@@ -133,24 +133,24 @@ Now we need pandas to join all the bimonthly files together into a single big pa
 
 A similar function cleans up the weekly data and makes a pandas frame so everything is ready to be stitched together. 
 
-def CreateWeeklyFrame():
+    def CreateWeeklyFrame():
 
-        date_pattern = re.compile('\d\d\d\d-\d\d-\d\d\s-\s\d\d\d\d-\d\d-\d\d')
+            date_pattern = re.compile('\d\d\d\d-\d\d-\d\d\s-\s\d\d\d\d-\d\d-\d\d')
 
-        oldname = path+'/'+scrapings_dir+'/'+'weekly_data.csv'
-        newname = path+'/'+scrapings_dir+'/'+'weekly.csv'
-        temp_file = csv.reader(open(oldname,'ru'))
-        with open(newname,'wb') as write_to:
-            write_data = csv.writer(write_to, delimiter=',')
-            for row in temp_file:
-                if len(row) == 2:
-                    if re.search(date_pattern,row[0]) is not None:
-                        write_data.writerows([row])
-        os.remove(oldname)
+            oldname = path+'/'+scrapings_dir+'/'+'weekly_data.csv'
+            newname = path+'/'+scrapings_dir+'/'+'weekly.csv'
+            temp_file = csv.reader(open(oldname,'ru'))
+            with open(newname,'wb') as write_to:
+                write_data = csv.writer(write_to, delimiter=',')
+                for row in temp_file:
+                    if len(row) == 2:
+                        if re.search(date_pattern,row[0]) is not None:
+                            write_data.writerows([row])
+            os.remove(oldname)
 
-        frame = pd.read_csv(newname,index_col=None,header=None)
+            frame = pd.read_csv(newname,index_col=None,header=None)
 
-        return frame
+            return frame
 
 
 
