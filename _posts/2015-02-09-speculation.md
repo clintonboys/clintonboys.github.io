@@ -16,3 +16,5 @@ I scraped the Sydney Morning Herald for headlines containing the string "leaders
 - March 21, 2013: spill motion against Gillard (unsuccessful)
 - June 24, 2010: spill motion against Rudd (successful)
 - December 3, 2009: spill motion against Rees (successful)
+
+To scrape the website I used the smhscraper tool by (name) that I found on github. It's a great basic tool but it needs a bit of work to clean up the data and make it useful. I'm using the brilliant datetime and pandas python packages for this. 
