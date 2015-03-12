@@ -26,7 +26,7 @@ The following function weights polls in the average according to their recency.
         days = getattr(days,"days",days)
         return .5 ** (days/30.)
 
-We now inner-merge the poll data with the pollster reliability ratings to get a single table, and add in the recency weights to each poll (I briefly forgot the nice pandas way to add columns like this and did )
+We now inner-merge the poll data with the pollster reliability ratings to get a single table, and add in the recency weights to each poll (I briefly forgot the nice pandas way to add columns like this and did it the dumb way with a list). 
 
     polls = polls.merge(poll_ratings, how="inner", on="pollster")
 
@@ -45,18 +45,18 @@ Now we put everything together and add up the average to get a nice poll aggrega
 
 This produced the following output on March 12, five days before the election:
 
-    L: 23.25
-    YB: 5.61
-    YA: 11.58
-    ZC: 23.67
-    BY: 12.41
+    L: 23.19
+    YB: 5.59
+    YA: 11.62
+    ZC: 23.68
+    BY: 12.39
     S: 6.78
     UTJ: 6.87
-    M: 5.32
-    A: 12.38
-    Y: 3.9
-    K: 8.25
-    [Finished in 0.4s]
+    M: 5.31
+    A: 12.4
+    Y: 3.93
+    K: 8.27
+    [Finished in 0.6s]
 
 There's a few other intricacies I'd like to add to the model in the coming days if I have time:
 
