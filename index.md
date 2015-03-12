@@ -2,6 +2,6 @@
 layout: home
 excerpt: "The personal website of Clinton Boys."
 image:
-  feature: sample-image-22.jpg
-  credit: Royal National Park, New South Wales, 2014.
+  feature: main_banner.jpg
+  credit: Greenpatch Beach, New South Wales, 1995.
 ---
