@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Aggregating Israeli opinion polls II: the aggregator 
+title: Aggregating Israeli opinion polls II - The Aggregator 
 image:
   feature: sample-image-14.jpg
   credit: Agmon HaHula, Israel, 2014

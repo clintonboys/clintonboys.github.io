@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Aggregating Israeli opinion polls I: Poll reliability
+title: Aggregating Israeli opinion polls I - Poll reliability
 image:
   feature: sample-image-22.jpg
   credit: Royal National Park, New South Wales, 2014
