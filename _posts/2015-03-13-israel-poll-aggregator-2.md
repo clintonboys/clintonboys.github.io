@@ -43,20 +43,20 @@ Now we put everything together and add up the average to get a nice poll aggrega
     for party in parties:
         print party+": " + str(np.round(np.sum(polls['rating']*polls['recency_weights']*polls[party]/(polls['rating']*polls['recency_weights']).sum()),2))
 
-This produced the following output on March 12, five days before the election:
+This produced the following output on March 13, four days before the election with the inclusion of the final polls before the four-day embargo:
 
-    L: 23.19
-    YB: 5.59
-    YA: 11.62
-    ZC: 23.68
-    BY: 12.39
-    S: 6.78
-    UTJ: 6.87
-    M: 5.31
-    A: 12.4
-    Y: 3.93
-    K: 8.27
-    [Finished in 0.6s]
+    L: 22.66
+    YB: 5.56
+    YA: 12.04
+    ZC: 23.76
+    BY: 12.05
+    S: 6.87
+    UTJ: 6.77
+    M: 5.24
+    A: 12.49
+    Y: 4.2
+    K: 8.49
+    [Finished in 1.0s]
 
 There's a few other intricacies I'd like to add to the model in the coming days if I have time:
 
