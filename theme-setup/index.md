@@ -9,10 +9,12 @@ image:
 ## Data
 
 - I wrote a [primitive scraper](https://github.com/clintonboys/gumtree_scraper) for trading post website gumtree.com using the Python packages BeautifulSoup and requests, which persistently searches the site for a given query and sends an email using Mandrill when there are new results (for example when you're after concert tickets). 
+- I wrote a [scraper](https://github.com/clintonboys/trendy-scraper) for Google trends which gives daily data for queries across long timescales (Google trends only outputs weekly data for periods longer than a few months). 
 - I worked on a [Kaggle competition](https://github.com/clintonboys/kaggle_fb_circles) for learning social circles from Facebook data and have written some basic models using the Python package networkx for thinking about the data and the problem.
 - I've been working on the John Hopkins University Coursera [Data Science specialization](https://www.coursera.org/specialization/jhudatascience/1), which consists of nine courses in various aspects of data science (although I'm not working to their timetable or paying for the courses).
 - I completed the Stanford University [Algorithms](https://www.coursera.org/course/algo) Coursera course.
 - It's an ongoing project of mine to develop a forecasting model for elections in Australia. I've made a number of posts on this website about the pitfalls and difficulties of coming up with such a model, as well as some small steps towards creating the model (starting [here](http://www.clintonboys.com/aus-election-model-1/)). 
+- I wrote a very basic poll aggregator (starting [here](http://www.clintonboys.com/israel-poll-aggregator-1/)) for the 2015 Israeli elections; like all the polls it aggregated it turned out to be very wrong in the end. 
 
 ## Mathematics
 
