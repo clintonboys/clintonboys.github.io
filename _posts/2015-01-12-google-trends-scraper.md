@@ -57,7 +57,7 @@ The largest timeframe over which Google will reliably return daily data is two m
 
         webbrowser.open(URL)    
 
-Now we define a function that gets all two-month data for a particular timespan, together with the weekly data over the whole timespan, and stores all the results files in a single folder (we sleep for a few seconds seconds in between each call to ScrapeQuarter or the browser gets very confused).
+Now we define a function that gets all two-month data for a particular timespan, together with the weekly data over the whole timespan, and stores all the results files in a single folder (we sleep for a few seconds in between each call to ScrapeQuarter or the browser gets very confused).
 
     def ScrapeRange(keyword, startmonth, startyear, endmonth, endyear):
                 
@@ -152,6 +152,63 @@ A similar function cleans up the weekly data and makes a pandas frame so everyth
 
             return frame
 
+To stitch everything up, first we make the frames we need, using some regular expressions to break up the date ranges. 
+
+    def StitchFrames():
+
+        daily_frame = CreateDailyFrame()
+        interim_weekly_frame = CreateWeeklyFrame()
+
+        daily_frame.columns = ['Date', 'Daily_Volume']
+        pd.to_datetime(daily_frame['Date'])
+        
+        interim_weekly_frame.columns = ['Date_Range', 'Weekly_Volume']
+        date_pattern = re.compile('\d\d\d\d-\d\d-\d\d')
+
+        startdates = []
+        enddates = []
+
+        for i in range(0,len(interim_weekly_frame['Date_Range'])):
+            startdates.append(re.findall(date_pattern,interim_weekly_frame['Date_Range'][i])[0])
+            enddates.append(re.findall(date_pattern,interim_weekly_frame['Date_Range'][i])[1])
+
+        weekly_frame = pd.DataFrame(data=[startdates,enddates,interim_weekly_frame['Weekly_Volume'].tolist()]).transpose()
+        weekly_frame.columns = ['Start_Date', 'End_Date', 'Weekly_Volume']
+        pd.to_datetime(weekly_frame['Start_Date'])
+        pd.to_datetime(weekly_frame['End_Date'])
+
+Now we define weekly date bins using pandas.
+
+        bins = []
+
+        for i in range(0,len(weekly_frame)):
+            bins.append(pd.date_range(weekly_frame['Start_Date'][i],periods=7,freq='d'))
+
+        weekly_frame = weekly_frame.set_index('Start_Date')
+
+        daily_frame = daily_frame.set_index('Date')
+
+        final_data = {}
+
+We now stitch everything together, adjusting each individual week's data so it is consistent with the start date's measure from the long-timescale data. 
+
+        for i in range(0,len(bins)):
+            for j in range(0,len(bins[i])):
+                final_data[bins[i][j]] = weekly_frame['Weekly_Volume'][str(bins[i][0].date())]*daily_frame['Daily_Volume'][str(bins[i][j].date())]/daily_frame['Daily_Volume'][str(bins[i][0].date())]
+
+Finally we rescale everything again so it is consistent with Google's 0-100 scale. 
+
+        final_data_frame = DataFrame.from_dict(final_data,orient='index').sort()
+        final_data_frame[0] = np.round(final_data_frame[0]/final_data_frame[0].max()*100)
+
+        final_data_frame.columns=['Volume']
+        final_data_frame.index.names = ['Date']
+
+        final_name = path+'/'+scrapings_dir+'/'+'final_output.csv'
+
+        final_data_frame.to_csv(final_name, sep=',')
+
+This code is available in a [Github repo](https://github.com/clintonboys/trendy-scraper). There's definitely room for a bunch of improvements but it does what I need it to do at the moment. 
 
 
 
