@@ -71,7 +71,7 @@ The whole process was a big eye-opener for me about the country as a whole. The 
 
 ### Contempt for the Arab community
 
-Israel is a deeply segregated and racist country where Arab citizens are treated largely as second-class citizens, whose voting rights are a hassle that only serve to distract the Jewish majority from being able to elect the government they want. 
+Israel is a deeply segregated and racist country where Arab citizens are treated largely as second-class citizens, whose voting rights are a hassle that only serve to distract the Jewish majority from being able to elect the government they want. dfdf
 
 
 - Meretz
