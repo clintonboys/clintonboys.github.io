@@ -23,7 +23,11 @@ The nature of the electoral system here makes polling very difficult and notorio
 
 ## Political parties
 
-The Israeli political landscape is dominated by the nationalist right. I'll give a brief summary of the ten main parties 
+The Israeli political landscape is dominated by the nationalist right. I'll give a brief summary of the ten main parties.
+
+### Meretz
+
+### Zionist Camp
 
 - Meretz
 - Nationalism in Israel
