@@ -51,7 +51,7 @@ This party is headed by far-right Jewish nationalist bigot Naftali Bennett, whos
 
 ### Shas
 
-One of the two main religious parties, serving the Sephardic Orthodox community. Smaller this year because one of its members split to form his own party which ended up polling below the threshhold. All sorts of ridiculous nonsense from these guys: they were handing out flyers on election day claiming voting for them was your key to heaven. They are based on some strange personality cult sect of Judaism related to a recently deceased rabbi. The head of this party, Aryeh Deri, served 22 months in prison for accepting bribes. Has referred to homosexuality as "a plague as toxic as bird flu". 
+One of the two main religious parties, serving the Sephardic Orthodox community. Smaller this year because one of its members split to form his own party which ended up polling below the threshhold. All sorts of ridiculous nonsense from these guys: they were handing out flyers on election day claiming voting for them was your key to heaven. They are based on some strange personality cult sect of Judaism related to a recently deceased rabbi. The head of this party, Aryeh Deri, served 22 months in prison for accepting bribes. Have referred to homosexuality as "a plague as toxic as bird flu". 
 
 ### United Torah Judaism
 
@@ -65,16 +65,44 @@ Another right-wing nationalist party headed by former foreign minister Avigdor L
 
 The left-wing, pro-Palestinian rights, pro-gay rights, pro-marriage equality (currently Jews cannot marry non-Jews in Israel) social democratic party. Was hovering very close to the electoral threshold in many polls. 
 
-## Lead-up to the election
+## The election
 
 The whole process was a big eye-opener for me about the country as a whole. The people I talk to and interact with are mostly politically similar to me, so I was a little taken aback when I saw the degree to which politicians were able to go on television or the radio, say openly racist things, and get away with it. These are the kind of things that, if an Australian politician was caught muttering them off-camera his political career would be over. 
 
 ### Contempt for the Arab community
 
-Israel is a deeply segregated and racist country where Arab citizens are treated largely as second-class citizens, whose voting rights are a hassle that only serve to distract the Jewish majority from being able to elect the government they want. dfdf
+Israel is a deeply segregated country where it often seems as though Arab citizens are treated largely as second-class, whose voting rights are a hassle that only serve to distract the Jewish majority from being able to elect the government they want. This was particularly well exemplified on election day when, in a fit of what seemed like panic but was actually well-timed and canny politicking, Netanyahu went on air complaining that "the Arabs are voting in droves, being bussed to polling stations by the left", as if citizens voting in elections in their own country were something to be countered with a national effort. It seemed to work in the end. 
+
+### Volunteering
+
+We volunteered on election day for seven hours for Meretz. We were in a fairly affluent Jewish area. The actual polling place was pretty similar to the ones back home, except there was a guard with a gun out the front. Everyone was friendly, including people from rival parties. We only got called scum once, by a passing fundamentalist Jewish kid (I hate the term "Orthodox" Jews and prefer to call them fundamentalist Jews for consistency with Islamic fundamentialism, with which Jewish fundamentalism shares an awful lot). 
+
+After we volunteered we went to a hommus restaurant nearby. The owners were Arabs from a local town this side of the green line. We sat down and had a great meal while everyone in the restaurant sat at their tables talking loudly amongst themselves about their opinions on who to vote for. I found it hard to believe that people could come to this restaurant, enjoy the hospitality and food, and then go to the polling booth and vote for Likud, or worse. How people cannot see that the awful divisiveness is just a construct that needs to be thrown into the sea. 
+
+### Two states
+
+I used to have a pretty strong opinion that there should be one state here. I don't really believe in ethnic (or religious) nationalism and coming from Australia I think that multiculturalism is a fantastic thing that, despite having difficult moments, can lead to the best kind of society provided everyone is open-minded about it. I thought 'why can't everyone just get over it and live together'. That's impossible here (and always has been). The best option is two states and even that is nearly impossible now. For the first time in history the Israeli PM has openly stated there will be no two-state solution while he is in charge. This gives at least two or three years for things to get even more irreversible: more division, more unnecessary and manufactured hatred, more settlements making the future border harder and harder to draw. 
+
+At home we complain about politicians being short-sighted and lacking vision beyond the electoral cycle. Here this myopia kills people. Every time the status quo is nurtured, people die. It's a sad and shocking state of affairs that I really struggle to accept. 
+
+### Religion driving the debate
+
+Aside from the insane ramblings of Fred Nile, in Australia we have the amazing luck not to be too beset with religious candidates influencing public debate. Here religion drives and fuels the mindset of the right. The Israeli psyche, already fattened to be entitled and arrogant, to never apologise: "not for the occupation and not on the road!", is further encouraged by religious arguments that it is divinely entitled to the whole of Israel, including "Judea and Samaria" (the biblical name for the regions comprising the West Bank: in the 1990s this was a loaded term to use; it is now fairly common parlance). 
+
+In 1947 Jewish militia invaded the region, pushed out its inhabitants, and established a state that has come to be recognised as legitimate by most of the world. Rather than accepting what happened and trying to make it right, trying to live peacefully alongside the Arab inhabitants of the region, right-wing Israeli Jews are obsessed with trying to prove that there was nothing wrong with what happened sixty years ago, and kicking the can down the road with regard to its current manifestation. We are the rightful owners of this land, returning to our homeland after so many years, having been chosen by God! And the worst: There is no such thing as the Palestinian people! - unaware of the irony that that very nation of people have been born into existence by these oppressive words. 
+
+This narrative permeates the election debate. The centre-right must cater to this madness if it wants to have a hope of forming a valid coalition. 
 
 
-- Meretz
-- Nationalism in Israel
-- Benjamin 
-- Naftali Bennett
+
+
+
+
+
+
+
+
+
+
+
+
