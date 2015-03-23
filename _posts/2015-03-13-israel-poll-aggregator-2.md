@@ -65,3 +65,5 @@ There's a few other intricacies I'd like to add to the model in the coming days 
 - adjusting for trends to give a forecast for election day (the current model gives a snapshot of what would happen if the election were held today)
 - change to a probabilistic model which simulates 10 000 elections and gives probabilities of winning
 - add some sort of analysis of Phase 2 of the electoral process, including potential coalitions etc (this is fraught with difficulty however)
+
+**UPDATE** (after the election): My model, like all the polls it aggregated, did not perform very well. Even adding the trend adjustment could not have anticipated the morally questionable tactics used by Netanyahu to increase his seat count in the Knesset. The main lesson I took out of this, other than learning how to build a poll aggregator, is how difficult Israeli elections are to predict. It should be mentioned that the two main sources of error are my estimates of Likud and Habayit Hayehudi; without Netanyahu's last-minute cannibalisation of these votes, my model would have been fairly accurate. 
