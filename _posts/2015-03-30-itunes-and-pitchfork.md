@@ -64,5 +64,5 @@ This isn't a huge increase; only about 6.5%. Let's work out the average **weight
     Average play-weighted Pitchfork score of artists: 7.590
     [Finished in 16.3s]
 
-This is an increase of nearly 9% on the review mean.
+This is an increase of nearly 9% on the review mean. This analysis is a little imperfect because the 
 
