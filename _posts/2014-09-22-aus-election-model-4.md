@@ -18,4 +18,4 @@ It should be clear that this would be an extremely lengthy and time-consuming pr
 - census data can be obtained grouped by federal district (and in some states, by state district), but **not** by polling place
 - I'm not sure if state electoral commissions publish results by polling place 
 
-It seems to me that, given the infeasibility of performing the above task, a better idea would be to perform some sort of correction for redistributions similar to what Antony Green does when calculating "nominal swings" (his figures get used by all media outlets all over the country). Coming up with the best method for this is still a work in progress.
+It seems to me that, given the infeasibility of performing the above task, a better idea would be to perform some sort of correction for redistributions similar to what Antony Green does when calculating "nominal swings" (his figures get used by all media outlets all over the country). 

@@ -7,9 +7,9 @@ image:
 
 ---
 
-I listen to a lot of music and for more than a decade now my main source of discovering new music has been [Pitchfork.com](http://www.pitchfork.com). 
+I listen to a lot of music and for more than a decade now my main source of discovering new music has been [Pitchfork.com](http://www.pitchfork.com), particularly since all my friends only listen to hard trap and hip-hop so getting diverse recommendations from them can be difficult.
 
-Pitchfork is a fairly divisive source of musical recommendations. Some people swear by it; some people hate it. I think Pitchfork is quite a useful source of music discovery, and I think they have some great writers on staff, especially for many of the genres I like.
+Pitchfork is a fairly divisive source of musical recommendations. Some people swear by it; some people hate it. I think Pitchfork is quite a useful source of music discovery, and I think they have some great writers on staff, especially for many of the genres I like. I don't swear by it, and I do try to read other sources for recommendations, but I think my musical tastes are heavily influenced by the website. 
 
 I decided to try and quantify exactly how much of my music taste and listening perferences are influenced by Pitchfork.com. 
 
