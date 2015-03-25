@@ -12,3 +12,4 @@ There are plenty of existing models on the web for forecasting elections, or at 
 - [Kevin Bonham](http://kevinbonham.blogspot.com.au). This is the best model in my opinion, combining a fairly simple model with interesting and thoughtful analysis of elections and polls. He was also nice enough to send me some of his data. 
 - [The Poll Bludger](http://blogs.crikey.com.au/pollbludger/) (Crikey). Does a fairly simple poll aggregator. Otherwise lots of good analysis of elections and Australian politics. 
 - [The Phantom Trend](http://www.phantomtrend.com/). A sophisticated aggregator with some accuracy weightings. Has the humility to refer to themselves as "Like Nate Silver, only less accurate."
+- [The Tally Room](http://www.tallyroom.com.au). Lots of good informaton but mainly qualitative rather than quantitative. 
