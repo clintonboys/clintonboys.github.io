@@ -29,4 +29,4 @@ I want to use similar data to this, from the ABS and the ASX. My economic index 
 - GDP data (quarterly)
 - ASX500 data (daily)
 
-
+The first step is to get all this data. Most of the data I'm interested in is only available back into the late 1970s; this works well for my purposes. 
