@@ -8,7 +8,7 @@ image:
 
 ## Data
 
-- I wrote a [primitive scraper](https://github.com/clintonboys/gumtree_scraper){target="_blank"} for trading post website gumtree.com using the Python packages BeautifulSoup and requests, which persistently searches the site for a given query and sends an email using Mandrill when there are new results (for example when you're after concert tickets). 
+- I wrote a <a href="https://github.com/clintonboys/gumtree_scraper" target="_blank">primitive scraper</a> for trading post website gumtree.com using the Python packages BeautifulSoup and requests, which persistently searches the site for a given query and sends an email using Mandrill when there are new results (for example when you're after concert tickets). 
 - I wrote a [trendy scraper](https://github.com/clintonboys/trendy-scraper) for Google trends which gives daily data for queries across long timescales (Google trends only outputs weekly data for periods longer than a few months).
 - I wrote a very basic poll aggregator (starting [here](http://www.clintonboys.com/israel-poll-aggregator-1/)) for the 2015 Israeli elections; like all the polls it aggregated it turned out to be very wrong in the end.  
 - It's an ongoing project of mine to develop a forecasting model for elections in Australia. I've made a number of posts on this website about the pitfalls and difficulties of coming up with such a model, as well as some small steps towards creating the model (starting [here](http://www.clintonboys.com/aus-election-model-1/)). 
