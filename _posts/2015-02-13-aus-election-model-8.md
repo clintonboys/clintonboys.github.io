@@ -2,7 +2,7 @@
 layout: post
 title: Forecasting Australian elections III - Demographic variables and nearest neighbour analysis of electorates
 image:
-  feature: sample-image-14.jpg
+  feature: sample-image-18.jpg
   credit: Agmon HaHula, Israel, 2014
 
 ---
