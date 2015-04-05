@@ -64,5 +64,5 @@ This isn't a huge increase; only about 6.5%. Let's work out the average **weight
     Average play-weighted Pitchfork score of artists: 7.590
     [Finished in 16.3s]
 
-This is an increase of nearly 9% on the review mean. This analysis is a little imperfect because the 
+This is an increase of nearly 9% on the review mean. This analysis is a little imperfect because I haven't compensated for the fact that the artist names in the two different datasets may not be the same (for example even if they are capitalised differently they won't match with the code I've written above). This is a small issue however. I'd like to add in my Spotify listening data and old Last.fm data if I get a chance to get a fuller picture of precisely how much of a Pitchfork sychophant I am. I'd also like an idea of how my listening habits have changed over time. 
 
