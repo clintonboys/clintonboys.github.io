@@ -21,6 +21,10 @@ The aim of the model is twofold:
 
 Ideally, I'd like to have the model be fully automated, including at the level of scraping the web to update itself to include new polls. I'd like to provide some analysis of its results when reported. It's worth noting that, as far as I am aware, this would be a completely different approach to any that [currently exist](http://www.clintonboys.com/aus-election-model-5/). 
 
+**How is it different from existing models?**
+
+Emma is based on the assumption that Australian elections are won at polling places. In particular, if we can obtain an estimate of the swing on a polling-place by polling-place basis, we can aggregate everything to obtain estimates of individual seat swings, and finally a full national picture of the election. This is done by clustering seats and polling places together according to demographic variables which then provide local adjustments to a national swing obtained by a robust poll aggregator. Everything is done probabilistically. 
+
 **What's the current state of the model?**
 
 As various pieces of the model are built, I'll update this section. Usually there will be an accompanying blog post for the section. 
@@ -28,6 +32,8 @@ As various pieces of the model are built, I'll update this section. Usually ther
 29/3/05: As I only have a database of federal polling data, I have spent five days scraping the web for state poll data.
 
 31/3/05: First version of [pollster weight calculator](http://www.clintonboys.com/aus-election-model-7/) is built. 
+
+5/4/05: Working on an object-oriented skeleton of the model which will initially work with a few dummy polling places and seats. 
 
 **Where can I see the source code?**
 
