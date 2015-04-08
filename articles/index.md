@@ -13,6 +13,10 @@ On this page I keep a repository of interesting longform articles I've read from
 - A [cult psychedelic drug camp](http://www.vice.com/read/drug-boot-camp-131) in South Africa
 - Surprisingly beautiful [article](http://www.eater.com/2014/11/5/7155501/life-in-chains-kfc-taco-bell) about the nostalgia of fast food
 - An [erudite and informed history](http://pando.com/2015/03/28/the-war-nerd-a-brief-history-of-the-yemen-clusterfck/) of the problematic state of Yemen
+- Wired's optimistic take on the [Apple watch](http://www.wired.com/2015/04/the-apple-watch/) and its ability to transform our relationship with smartphones
+- Interesting Vice article about [Huntsville, Texas](http://www.vice.com/read/what-happens-when-you-build-a-town-around-a-prison), a city built around a complex of prisons and the execution capital of America.
+- [In-depth look](http://nymag.com/daily/intelligencer/2015/04/hillary-clinton-2016-campaign.html) at the problems Hillary Clinton's campaign will face next year. 
+- David Simon, creator of The Wire, [interviews](https://www.guernicamag.com/interviews/the-cousins-karamazov/) Richard Price
 
 ## 2014 
 
