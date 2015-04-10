@@ -37,5 +37,25 @@ There is an obvious issue here that I'm only using data from 2006, which is near
 
 So now we want to cluster seats according to these nine variables. This should provide a more sophisticated framework for swing and trend adjustment than I've seen in other models, which might take into account the rural/urban divide (which is accounted for mainly in variables 2, 3 and 5 above). They also usually take into account "sophomore surges" for members on their first reelection (variable 10 above); this is something I'll talk about in another post. 
 
-I just want to use simple *k*-means clustering, and I'm going to use R. The main difficulty with *k*-means clustering is to choose the right value of *k*, the number of clusters. This requires a bit of trial-and-error to get right and needs to be calibrated against my own knowledge of Australian electorates.  
+I just want to use simple *k*-means clustering, and I'm going to use R. The main difficulty with *k*-means clustering is to choose the right value of *k*, the number of clusters. This requires a bit of trial-and-error to get right and needs to be calibrated against my own knowledge of Australian electorates.
+
+    census <- read.csv('2006_census_data_by_division.csv')
+    summary(census)
+    pop <- as.numeric(as.character(census$Total_population[1:150]))
+    Var1 <- as.numeric(as.character(census$Labour_force_aged_45_years_and_over22[1:150]))/pop
+    Mig1 <- as.numeric(as.character(census$Overseas[1:150]))
+    Mig2 <- as.numeric(as.character(census$NonEngBorn.[1:150]))
+    Mig3 <- as.numeric(as.character(census$Persons_who_speak_English_not_well_or_not_at_all[1:150]))/pop
+    Mig4 <- as.numeric(as.character(census$Persons_speaking_a_language_other_than_English_at_home[1:150]))/pop
+    Var2 <- (Mig1+Mig2+Mig3+Mig4)/4
+    Var3 <- as.numeric(as.character(census$Persons_employed_in_agriculture[1:150]))/pop
+    Var4 <- as.numeric(as.character(census$Unemployed_persons[1:150]))/pop
+    Var5 <- as.numeric(as.character(census$Median_age[1:150]))
+    Var6 <- as.numeric(as.character(census$Total_dependency_ratio3[1:150]))
+    Var7 <- as.numeric(as.character(census$Persons_aged_15_to_24_years[1:150]))/pop
+    Var8 <- as.numeric(as.character(census$Catholic.[1:150]))
+    Var9 <- log(as.numeric(as.character(census$Population_density1[1:150])))
+    divs <- census$division[1:150]
+    df = data.frame(divs, Var1, Var2, Var3, Var4, Var5, Var6, Var7, Var8, Var9)
+  
 
