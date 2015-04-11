@@ -39,15 +39,25 @@ So now we want to cluster seats according to these nine variables. This should p
 
 I just want to use simple *k*-means clustering, and I'm going to use R. The main difficulty with *k*-means clustering is to choose the right value of *k*, the number of clusters. This requires a bit of trial-and-error to get right and needs to be calibrated against my own knowledge of Australian electorates.
 
+The file I have here, called `2006_census_data_by_division.csv`, is available in the GitHub repository. It took me a while to make, and contains columns for a bunch of interesting demographic variables, with rows labelled by the Commonwealth Electoral Divisions used in the 2007 election. I'm still in the process of making this work for the 2011 census data (which is harder to get at). 
+
     census <- read.csv('2006_census_data_by_division.csv')
-    summary(census)
     pop <- as.numeric(as.character(census$Total_population[1:150]))
+
+Need to do a whole bunch of coersion; notice that we convert to character before numeric otherwise we get the numeric value of the ASCII characters. 
+
     Var1 <- as.numeric(as.character(census$Labour_force_aged_45_years_and_over22[1:150]))/pop
+
+Get the four variables that are part of our Migrant Index and average them up. 
+
     Mig1 <- as.numeric(as.character(census$Overseas[1:150]))
     Mig2 <- as.numeric(as.character(census$NonEngBorn.[1:150]))
     Mig3 <- as.numeric(as.character(census$Persons_who_speak_English_not_well_or_not_at_all[1:150]))/pop
     Mig4 <- as.numeric(as.character(census$Persons_speaking_a_language_other_than_English_at_home[1:150]))/pop
     Var2 <- (Mig1+Mig2+Mig3+Mig4)/4
+
+Get the remaining variables. 
+
     Var3 <- as.numeric(as.character(census$Persons_employed_in_agriculture[1:150]))/pop
     Var4 <- as.numeric(as.character(census$Unemployed_persons[1:150]))/pop
     Var5 <- as.numeric(as.character(census$Median_age[1:150]))
@@ -56,6 +66,24 @@ I just want to use simple *k*-means clustering, and I'm going to use R. The main
     Var8 <- as.numeric(as.character(census$Catholic.[1:150]))
     Var9 <- log(as.numeric(as.character(census$Population_density1[1:150])))
     divs <- census$division[1:150]
+
+Put everything into a dataframe that allows us to cluster. 
+
     df = data.frame(divs, Var1, Var2, Var3, Var4, Var5, Var6, Var7, Var8, Var9)
   
+If we start with two clusters, the algorithm seems smart enough to give us some sort of urban/rural divide. 
 
+    two_clusters <- kmeans(df[,2:9],2)
+
+    two_clusters
+
+    K-means clustering with 2 clusters of sizes 45, 105
+
+The differences between the means on `Var3` (the two numbers below) in the two clusters is illuminating 
+
+    two_clusters$centers[5:6]
+    [1] 0.006067957 0.017655371
+
+as it gives a good picture of the urban/rural divide. Looking at which electorates are assigned to which clusters shows this isn't a complete picture of what's going on, and the actual classification is cleverer and more subtle than this. For example Sydney and Durack are in the same cluster. 
+
+I think that a larger number of clusters will give a much more useful interpretation of what's going on. I want to use the largest number of clusters that gives a clustering so that I can still give some sort of qualitative description of each cluster (the way I've described the two clusters above as urban and rural). Let's see if I can do this with six clusters. 
