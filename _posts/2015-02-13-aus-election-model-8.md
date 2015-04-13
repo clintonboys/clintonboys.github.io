@@ -73,17 +73,21 @@ Put everything into a dataframe that allows us to cluster.
   
 If we start with two clusters, the algorithm seems smart enough to give us some sort of urban/rural divide. 
 
-    two_clusters <- kmeans(df[,2:9],2)
+    two_clusters <- kmeans(df[,2:10],2)
 
     two_clusters
 
-    K-means clustering with 2 clusters of sizes 45, 105
+    K-means clustering with 2 clusters of sizes 94, 56
 
-The differences between the means on `Var3` (the two numbers below) in the two clusters is illuminating 
+The differences between the means on `Var3`  and `Var9` (workers in agriculture and population density, respectively) in the two clusters is illuminating:
 
-    two_clusters$centers[5:6]
-    [1] 0.006067957 0.017655371
+    > two_clusters$centers[,'Var3']
+              1           2 
+    0.002537473 0.033720529 
+    > two_clusters$centers[,'Var9']
+           1        2 
+    6.789696 1.967118 
 
-as it gives a good picture of the urban/rural divide. Looking at which electorates are assigned to which clusters shows this isn't a complete picture of what's going on, and the actual classification is cleverer and more subtle than this. For example Sydney and Durack are in the same cluster. 
+as it gives a good picture of the urban/rural divide.
 
-I think that a larger number of clusters will give a much more useful interpretation of what's going on. I want to use the largest number of clusters that gives a clustering so that I can still give some sort of qualitative description of each cluster (the way I've described the two clusters above as urban and rural). Let's see if I can do this with six clusters. 
+I think that a larger number of clusters will give a much more useful interpretation of what's going on, and a more useful component to my eventual model. I want to use the largest number of clusters that gives a clustering so that I can still give some sort of qualitative description of each cluster (the way I've described the two clusters above as urban and rural). Let's see if I can do this with six clusters. 
