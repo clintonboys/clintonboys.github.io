@@ -14,6 +14,7 @@ image:
 - It's an ongoing project of mine to develop a forecasting model for elections in Australia. I've made a number of posts on this website about the pitfalls and difficulties of coming up with such a model, as well as some small steps towards creating the model (starting [here](http://www.clintonboys.com/aus-election-model-1/)). 
 - There are some other posts on this website about data and data science:
   - [Here](http://www.clintonboys.com/itunes-and-pitchfork/) I quantify how much of a Pitchfork sychophant I am (not as much as I thought). 
+  - [Here](http://www.clintonboys.com/repetition-index/) I code up a typical vague data science question from a job interview. 
 
 ## Mathematics
 
