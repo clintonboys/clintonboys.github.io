@@ -22,7 +22,7 @@ I wanted to try and assess the political leanings of the Twitter users using the
 
 **1. Scraping Twitter for tweet data**
 
-Twitter has a very usable API and there's a great Python package called `tweepy` that allows you to automate everything using a Python script. I fiddled around with the default tweepy script to scrape the Twitter stream live for a certain search term, using the term `QandA`. The free API is limited to only providing 1% of the Firehose (Twitter's in house term for the live feed of all tweets), but since Q&A only get around 20 000 tweets per episode, there's no way this data is going to exceed 1% of the 6000 tweets per second in the Firehose. So I set the script to run from 9.30PM to 10.30PM AEST on Monday April 20 and saved only the body text of all tweets using the hashtag. 
+Twitter has a very usable API and there's a great Python package called `tweepy` that allows you to automate everything using a Python script. I fiddled around with the default tweepy script to scrape the Twitter stream live for a certain search term, using the term `QandA`. The free API is limited to only providing 1% of the Firehose (Twitter's in house term for the live feed of all tweets), but since Q&A only get around 20 000 tweets per episode, there's no way this data is going to exceed 1% of the 6000 tweets per second in the Firehose. So I set the script to run from 9.30PM to 10.30PM AEST on Monday April 20 and saved only the body text of all tweets using the hashtag (one interesting thing I learned is what a big-name hashtag looks like after the mainstream traffic has disappeared. When the show isn't broadcasting, #QandA is a whole bunch of hideous homophobic propaganda). 
 
 **2. Devising sentiment analysis**
 
@@ -35,6 +35,6 @@ For example, the tweet
 
 `I don't understand how the Coalition can be so cruel towards asylum seekers #QandA`
 
-would be rated as left-wing, since it contains the keyword `Coalition` and the negative-sentiment marker `cruel`.
+would be rated as left-wing, since it contains the keyword `Coalition` and the negative-sentiment marker `cruel`. 
 
 This is a pretty crude model, but I imagine it will do a decent first job. 

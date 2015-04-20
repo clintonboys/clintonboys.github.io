@@ -35,6 +35,10 @@ As various pieces of the model are built, I'll update this section. Usually ther
 
 5/4/05: Working on an object-oriented skeleton of the model which will initially work with a few dummy polling places and seats. 
 
+19/4/05: Read about some models that have similar ideas to mine; in particular the [strong transition model](http://www.electoralcalculus.co.uk/strongmodel.html) used by the may2015.co.uk site. 
+
+20/4/05: Coded up a first draft of a runoff simulator. 
+
 **Where can I see the source code?**
 
 I'm keeping everything open source. It's all available on the [Github repo](https://github.com/clintonboys/emma-chisit) for this project. 
