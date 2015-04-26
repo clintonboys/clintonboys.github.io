@@ -38,6 +38,7 @@ For example, the tweet
 would be rated as left-wing, since it contains the keyword `Coalition` and the negative-sentiment marker `cruel`. 
 
 This is a pretty crude model, but let's use it for a first attempt. So of all the tweets scraped during the broadcast, I only want to look at
+
 - those containing a mention of a left- or right-wing entity
 - those which have terms in my sentiments dictionary (obtained online and built on Twitter data, but not specifically Australian or political, so it won't be perfect). 
 
@@ -130,7 +131,7 @@ And here's the results:
 
 **3. Analysis of output**
 
-Some analysis of this then. Firstly, we're only looking at 13.4% of the tweets with this basic model. And of these tweets, it's classifying only 16% of them as being from left-wing users. 
+Some analysis of this then. Firstly, we're only looking at 13.4% of the tweets with this basic model. And of these tweets, it's classifying only 16% of them as being from left-wing users (which doesn't seem quite right to me). 
 
     @qanda Robb ' meds are obviously working well.  He is now as a LNP minister unwilling to support the most vulnerable and at risk
     | mentions right entity with keywords Robb, 0.815% of being positive
@@ -152,6 +153,7 @@ Some analysis of this then. Firstly, we're only looking at 13.4% of the tweets w
     | sentiment derived from words needscalmfear
 
 This comes down really to the difficulties of performing sentiment analysis on tweets. Seeing as tweets are only 140 characters, it's very difficult to get a proper picture of the sentiment. Of the six tweets I posted above:
+
 - the model gets the first one exactly right. There's not enough information there to classify the sentiment, and it rightly identifies the entity. 
 - the second one is a bit harder to classify because of its sarcastic tone but the model gets it right using the keywords
 - the third tweet is misclassifed (it's very hard for a model to get this right as it's a sarcastic comment about regional politics in the state of Victoria) and the model is using irrelevant words to get the sentiment
