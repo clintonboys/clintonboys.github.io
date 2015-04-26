@@ -53,3 +53,10 @@ My training code is pretty simple, because all the real work is unfortunately wi
                         f.write(tweet)
 
 The code contains two small improvements on the most basic idea possible; a percentage completion counter for sanity purposes, which prints progress every forty tweets, and the ability to quit the program and pick up where you left off (it just writes all the unclassified tweets over the input file so you can start again with a smaller file). 
+
+One very difficult consideration is how to deal with sarcasm on the training set. Often words which you know should be assigned a positive sentiment score are being used sarcastically in a tweet that overall has a negative sentiment. I score these tweets as positive in the optimistic (and untested, and probably misguided) view that there is more genuine discussion on Twitter than sarcasm. 
+
+Some things I noticed doing this classification before I got bored and just used what I'd completed:
+
+- tweets are overwhelmingly negative
+- this process is bound to introduce a whole bunch of subjectivity.. hopefully my left-wing bias is not obvious
