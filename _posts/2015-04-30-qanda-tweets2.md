@@ -6,4 +6,50 @@ image:
   credit: Big Sur National Park, California, 2013
 ---
 
-hkfdj
+Up to the limits of my own patience, I hand-classified as many tweets from the April 20 broadcast of QandA as positive, negative (or spam), with the goal of using these to train a sentiment dictionary to use on the April 27 broadcast's tweets. I also removed all retweets from the dataset (which I suppose I should have done in the previous post as well). There was a slight problem in the way I'd written the tweets to file and forgotten to remove the new-line characters within tweets, so my code was also reading all these irrelevant lines as separate tweets. 
+
+I came across a whole raft of issues as soon as I started this process. The main problem, as I stated in the previous post, is that a large proportion of tweets are too short to be able to be judged for their sentiment at all. A lot of them are irrelevant for my purposes of estimating the political leanings of Twitter users watching QandA because they represent conversations between users (e.g. "are you watching #QandA?") rather than actual comment on the program and its contents and panel members. 
+
+I wrote a Python script to make the process of classifying the tweet data I had a little easier. Since the other portion of my code, the simple political entity classifier, should take care of whether the conversation is relevant or not, I can use all the tweets to train for sentiment data. Initially I hoped I would only need three classifications: positive, negative, or spam. There is obviously some subjectivity here, particularly with the short and often sarcastic nature of tweets, but hopefully the volume of data will take care of this. After looking at enough tweets I realised some tweets just cannot be classified as positive or negative and so we also need a neutral classification. 
+
+My training code is pretty simple, because all the real work is unfortunately with the human classifying the tweets:
+
+    import numpy as np
+
+    with open('tweetdump_new.txt') as f:
+        tweets = f.readlines()
+    classified_dict = {}
+    for tweet in tweets:
+        classified_dict[tweet] = False
+    tweets_total = len(classified_dict)
+
+    def main():
+
+        ## Keep two files open: test_tweets.txt which contains the  
+        ## unclassified tweet data, and trained_tweets.txt which contains the 
+        ## classified tweet data. 
+
+        with open('trained_tweets.txt', 'a') as g:
+            count = 0
+            for tweet in tweets:
+                print tweet
+                classification = raw_input('Classify this tweet as negative (0), positive (1), neutral(2) or spam (9): ')
+                g.write(tweet.replace(',','') + str(classification))
+                g.write('\n')
+                classified_dict[tweet] = True
+                print '-----------------------------------------------'
+                count = count + 1
+                if count%40 == 0:
+                    print str(np.round(100*float(count)/float(tweets_total),2))+'% completed...'
+                    print '-----------------------------------------------'
+
+    if __name__ == '__main__':
+        try:
+            main()
+        except KeyboardInterrupt:
+            with open('test_tweets.txt', 'w') as f:
+                for tweet in classified_dict:
+                    if classified_dict[tweet] == False:
+                        f.write(tweet)
+
+The code contains two small improvements on the most basic idea possible; a percentage completion counter for sanity purposes, which prints progress every forty tweets, and the ability to quit the program and pick up where you left off (it just writes all the unclassified tweets over the input file so you can start again with a smaller file). 
