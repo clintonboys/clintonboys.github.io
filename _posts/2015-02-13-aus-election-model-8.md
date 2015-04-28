@@ -91,3 +91,12 @@ The differences between the means on `Var3`  and `Var9` (workers in agriculture 
 as it gives a good picture of the urban/rural divide.
 
 I think that a larger number of clusters will give a much more useful interpretation of what's going on, and a more useful component to my eventual model. I want to use the largest number of clusters that gives a clustering so that I can still give some sort of qualitative description of each cluster (the way I've described the two clusters above as urban and rural). Let's see if I can do this with six clusters. 
+
+In the spirit of including this as a piece in my Emma Chisit model, I translated this code to Python using scikit-learn (which also has a great out-of-the-box kmeans algorithm) and came up with the following groups:
+
+- leafy outer suburban seats
+- regional seats
+- inner city seats
+- poorer suburban seats
+- wealthy suburban seats
+- "Bigger than Peru" seats (Durack and Lingiari)
