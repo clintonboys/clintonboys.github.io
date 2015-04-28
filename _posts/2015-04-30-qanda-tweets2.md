@@ -87,7 +87,7 @@ I classified 1000 tweets from the first broadcast, which gave me a corpus of ove
     scores_list = []
     for tweet in tweets:
         if type(GetSentiment(tweet)) is np.int64:
-            scores_list.append(float(GetSentiment(tweet))/float(len(tweets)))
+            scores_list.append(float(GetSentiment(tweet))/float(len(tweet)))
 
     plt.hist(scores_list,bins = 50)
     plt.show()
