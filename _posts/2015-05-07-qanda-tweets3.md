@@ -16,8 +16,70 @@ This diagram shows the real problem; of the 764 tweets I hand-classified as posi
 
 `NormalisedSentiment`: sum of all sentiments for words in the corpus in the tweet, divided by the total number of words in the tweet
 
+    def NormalisedSentiment(tweet):
+        score = 0
+        for word in tweet.split(' '):
+            try:
+                score = score + sentiment_dict['rating'][word]
+            except KeyError:
+                pass
+        return score
+
+
 `NegativePercentage`: number of words with a sentiment less than zero, divided by the total number of words in the tweet
 
-If we do a scatter plot of these two variables and color by classification (blue is positive, red is negative), we get the following picture:
+    def NegativePercentage(tweet):
+        total_words = 0
+        bad_words = 0
+        for word in tweet.split(' '):
+            try:
+                if sentiment_dict['rating'][word] < 0:
+                    total_words += 1
+                    bad_words +=1
+                else:
+                    total_words += 1
+            except KeyError:
+                pass
+        return float(bad_words) / float(total_words)
+
+If we do a scatter plot of these two variables and color by classification (blue is positive, red is negative), 
+
+    training_data = pd.DataFrame([tweets_final, normsent, negperc, classes]).transpose()
+    training_data.columns = ['tweet', 'normsent', 'negperc', 'class']
+
+    X = training_data[['normsent', 'negperc']].values
+    y = training_data['class']
+
+    color_map = []
+    for score in classes:
+        if score == 1:
+            color_map.append('b')
+        else:
+            color_map.append('r')
+    plt.scatter(training_data.normsent, training_data.negperc, c =color_map)
+    plt.show()
+
+we get the following picture:
 
 ![Sentiment scatter 2](https://github.com/clintonboys/clintonboys.github.io/blob/master/_posts/sent_scatter2.png?raw=true)
+
+I now want to use simple support vector machines (which is just linear regression in this easy case) to train a decision boundary on this training data. Scikit-learn makes this particularly straightforward (I found a function plot_surface to plot the decision boundary as I had a bit of trouble figuring it out myself): 
+
+    est = svm.SVC(kernel = 'linear')
+    linear_model = est.fit(X,y)
+    ax = plt.gca()
+    ax.scatter(training_data.normsent, training_data.negperc, c =color_map)
+    plot_surface(est, X[:,0], X[:,1],ax =ax)
+    plt.show()
+
+![Sentiment scatter 3](https://github.com/clintonboys/clintonboys.github.io/blob/master/_posts/sent_scatter3.png?raw=true)
+
+We then fit this model to the much larger training set (noting again the model, which currently has about 72% accuracy, will only get better the more tweets I classify):
+
+![Test data](https://github.com/clintonboys/clintonboys.github.io/blob/master/_posts/test.png?raw=true)
+
+Let's see how this classification does with a few examples before we finish up by adding in the basic entity recognition: 
+
+
+
+
