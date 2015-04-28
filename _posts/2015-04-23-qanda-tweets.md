@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sentiment analysis of QandA tweets I - Sentiment analysis using out-of-the-box tools
+title: Sentiment analysis of Q&A tweets I - Sentiment analysis using out-of-the-box tools
 image:
   feature: sample-image-27.jpg
   credit: Amsterdam, The Netherlands, 2012
