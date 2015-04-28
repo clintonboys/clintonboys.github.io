@@ -96,5 +96,10 @@ I classified 1000 tweets from the first broadcast, which gave me a corpus of ove
 
 ![Taylor swift](https://github.com/clintonboys/clintonboys.github.io/blob/master/_posts/sent_hist.png?raw=true)
 
-We can see the distribution of the sentiments very well in the above image (there's 11 224 tweets being scored here, once I've taken out retweets and spam). 
+We can see the distribution of the (length-adjusted) sentiments very well in the above image (there's 11 224 tweets being scored here, once I've taken out retweets and spam). Notice that less than 5% of tweets are actually assigned a positive score (since there's so much negativity on Twitter, common words like "the" end up with highly negative scores by virtue of appearing in more negative tweets than positive). 
+
+Two things remain to do (noting that the analysis will only get better and more accurate the more tweets I classify):
+
+- use the training data to come up with a decision boundary for tweets to be labelled as positive or negative
+- add the basic left/right entity recognition into the analysis and try to answer my original question again
 
