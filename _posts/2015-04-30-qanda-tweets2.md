@@ -58,5 +58,43 @@ One very difficult consideration is how to deal with sarcasm on the training set
 
 Some things I noticed doing this classification before I got bored and just used what I'd completed:
 
-- tweets are overwhelmingly negative
+- a plurality of tweets are negative (the split between negative / positive / neutral is about 45/30/25). 
 - this process is bound to introduce a whole bunch of subjectivity.. hopefully my left-wing bias is not obvious
+- classifying tweets is **extremely** difficult! Sometimes you can spend minutes agonizing over tweets deciding on their sentiment. 
+
+I classified 1000 tweets from the first broadcast, which gave me a corpus of over 3300 words with a sentiment score. It was then easy to get a crude sentiment score for each tweet from the second broadcast's feed:
+
+    import pandas as pd
+    from pandas import DataFrame
+    import numpy as np
+    import matplotlib.pyplot as plt
+
+    frame = pd.read_csv('SentimentDict.txt',skiprows=0,delim_whitespace=False,header=0,names=['term','rating'])
+    frame.index = frame['term']
+
+    with open('tweetdump27_new.txt') as f:
+        tweets = f.readlines()
+
+    def GetSentiment(tweet):
+        score = 0
+        for word in tweet.split(' '):
+            try:
+                score = score + frame['rating'][word]
+            except KeyError:
+                pass
+        return score
+
+    scores_list = []
+    for tweet in tweets:
+        if type(GetSentiment(tweet)) is np.int64:
+            scores_list.append(float(GetSentiment(tweet))/float(len(tweets)))
+
+    plt.hist(scores_list,bins = 50)
+    plt.show()
+
+    [Finished in 28.7s]
+
+![Taylor swift](https://github.com/clintonboys/clintonboys.github.io/blob/master/_posts/sent_hist.png?raw=true)
+
+We can see the distribution of the sentiments very well in the above image (there's 11 224 tweets being scored here, once I've taken out retweets and spam). 
+
