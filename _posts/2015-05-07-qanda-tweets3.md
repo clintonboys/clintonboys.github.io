@@ -63,7 +63,7 @@ we get the following picture:
 
 ![Sentiment scatter 2](https://github.com/clintonboys/clintonboys.github.io/blob/master/_posts/sent_scatter2.png?raw=true)
 
-I now want to use simple support vector machines (which is just linear regression in this easy case) to train a decision boundary on this training data. Scikit-learn makes this particularly straightforward (I found a function plot_surface to plot the decision boundary as I had a bit of trouble figuring it out myself): 
+I now want to use simple support vector machines (which is just linear regression in this easy case) to train a decision boundary on this training data. Scikit-learn makes this particularly straightforward (I found a function plot_surface to plot the decision boundary as I had a bit of trouble figuring it out myself; I'm not quite sure why it comes out as a squiggle, but it gets the point across nevertheless):
 
     est = svm.SVC(kernel = 'linear')
     linear_model = est.fit(X,y)
@@ -80,6 +80,40 @@ We then fit this model to the much larger training set (noting again the model, 
 
 Let's see how this classification does with a few examples before we finish up by adding in the basic entity recognition: 
 
+    My smelly fat butternut has decided to watch #qanda with me
+        | negative
+    settling in for another entertaining #qanda
+        | positive
+    Just saw the @QandA panel. Time to go to bed. Night.
+        | positive
+    I can hear it now on #qanda #theirabc tonight.  Free speech hypocrites  #pmlive
+        | negative
+    Thank you @tanya_plibersek for supporting a binding vote. Human rights are not optional. #ItsTimeToBind #qanda
+        | negative
+    @QandA #QandA @tanya_plibersek for PM
+        | positive
+    Dare I watch #qanda tonight after the disappointing censorship of TPP related questions last week?
+        | negative
+    turning on the hate faucet for another week #qanda
+        | negative
+    ah. finally can live tweet @QandA. wish I had something worthy to say.
+        | positive
 
+This model seems like it's doing a fairly decent (but obviously imperfect) job of classifying these tweets. 
 
+So using a list of right-wing associated words like
 
+    Coalition,coalition,Liberal,liberal,libs,Libs,Abbott,abbott,abbot,Abbot,Abott,abott,Howard,howard,Robb,robb,Andrew,andrew,Menzies,menzies,pm,PM,prime minister,Prime Minister,Tony,tony,Arthur,arthur,Sinodinos,sinodinos,tim,Tim,fischer,Fischer
+
+and a similar list for left-words, we can color the tweets again according to whether they are left-aligned (negative with a right entity or positive with a left entity) which are red, right-aligned (vice versa) which are blue, or neither, which are green. 
+
+![Alignment scatter](https://github.com/clintonboys/clintonboys.github.io/blob/master/_posts/alignment.png?raw=true)
+
+    Left tweets: 6.57%
+    Right tweets: 4.01%
+    Total tweets: 10766
+    [Finished in 49.1s]
+
+This gives 62% of tweets where an entity can be identified as left-wing, and 38% as right-wing. This seems fairly believable to me (note only 11% of tweets have an entity identified, hence all the green in the picture). 
+
+I will remark finally that, although this model isn't great, it can easily be improved through the "unreasonable effectiveness of data": all this needs to get much better is more human classification of tweets, and a better input file for entity recognition. 

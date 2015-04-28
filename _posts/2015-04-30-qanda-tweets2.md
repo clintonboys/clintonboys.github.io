@@ -94,7 +94,7 @@ I classified 1000 tweets from the first broadcast, which gave me a corpus of ove
 
     [Finished in 28.7s]
 
-![Taylor swift](https://github.com/clintonboys/clintonboys.github.io/blob/master/_posts/sent_hist.png?raw=true)
+![Sentiment histogram](https://github.com/clintonboys/clintonboys.github.io/blob/master/_posts/sent_hist.png?raw=true)
 
 We can see the distribution of the (length-adjusted) sentiments very well in the above image (there's 11 224 tweets being scored here, once I've taken out retweets and spam). Notice that less than 5% of tweets are actually assigned a positive score (since there's so much negativity on Twitter, common words like "the" end up with highly negative scores by virtue of appearing in more negative tweets than positive). 
 
