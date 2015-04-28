@@ -105,7 +105,7 @@ So using a list of right-wing associated words like
 
     Coalition,coalition,Liberal,liberal,libs,Libs,Abbott,abbott,abbot,Abbot,Abott,abott,Howard,howard,Robb,robb,Andrew,andrew,Menzies,menzies,pm,PM,prime minister,Prime Minister,Tony,tony,Arthur,arthur,Sinodinos,sinodinos,tim,Tim,fischer,Fischer
 
-and a similar list for left-words, we can color the tweets again according to whether they are left-aligned (negative with a right entity or positive with a left entity) which are red, right-aligned (vice versa) which are blue, or neither, which are green. 
+and a similar list for left-words, we can color the tweets again according to whether they are left-aligned (negative with a right entity or positive with a left entity) which are red, right-aligned (vice versa) which are blue, or neither, which are white. 
 
 ![Alignment scatter](https://github.com/clintonboys/clintonboys.github.io/blob/master/_posts/alignment.png?raw=true)
 
@@ -114,6 +114,6 @@ and a similar list for left-words, we can color the tweets again according to wh
     Total tweets: 10766
     [Finished in 49.1s]
 
-This gives 62% of tweets where an entity can be identified as left-wing, and 38% as right-wing. This seems fairly believable to me (note only 11% of tweets have an entity identified, hence all the green in the picture). 
+This gives 62% of tweets where an entity can be identified as left-wing, and 38% as right-wing. This seems fairly believable to me (note only 11% of tweets have an entity identified, hence all the white in the picture). Note it doesn't look like there's much of a relationship between right-left and positive-negative. 
 
 I will remark finally that, although this model isn't great, it can easily be improved through the "unreasonable effectiveness of data": all this needs to get much better is more human classification of tweets, and a better input file for entity recognition. 
