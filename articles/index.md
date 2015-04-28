@@ -18,6 +18,7 @@ On this page I keep a repository of interesting longform articles I've read from
 - [In-depth look](http://nymag.com/daily/intelligencer/2015/04/hillary-clinton-2016-campaign.html) at the problems Hillary Clinton's campaign will face next year. 
 - David Simon, creator of The Wire, [interviews](https://www.guernicamag.com/interviews/the-cousins-karamazov/) Richard Price
 - Very interesting 538 [piece](http://fivethirtyeight.com/features/dan-feyer-american-crossword-puzzle-tournament/) about the world championships in crossword puzzles
+- New Yorker [profile](http://www.newyorker.com/magazine/2015/05/04/the-virtual-candidate) of Elizabeth Warren
 
 ## 2014 
 
