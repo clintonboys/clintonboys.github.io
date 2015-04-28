@@ -37,7 +37,9 @@ As various pieces of the model are built, I'll update this section. Usually ther
 
 19/4/05: Read about some models that have similar ideas to mine; in particular the [strong transition model](http://www.electoralcalculus.co.uk/strongmodel.html) used by the may2015.co.uk site. 
 
-20/4/05: Coded up a first draft of a runoff simulator. 
+20/4/05: Coded up a first draft of a runoff simulator. Incorporated some more poll data courtesy of William Bowe into the model. 
+
+28/4/05: Incorporated the last of William Bowe's poll data. Translated old R code for clustering to Python. 
 
 **Where can I see the source code?**
 
