@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sentiment analysis of QandA tweets II - Training a custom sentiment dictionary
+title: Sentiment analysis of Q&A tweets II - Training a custom sentiment dictionary
 image:
   feature: sample-image-6.jpg
   credit: Big Sur National Park, California, 2013

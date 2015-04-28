@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sentiment analysis of QandA tweets III - Estimating political affiliations
+title: Sentiment analysis of Q&A tweets III - Estimating political affiliations
 image:
   feature: sample-image-10.jpg
   credit: Stella Maris, Haifa, Israel, 2014
