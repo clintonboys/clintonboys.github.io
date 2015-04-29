@@ -100,3 +100,5 @@ In the spirit of including this as a piece in my Emma Chisit model, I translated
 - poorer suburban seats
 - wealthy suburban seats
 - "Bigger than Peru" seats (Durack and Lingiari)
+
+Trying with numbers larger than six gave me more groups than I could reasonably name, so these seem like good clusters to go with. 

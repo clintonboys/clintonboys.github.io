@@ -114,6 +114,6 @@ and a similar list for left-words, we can color the tweets again according to wh
     Total tweets: 10766
     [Finished in 49.1s]
 
-This gives 62% of tweets where an entity can be identified as left-wing, and 38% as right-wing. This seems fairly believable to me (note only 11% of tweets have an entity identified, hence all the white in the picture). Note it doesn't look like there's much of a relationship between right-left and positive-negative. 
+This gives 62% of tweets where an entity can be identified as left-wing, and 38% as right-wing (and fits in very well with the ABC's 39/39/22 ALP/COA/GRN split in the studio audience). This seems fairly believable to me (note however that only 11% of tweets have an entity identified, hence all the white in the picture). Note it doesn't look like there's much of a relationship between right-left and positive-negative. 
 
 I will remark finally that, although this model isn't great, it can easily be improved through the "unreasonable effectiveness of data": all this needs to get much better is more human classification of tweets, and a better input file for entity recognition. 
