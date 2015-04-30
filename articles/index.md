@@ -19,6 +19,7 @@ On this page I keep a repository of interesting longform articles I've read from
 - David Simon, creator of The Wire, [interviews](https://www.guernicamag.com/interviews/the-cousins-karamazov/) Richard Price
 - Very interesting 538 [piece](http://fivethirtyeight.com/features/dan-feyer-american-crossword-puzzle-tournament/) about the world championships in crossword puzzles
 - New Yorker [profile](http://www.newyorker.com/magazine/2015/05/04/the-virtual-candidate) of Elizabeth Warren
+- Excerpt from a David Simon [speech](http://www.theguardian.com/world/2013/dec/08/david-simon-capitalism-marx-two-americas-wire?CMP=soc_567) about the failures of capitalism in American society
 
 ## 2014 
 

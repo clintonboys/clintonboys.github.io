@@ -41,6 +41,10 @@ As various pieces of the model are built, I'll update this section. Usually ther
 
 28/4/05: Incorporated the last of William Bowe's poll data. Translated old R code for clustering to Python. 
 
+29/4/05: Started work on poll aggregation functions. Redrafted pollster weight calculator. 
+
+30/4/05: Worked on various functions to load election data by polling place. 
+
 **Where can I see the source code?**
 
 I'm keeping everything open source. It's all available on the [Github repo](https://github.com/clintonboys/emma-chisit) for this project. 
