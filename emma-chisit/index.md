@@ -43,7 +43,9 @@ As various pieces of the model are built, I'll update this section. Usually ther
 
 29/4/05: Started work on poll aggregation functions. Redrafted pollster weight calculator. 
 
-30/4/05: Worked on various functions to load election data by polling place. 
+30/4/05: Worked on various functions to load election data by polling place. Got some more data. 
+
+14/5/05: Started work on first model for translating poll aggregator to individual seat swings. 
 
 **Where can I see the source code?**
 
