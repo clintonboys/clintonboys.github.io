@@ -47,6 +47,8 @@ As various pieces of the model are built, I'll update this section. Usually ther
 
 14/5/05: Started work on first model for translating poll aggregator to individual seat swings. 
 
+17/5/05: Fixing various bugs in previous components that I introduced. Fixed some data so that everything is consistent. 
+
 **Where can I see the source code?**
 
 I'm keeping everything open source. It's all available on the [Github repo](https://github.com/clintonboys/emma-chisit) for this project. 
