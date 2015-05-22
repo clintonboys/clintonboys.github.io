@@ -21,6 +21,7 @@ On this page I keep a repository of interesting longform articles I've read from
 - New Yorker [profile](http://www.newyorker.com/magazine/2015/05/04/the-virtual-candidate) of Elizabeth Warren
 - Excerpt from a David Simon [speech](http://www.theguardian.com/world/2013/dec/08/david-simon-capitalism-marx-two-americas-wire?CMP=soc_567) about the failures of capitalism in American society
 - A very factual and chilling [account](http://www.theatlantic.com/magazine/archive/2015/06/execution-clayton-lockett/392069/) of a controversial botched execution by lethal injection in Oklahoma
+- [Best](http://www.theatlantic.com/features/archive/2015/02/what-isis-really-wants/384980/) article I've read about ISIS so far
 
 ## 2014 
 
