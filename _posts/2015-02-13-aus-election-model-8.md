@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Forecasting Australian elections II - Demographic variables and nearest neighbour analysis of electorates
+title: Forecasting Australian elections II - Clustering electorates by demographic variables
 image:
   feature: sample-image-18.jpg
   credit: Cradle Mountain, Tasmania, 2014

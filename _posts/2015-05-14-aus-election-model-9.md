@@ -48,10 +48,12 @@ In order of priority, the next steps for the model are as follows:
 
 - add the ability for two-party preferred contests between parties other than the ALP and the Coalition
 - add the option for a strong fourth party (like PUP in the 2013 election, and previous parties like Family First, One Nation and the Democrats)
-- use historical data (and polling data) to better estimate preference flows (in particular, to obtain preference flows for non TPP contests)
-- incorporate clustering by demographic data into the model to more accurately individualise the swing estimate to seat clusters
+- use historical data (and polling data) to better estimate [preference flows](http://www.clintonboys.com/aus-election-model-3/) (in particular, to obtain preference flows for non TPP contests)
+- incorporate [clustering](http://www.clintonboys.com/aus-election-model-8/) by demographic data into the model to more accurately individualise the swing estimate to seat clusters
 - incorporate state polls into the federal model
 - account for personal votes of popular and long-incumbent members
 - get the model working for individual states
 - instead of providing a numerical estimate for each seat, provide a probabilistic estimate and a confidence interval
-- account for redistributions by reassigning polling places
+- account for [redistributions](http://www.clintonboys.com/aus-election-model-4/) by reassigning polling places
+- add a trend feature to extrapolate results to the nearest election rather than just providing a nowcast
+- incorporate an [economic index](http://www.clintonboys.com/aus-election-model-6/)
