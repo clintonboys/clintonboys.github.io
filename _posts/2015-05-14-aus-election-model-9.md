@@ -46,11 +46,13 @@ The model fails completely at the moment in seats where the top two contestants 
 
 In order of priority, the next steps for the model are as follows:
 
+- clean up the code so the modules work faster and together better (at the moment it has all been built ad hoc on top of itself so it's a little messy)
 - add the ability for two-party preferred contests between parties other than the ALP and the Coalition
 - add the option for a strong fourth party (like PUP in the 2013 election, and previous parties like Family First, One Nation and the Democrats)
 - use historical data (and polling data) to better estimate [preference flows](http://www.clintonboys.com/aus-election-model-3/) (in particular, to obtain preference flows for non TPP contests)
 - incorporate [clustering](http://www.clintonboys.com/aus-election-model-8/) by demographic data into the model to more accurately individualise the swing estimate to seat clusters
 - incorporate state polls into the federal model
+- incorporate marginal seat polls into the model
 - account for personal votes of popular and long-incumbent members
 - get the model working for individual states
 - instead of providing a numerical estimate for each seat, provide a probabilistic estimate and a confidence interval

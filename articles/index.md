@@ -23,6 +23,9 @@ On this page I keep a repository of interesting longform articles I've read from
 - A very factual and chilling [account](http://www.theatlantic.com/magazine/archive/2015/06/execution-clayton-lockett/392069/) of a controversial botched execution by lethal injection in Oklahoma
 - [Best](http://www.theatlantic.com/features/archive/2015/02/what-isis-really-wants/384980/) article I've read about ISIS so far
 - Interesting [article](http://theconversation.com/new-zealands-bondi-bludger-and-other-australian-myths-22391) about the discrepancies in the trans-Tasman relationship
+- Great New Yorker [piece](http://www.newyorker.com/magazine/2012/04/23/battleground-america?currentPage=all) on the utter unbelievability of America's gun laws
+- [Immigration problems](http://harpers.org/archive/2015/05/displaced-in-the-d-r/?single=1) in a part of the world I didn't know anything at all about (the Dominican Republic)
+- A fantastically written introduction to the philosophy of [programming](http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/) for the layperson
 
 ## 2014 
 
