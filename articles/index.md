@@ -26,6 +26,7 @@ On this page I keep a repository of interesting longform articles I've read from
 - Great New Yorker [piece](http://www.newyorker.com/magazine/2012/04/23/battleground-america?currentPage=all) on the utter unbelievability of America's gun laws
 - [Immigration problems](http://harpers.org/archive/2015/05/displaced-in-the-d-r/?single=1) in a part of the world I didn't know anything at all about (the Dominican Republic)
 - A fantastically written introduction to the philosophy of [programming](http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/) for the layperson
+- [Article](http://www.outsideonline.com/1978326/piscivores-dilemma) about the fishing industry and its sustainability problems
 
 ## 2014 
 
