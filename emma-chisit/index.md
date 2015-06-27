@@ -53,6 +53,10 @@ As various pieces of the model are built, I'll update this section. Usually ther
 
 21/5/15: First pass of the model gets 133/150 seats in the 2013 Federal election correct. The main point of failure is not including PUP as a bone fide fourth party, so improving this and better calculating preference flows are the next steps. 
 
+7/6/15: Rewrote lots of code for speed, removed old parts. 
+
+27/6/15: Scraped marginal seat data from Ghost Who Votes. 
+
 **Where can I see the source code?**
 
 I'm keeping everything open source. It's all available on the [Github repo](https://github.com/clintonboys/emma-chisit) for this project. 
