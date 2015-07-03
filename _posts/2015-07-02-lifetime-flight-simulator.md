@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Forecasting Australian elections IV - Marginal seat polls and the strong transition model
+title: Lifetime flight simulator
 image:
   feature: sample-image-22.jpg
   credit: Royal National Park, New South Wales, 2014
