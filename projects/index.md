@@ -16,6 +16,7 @@ image:
   - [Here](http://www.clintonboys.com/itunes-and-pitchfork/) I quantify how much of a Pitchfork sychophant I am (not as much as I thought). 
   - [Here](http://www.clintonboys.com/repetition-index/) I code up a typical vague data science question from a job interview. 
   - Starting [here](http://www.clintonboys.com/qanda-tweets/) I do some sentiment analysis of Twitter data for tweets posted during the broadcast of an Australian political panel show infamous for its lively Twitter feed. 
+  - [Here](https://github.com/clintonboys/lifetime_flight_simulator) I wrote a tongue-in-cheek game to demonstrate the safety of air travel. 
 
 ## Mathematics
 
