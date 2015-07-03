@@ -55,7 +55,7 @@ As various pieces of the model are built, I'll update this section. Usually ther
 
 7/6/15: Rewrote lots of code for speed, removed old parts. 
 
-27/6/15: Scraped marginal seat data from Ghost Who Votes. 
+27/6/15: Scraped marginal seat data from Ghost Who Votes. Planning to combine this with clustering. 
 
 **Where can I see the source code?**
 

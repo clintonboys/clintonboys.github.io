@@ -1,0 +1,14 @@
+---
+layout: post
+title: Forecasting Australian elections IV - Marginal seat polls and the strong transition model
+image:
+  feature: sample-image-22.jpg
+  credit: Royal National Park, New South Wales, 2014
+
+---
+
+I spent a few hours today writing a basic first draft of a data-driven text-based "game" which demonstrates just how safe air travel is. The code for the game is all available in [this](https://github.com/clintonboys/lifetime_flight_simulator) GitHub repository.
+
+The game, written in Python, simulates a lifetime of air travel. I use a database of real-world airports, destinations and flight distances, together with actuarial tables; the idea is that every person who plays the game will die before they actually encounter the extremely unlikely event of an air disaster. 
+
+To play the game you need python and the scientific computing packages pandas and numpy installed; after that you can just download the files from Github and run `python lifetime_flight_simulator.py` from the directory. 
