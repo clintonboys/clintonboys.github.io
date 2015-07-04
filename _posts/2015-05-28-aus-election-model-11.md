@@ -27,6 +27,10 @@ I've grouped the seats into three types, but before that it's important to notic
 
 The first group are the five seats where either the ALP or the Coalition did not win the seat. The second group are seats where the ALP or Coaliation won the seat, but there was a non-traditional second place. The third group are within-Coalition seats: seats where the top two candidates were the Liberals and Nationals. These are the least important as presumably they are easy to forecast for the Coalition!
 
+Let's look at the seats more closely. For the first five seats, my model by definition got these wrong as it only expected ALP or Coalition victories. Let's see how hard these would have been to predict (and try not to overfit as we go!)
 
+**Fairfax**: PUP 50.03, LIB 49.97 (2013)
+
+The main ingredient missing here is a measure of the personal vote of PUP leader Clive Palmer. This is a difficult parameter to estimate: we need to give some measure of an improvement on the swing, and an idea of which parties it comes at the expense of. This is made harder by the fact that PUP did not exist before this election. 
 
 
