@@ -31,6 +31,43 @@ Let's look at the seats more closely. For the first five seats, my model by defi
 
 **Fairfax**: PUP 50.03, LIB 49.97 (2013)
 
-The main ingredient missing here is a measure of the personal vote of PUP leader Clive Palmer. This is a difficult parameter to estimate: we need to give some measure of an improvement on the swing, and an idea of which parties it comes at the expense of. This is made harder by the fact that PUP did not exist before this election. 
+The main ingredient missing here is a measure of the personal vote of PUP leader Clive Palmer. This is a difficult parameter to estimate: we need to give some measure of an improvement on the swing, and an idea of which parties it comes at the expense of. This is made harder by the fact that PUP did not exist before this election, and the seat was not polled. Assuming we get the top two parties right, we also need to estimate how the ALP's preferences will distribute between PUP and the Coalition.
+
+**Indi**: IND 50.25, LIB 49.75 (2013)
+
+Another very close contest which a non-traditional party lost. This was a little easier to predict as a poll of this marginal seat showed the Independent candidate gaining ground (since the candidate was an established figure there was significant media interest). Extrapolating the trend to election day, and correctly estimating the distribution of ALP preferences, would probably have done alright with this seat. 
+
+The two seats above were both very close, in addition to being non-traditional contests. The three below are easier as they are not marginal seats. 
+
+**Kennedy**: KAP 52.19, LIB 47.81 (2013)
+
+Since Bob Katter (who held the seat in 2010 with 68.34%) is the sitting member, this seat would have been predictable with some measure of his personal vote, and the correct distribution of ALP preferences.
+
+**Melbourne**: GRN 55.27, ALP 44.73 (2013)
+
+This seat was polled twice; with the correct distribution of LIB preferences it would have been predictable. 
+
+**Denison**: IND 65.51, ALP 34.49 (2013)
+
+As with Kennedy, with a correction for the personal vote of Andrew Wilkie and the right distribution of Liberal preferences, this seat would have been straightforward. 
+
+**Wills**: ALP 65.20, GRN 34.80 (2013)
+**Batman**: ALP 60.61, GRN 39.39 (2013)
+
+These two seats feature extremely high Green votes and are easy to correct for with the right distribution of Liberal votes. 
+
+**New England**: NAT 64.46, IND 35.54 (2013)
+
+This is a subtle seat, as it was held by a strong independent (Tony Windsor) for many years before passing to Nationals member Barnaby Joyce in 2013. Since Joyce polled over 54.21% of the primary vote it is a moot point really.
+
+**Mallee, O'Connor, Durack**: I am not concerned about modelling these types of seats, as my model will just award them to the Coalition, being unconcerned with their infighting in Western Australia. 
+
+The model thus only needs to incorporate a few things to be able to predict occurences like the above:
+
+- estimate ALP and LIB preferences to other parties when necessary (can use historical data for this)
+- estimate personal vote corrections for particular members (Peter Brent does something like this in a pretty well-justified way although his entire website lives behind a paywall now)
+- incorporate marginal seat polls
+
+
 
 
