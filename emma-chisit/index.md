@@ -57,6 +57,8 @@ As various pieces of the model are built, I'll update this section. Usually ther
 
 27/6/15: Scraped marginal seat data from Ghost Who Votes. Planning to combine this with clustering. 
 
+9/7/15: Started work on including marginal polls in the model.
+
 **Where can I see the source code?**
 
 I'm keeping everything open source. It's all available on the [Github repo](https://github.com/clintonboys/emma-chisit) for this project. 
