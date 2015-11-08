@@ -59,6 +59,10 @@ As various pieces of the model are built, I'll update this section. Usually ther
 
 9/7/15: Started work on including marginal polls in the model.
 
+2/9/15: Registered Emma Chisit's new domain. 
+
+8/11/15: Worked on incorporating marginal seats into the model using the strong transition model. 
+
 **Where can I see the source code?**
 
 I'm keeping everything open source. It's all available on the [Github repo](https://github.com/clintonboys/emma-chisit) for this project. 
