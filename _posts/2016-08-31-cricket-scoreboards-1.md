@@ -84,4 +84,4 @@ The most important method of this class checks at the end of each delivery wheth
                 if second_team_total > first_team_total:
                     self._is_over = True
                     return 'Team B won by ' + str(10 - self._scorecard[3][0]) + ' wickets.'
-
+```
