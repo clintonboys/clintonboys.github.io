@@ -19,6 +19,8 @@ With a full simulator out of the question I decided the first step was to develo
 2. Build a class structure which includes a match class, a team class, a player class, a delivery class, and a class which keeps track of the match score.
 3. Build a basic loop which allows the player to make basic decisions at any point, or to randomly simulate through a given number of deliveries. 
 
+The next step (here) is to generate a large dataset of matches and see how hard it is to find records for individual matches. 
+
 **The match class**
 
 ```
@@ -57,8 +59,13 @@ The most important method of this class checks at the end of each delivery wheth
     def check_result(self, match):
 
         self._innings_number = len(self._scorecard)
+
+        # If the time has run out, the match is drawn.
+
         if match._day == 5 and match._session == 3 and match._session_over == 30:
             return 'Match drawn.'
+
+        # If, in the third innings, the team batting first has lost all their wickets and not surpassed the team batting second's total, the team batting second wins by an innings. 
 
         elif self._innings_number == 3 and self._scorecard[2][0] == 0 and self._scorecard[2][1] == 0 and (self._scorecard[0][1] + self._scorecard[2][1]) < self._scorecard[1][1]:
             return 'Team B won by an innings and ' + str(self._scorecard[1][1] - self._scorecard[2][1] - self._scorecard[0][1]) + ' runs.'
@@ -70,7 +77,8 @@ The most important method of this class checks at the end of each delivery wheth
 
             if self._scorecard[3][0] == 10:
 
-                # team batting first wins
+                # If, in the fourth innings, all wickets are taken, then the team with the highest total wins or the match is tied. 
+
                 if first_team_total > second_team_total:
                     self._is_over = True
                     return 'Team A won by ' + str(first_team_total - second_team_total) + ' runs.'
@@ -81,7 +89,19 @@ The most important method of this class checks at the end of each delivery wheth
 
             else:
 
+                # If, in the fourth innings, the team batting second surpasses the team batting first's total, the team batting second wins. 
+
                 if second_team_total > first_team_total:
                     self._is_over = True
                     return 'Team B won by ' + str(10 - self._scorecard[3][0]) + ' wickets.'
 ```
+
+**The player class**
+
+A player 
+
+
+
+
+
+
