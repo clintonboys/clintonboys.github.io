@@ -9,6 +9,7 @@ image:
 It has long been a project of mine to try to build a robust probabilistic model for predicting the outcome of Australian parliamentary elections. I called the project [Emma Chisit](http://www.auselections.com/) and made quite a bit of progress researching a model, obtaining historical poll data, and thinking about the best way to go about building everything. 
 
 I'm stopping the project (for now) for a few reasons:
+
 - lack of time
 - insufficient data for the level I want to provide predictions for
 - significant uncertainty in particular important seats because of third parties
