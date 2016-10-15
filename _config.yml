@@ -28,7 +28,7 @@ kramdown:
 owner:
   name: Clinton Boys
   avatar: bio-photo.jpg
-  bio: "I am an Australian data scientist living in Tel Aviv, just completed my PhD in pure mathematics."
+  bio: "I am an Australian data scientist with a PhD in pure mathematics, living in Tel Aviv."
   email: cdsboys@gmail.com
   disqus-shortname: 
   twitter: psephologue
@@ -41,7 +41,7 @@ owner:
     ad-slot: 
   bing-verify: 
   github: clintonboys
-  stackoverflow: #http://stackoverflow.com/users/123456/username
+  stackoverflow: http://stackoverflow.com/users/5677207/clinton-boys
   linkedin: clintonboys
   instagram: cboy5675
   lastfm: #username
