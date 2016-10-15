@@ -8,7 +8,7 @@ image:
 
 It’s been more than five months since I started working as a data scientist. I remember when I decided to make the change from academia that I spent quite a bit of time asking for advice and wondering exactly what skills I was missing, and also what skills I might already have but not be aware of, in order to “become” a data scientist. This post will function as general advice for people thinking about taking the route I’ve taken, and I will try to make similar posts in the future with updates about further things I’ve learned. 
 
-(UPDATE #1: I wrote [this] post after one year). 
+*UPDATE #1*: I wrote [this](http://www.clintonboys.com/one-year-of-data-science/) post after one year. 
 
 **Previous skills**
 
