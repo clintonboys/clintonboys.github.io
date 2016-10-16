@@ -20,4 +20,16 @@ I'll start with a short list of projects I've done in my job over the last year 
 - using random forests to train a model for user engagement behaviour
 - designing and helping write a content-based recommendations engine in Spark with Scala
 
-**Skills that I've learnt**
+**Things I'm pretty good at now**
+
+My problem solving skills have adapted well from mathematical problems to real-world problems involving data. I usually feel confident in diagnosing an issue, detecting where in the pipeline things are going wrong, and knowing the steps I or someone else will need to take to fix it. 
+
+My Python programming has improved dramatically: I now write much more modular, efficient code, well-commented, documented and clean. I also learnt the basics of programming in Scala and using the Spark framework for writing distributed algorithms (including their SparkML framework for implementing machine learning at scale). 
+
+**Things I still want to learn**
+
+There's quite a lot I still don't know about data science. My mathematical background is good but there's still a lot of gaps in my understanding of statistics (this wasn't something I ever really studied at university). I'm making my way slowly through the [classic textbook](http://www-bcf.usc.edu/~gareth/ISL/ISLR%20First%20Printing.pdf) on statistical learning and getting a lot out of it. I also would love to learn more about practical implementations of machine learning models: I feel quite confident with the theory but have only had the opportunity to implement a few basic models, and not at huge scale. Over the next year I'm very keen to learn about large-scale deployment and optimisation of machine learning algorithms in production environments. 
+
+Finally, data visualization. I know very little about the design theory behind data visualization: this is something that I feel really separates good data scientists from ordinary ones, and gives them the edge in being able to communicate their findings effectively. Over the next year I'm going to be spending quite a bit of time practising data visualization with a variety of interesting software. 
+
+
