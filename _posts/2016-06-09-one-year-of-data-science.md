@@ -32,4 +32,10 @@ There's quite a lot I still don't know about data science. My mathematical backg
 
 Finally, data visualization. I know very little about the design theory behind data visualization: this is something that I feel really separates good data scientists from ordinary ones, and gives them the edge in being able to communicate their findings effectively. Over the next year I'm going to be spending quite a bit of time practising data visualization with a variety of interesting software. 
 
+**What I learnt about data science and data scientists**
+
+You can find a hundred posts online about what data science is, and is not, and what a data scientist should know and do professionally. I have had a somewhat unusual initiation into the field as my job specifically is a lot more hands-on and operational than many data scientists. I've enjoyed this though, and learnt about the fluid boundaries between parts of the "data" industry: over the last year I've done bits of pieces of jobs which might be referred to in different workplaces as data scientist, data engineer, data architect, database administrator, business analyst, software engineer, product manager and other things. It's an exciting field and there's lots to learn, and I take these messy boundaries as a good thing (so long as someone else is ultimately deciding who is responsible for what). 
+
+
+
 
