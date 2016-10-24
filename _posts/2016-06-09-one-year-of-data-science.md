@@ -12,7 +12,7 @@ I started work as a data scientist one year ago today. As I mentioned in the [fi
 
 I'll start with a short list of projects I've done in my job over the last year (not going into too much detail). Some of these are outside the traditional domain of a data scientist (I mentioned this in a [previous](http://www.clintonboys.com/writing-etls/) post) but I still enjoyed them and learnt a lot (and am starting to believe that the title of "data scientist" is a bit misleading anyway; see below).
 
-- building a statistics model for user lifetime value
+- building a statistical model for user lifetime value
 - writing a basic anomoly detector for website traffic (to detect successful content before its "hit peak")
 - designing client-side event logic for a native monetisation platform
 - writing an ETL pipeline for a new data product

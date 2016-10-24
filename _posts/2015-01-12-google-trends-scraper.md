@@ -7,6 +7,8 @@ image:
 
 ---
 
+**UPDATE** (24/10/2016): Google has made significant changes to their Trends product which means this code no longer works. I'm working on updating it and will write a new post when this is done. 
+
 If you search Google trends for a term like "taylor+swift", and set your timescale to "2004 to present", you'll get an interesting graph that does demonstrate the meteoric rise to stardom of the pop star. 
 
 ![Taylor swift](https://github.com/clintonboys/clintonboys.github.io/blob/master/_posts/taylorswift.png?raw=true)
