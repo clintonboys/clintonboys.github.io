@@ -34,11 +34,29 @@ This century, there have been eleven changes of leadership in the two major part
 | 2013 | October   | ALP   | Kevin Rudd       | Bill Shorten     | No   | Retired  | 48.6   | 47    | -1.6   | 
 | 2015 | September | COA   | Tony Abbott      | Malcolm Turnbull | Yes  | Deposed  | 45.8   | 51.4  | 5.6    | 
 
+The data clearly supports the common notion of a "honeymoon effect", but only when the old leader is deposed (an average immediate lift in the polls of 3.2 percentage points). There are two deeper and more interesting questions here:
 
+- how long do these "honeymoon periods" last for?
+- is it worth changing leaders for the uptick in the polls?
 
+In order to answer these questions we need to make some definitions. For the six changes of leadership resulting from deposals (3 ALP, 3 Coalition), let's define the "honeymoon period" to be the time between the change of leadership, and the first time the five-poll average dips below the average when the change of leadership took place. If this doesn't happen before the next leadership change, we'll define this as "infinite". There is another possible definition: the honeymoon is defined as over the first time the new leader is in a "losing position" (i.e. the five-poll average shows him or her getting below 50.0% in the TPP). We'll use the first definition. 
 
+| Deposal Date | New Leader | Honeymoon Period | 
+|--------------|------------|------------------| 
+| 04/12/2006   | Rudd       | 1230             | 
+| 16/09/2008   | Turnbull   | 60               | 
+| 01/12/2009   | Abbott     | 1860             | 
+| 24/06/2010   | Gillard    | 31               | 
+| 26/06/2013   | Rudd       | Infinite         | 
+| 14/09/2015   | Turnbull   | 410+             | 
 
+This table agrees with the media narrative from the tumultuous past decade of Australian politics: 
 
+- Kevin Rudd was a highly effective Labor leader and the push to replace him with Gillard was a political mistake
+- The shift to Malcolm Turnbull as opposition leader in 2008 was a disaster
+- Tony Abbott was a highly effective opposition leader who struggled as Prime Minister
+
+Notice we are unable to say anything yet about Malcolm Turnbull's stint as PM, nor was Rudd Prime Minister long enough for the second time in 2013 to say much from the data. 
 
 
 
