@@ -20,7 +20,17 @@ The interesting question is whether this is a feature of Australian politics in 
 This century, there have been eleven changes of leadership in the two major parties. 
 
 
-| Year  | Month | Party | Old leader       | New leader       | In gov? | How?
-|-------|-------|--------------------------|------------------|---------|-----------|
-|2001   |Nov    |ALP    | Malcolm Turnbull | Malcolm Turnbull | No      | Resigned |
+|Year  |Month |Party | Old leader      | New leader      |In gov? |How?      |
+|------|------|------|-----------------|-----------------|--------|----------|
+|2001  |Nov   |ALP   |Kim Beazley      |Simon Crean      |No      | Resigned |
+|2003  |Dec   |ALP   |Simon Crean      |Mark Latham      |No      | Resigned |
+|2005  |Jan   |ALP   |Mark Latham      |Kim Beazley      |No      | Resigned |
+|2006  |Dec   |ALP   |Kim Beazley      |Kevin Rudd       |No      | Deposed  |
+|2007  |Nov   |COA   |John Howard      |Brendan Nelson   |No      | Retired  |
+|2008  |Sep   |COA   |Brendan Nelson   |Malcolm Turnbull |No      | Deposed  |
+|2009  |Dec   |COA   |Malcolm Turnbull |Tony Abbott      |No      | Deposed  |
+|2010  |Jun   |ALP   |Kevin Rudd       |Julia Gillard    |Yes     | Deposed  |
+|2013  |Jun   |ALP   |Julia Gillard    |Kevin Rudd       |Yes     | Deposed  |
+|2013  |Oct   |ALP   |Kevin Rudd       |Bill Shorten     |No      | Retired  |
+|2015  |Sep   |COA   |Tony Abbott      |Malcolm Turnbull |Yes     | Resigned |
 
