@@ -58,15 +58,13 @@ Another moment of clarification when learning functional programming comes the f
   }
 ```
 
-The above code uses Huffman coding to decode the bit sequence `bits` using the code tree `tree` and returns the sequence of actual characters encoded by the bit sequence. 
+The above code uses Huffman coding to decode the bit sequence `bits` using the code tree `tree` and returns the sequence of actual characters encoded by the bit sequence. Although good programmers will do this anyway, functional programming teaches the modularity evident in this example: in order to define `decode` we must first define the classes `CodeTree`, `Leaf` and `Fork`, as well as the function `iterate`, and the methods `isEmpty`, `head` and `tail` on a `List[Bit]` object. Changes made to any of these smaller pieces then propograte throughout the code. 
 
 **Typing**
 
 The strangest thing about functional languages for someone who is learning about them for the first time is that they are usually strongly typed, which represents a very alien departure from Python. In Python variables rarely need to have their type declared. This is a great thing for quick scripting, as it can make the translation from English to code much quicker and easier. 
 
 What is difficult to understand (and I didn’t believe was possible at first) is that *nearly every single bug* in any program that causes it to fail at runtime is caused by an issue that could be caught by a strong typing system at compile time. 
-
-*Example*
 
 **Conclusion**
 
