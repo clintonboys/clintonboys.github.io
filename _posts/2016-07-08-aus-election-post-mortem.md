@@ -20,7 +20,7 @@ The interesting question is whether this is a feature of Australian politics in 
 
 This century, there have been eleven changes of leadership in the two major parties. For each change in leadership, I looked the average of the five polls taken immediately before and immediately after the change and obtained the following list. The **Gov?** column indicates whether the parter was in government (3 times) or not (8 times), and the **How** column indicates the way the old leader was removed: either deposed (6 times), resigned (3 times), or retired (2 times). 
 
-| :Year | :Month     | :Party | :Old Leader       | :New Leader       | :Gov? | :How      | :Before | :After | :Change | 
+| Year | Month     | Party | Old Leader       | New Leader       | Gov? | How      | Before | After | Change | 
 |------|-----------|-------|------------------|------------------|------|----------|--------|-------|--------| 
 | 2001 | November  | ALP   | Kim Beazley      | Simon Crean      | No   | Resigned | 49.5   | 48.3  | -1.2   | 
 | 2003 | December  | ALP   | Simon Crean      | Mark Latham      | No   | Resigned | 50.1   | 50.5  | 0.4    | 
@@ -41,7 +41,7 @@ The data clearly supports the common notion of a "honeymoon effect", but only wh
 
 In order to answer these questions we need to make some definitions. For the six changes of leadership resulting from deposals (3 ALP, 3 Coalition), let's define the "honeymoon period" to be the time between the change of leadership, and the first time the five-poll average dips below the average when the change of leadership took place. If this doesn't happen before the next leadership change, we'll define this as "infinite". There is another possible definition: the honeymoon is defined as over the first time the new leader is in a "losing position" (i.e. the five-poll average shows him or her getting below 50.0% in the TPP). We'll use the first definition. 
 
-| :Deposal Date | :New Leader | :Honeymoon Period | 
+| Deposal Date | New Leader | Honeymoon Period | 
 |--------------|------------|------------------| 
 | 04/12/2006   | Rudd       | 1230             | 
 | 16/09/2008   | Turnbull   | 60               | 
