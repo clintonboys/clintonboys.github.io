@@ -18,10 +18,10 @@ The "honeymoon period" of a new leader is a phrase that gets a lot of airtime in
 
 The interesting question is whether this is a feature of Australian politics in general, or whether this particularly dramatic course was peculiar to Turnbull. 
 
-This century, there have been eleven changes of leadership in the two major parties. For each change in leadership, I looked the average of the five polls taken immediately before and immediately after the change and obtained the following list.
-|      |           |       |                  |                  |      |          |        |       |        | 
+This century, there have been eleven changes of leadership in the two major parties. For each change in leadership, I looked the average of the five polls taken immediately before and immediately after the change and obtained the following list. The **Gov?** column indicates whether the parter was in government (3 times) or not (8 times), and the **How** column indicates the way the old leader was removed: either deposed (6 times), resigned (3 times), or retired (2 times). 
+
+| Year | Month     | Party | Old Leader       | New Leader       | Gov? | How      | Before | After | Change | 
 |------|-----------|-------|------------------|------------------|------|----------|--------|-------|--------| 
-| **Year** | **Month**     | **Party** | **Old Leader**       | **New Leader**       | **Gov?** | **How**      | **Before** | **After** | **Change** | 
 | 2001 | November  | ALP   | Kim Beazley      | Simon Crean      | No   | Resigned | 49.5   | 48.3  | -1.2   | 
 | 2003 | December  | ALP   | Simon Crean      | Mark Latham      | No   | Resigned | 50.1   | 50.5  | 0.4    | 
 | 2005 | January   | ALP   | Mark Latham      | Kim Beazley      | No   | Resigned | 46.7   | 47.4  | 0.7    | 
@@ -33,6 +33,8 @@ This century, there have been eleven changes of leadership in the two major part
 | 2013 | June      | ALP   | Julia Gillard    | Kevin Rudd       | Yes  | Deposed  | 46.3   | 50.6  | 4.3    | 
 | 2013 | October   | ALP   | Kevin Rudd       | Bill Shorten     | No   | Retired  | 48.6   | 47    | -1.6   | 
 | 2015 | September | COA   | Tony Abbott      | Malcolm Turnbull | Yes  | Deposed  | 45.8   | 51.4  | 5.6    | 
+
+
 
 
 
