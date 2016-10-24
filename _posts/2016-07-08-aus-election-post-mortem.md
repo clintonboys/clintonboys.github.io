@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Australian federal election 2016: polling post-mortem
+title: Australian federal election 2016 - polling post-mortem
 image:
   feature: sample-image-16.jpg
   credit: Sydney, New South Wales, 2014
