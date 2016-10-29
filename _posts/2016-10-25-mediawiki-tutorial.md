@@ -76,7 +76,7 @@ Now we can set up the wiki.
 
 Navigate to http://XXX.XXX.XXX.XX in your browser, with the XXXs replaced by your server's IP. You should see this page:
 
-![Set up](https://github.com/clintonboys/clintonboys.github.io/blob/master/_posts/mediawiki3.png =250x)
+![Set up](https://github.com/clintonboys/clintonboys.github.io/blob/master/_posts/mediawiki3.png?raw=true)
 
 Click set up the wiki and follow the instructions. Most things should be self-explanatory; on the database settings section you will need to enter the settings from before:
 
