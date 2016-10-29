@@ -10,11 +10,10 @@ image:
 This post will explain from scratch how to install MediaWiki on a DigitalOcean droplet, including how to set up Wikipedia-style navigation bars. It's something I needed to do for a project I'm working on in a volunteer capacity and I had a tough time finding resources so decided to write up a detailed explanation myself. Here I'm assuming you're using MacOS or Unix (i.e. some OS with a Unix-based terminal). 
 
 1. Start up a DigitalOcean droplet
-2. Install LAMP stack
+2. Install the LAMP stack
 3. Install MediaWiki
 4. Edit LocalSettings.php to allow file uploads and change the logo
-5. Install that package
-6. Export Navbox, Navbar and HtmlModules
+5. Installing and copying relevant extensions and pages
 
 ## 1. Start up a DigitalOcean droplet
 
@@ -101,11 +100,93 @@ Now if you navigate to http://XXX.XXX.XXX.XXX/index.php/Main_Page, you should se
 
 There are two small changes you're going to want to make to `LocalSettings.php`: the first is to change the variable `$wgLogo` to point to whichever image you want to use for your logo. You can put a file on the server and refer to its path, or upload an image to the web and refer to the URL. Note that the image must be exactly 160x160 pixels, and that instead of automatically resizing, MediaWiki just crops this from the top left corner of whichever image you use. 
 
-You're also going to want to change the variable `$wgEnableUploads` to `true` so that you can upload files to the wiki. 
+You're also going to want to change the variable `$wgEnableUploads` to `true` so that you can upload files to the wiki, and run
+
+```
+sudo chown -R www-data:www-data images/
+sudo chmod -R 755 /var/www/html/images/
+```
+
+to make sure image uploads will be able to write to the directory. 
+
+Now a logged-in user to your wiki should see the following; notice the non-standard logo and the Upload file option:
+
+![Mediawiki page](https://github.com/clintonboys/clintonboys.github.io/blob/master/_posts/mediawiki6.png?raw=true)
 
 So we have the basic setup working. However this was the easy bit for me: the bit I had trouble with was creating interesting and useful templates like on Wikipedia; for example the navigation bars and boxes which are all over Wikipedia and extremely useful. 
 
+## 5. Installing and copying relevant extensions and pages
 
+First we need to install the Scribunto extension:
+
+```
+cd /var/www/html/extensions
+wget https://extdist.wmflabs.org/dist/extensions/Scribunto-REL1_27-4da5346.tar.gz
+tar xvzf Scribunto-REL1_27-4da5346.tar.gz
+```
+
+and to edit `LocalSettings.php` (which is one directory up) to add the following two lines to the bottom:
+
+```
+require_once "$IP/extensions/Scribunto/Scribunto.php";
+$wgScribuntoDefaultEngine = 'luastandalone';
+```
+
+We now need to install the ParserFunctions extension, again in the `/extensions` directory:
+
+```
+wget https://extdist.wmflabs.org/dist/extensions/ParserFunctions-REL1_27-d0a5d10.tar.gz
+```
+
+and to add the line 
+
+```
+wfLoadExtension( 'ParserFunctions' );
+```
+
+to the bottom of `LocalSettings.php`.
+
+Now we need to copy two files into our wiki. Navigate to https://en.wikipedia.org/w/index.php?title=MediaWiki:Common.css&action=edit, copy the source code, and then navigate to http://XXX.XXX.XXX.XXX/index.php/MediaWiki:Common.css and paste in the code from Wikipedia.
+
+Do the same for https://en.wikipedia.org/w/index.php?title=MediaWiki:Common.js&action=edit.
+
+Finally, head to https://en.wikipedia.org/wiki/Special:Export and export the Navbox template, including all templates:
+
+![Mediawiki page](https://github.com/clintonboys/clintonboys.github.io/blob/master/_posts/mediawiki7.png?raw=true)
+
+Now go to http://XXX.XXX.XXX.XXX/index.php/Special:Import, choose the file that Wikipedia just exported and import it to the Template namespace on your wiki. 
+
+![Mediawiki page](https://github.com/clintonboys/clintonboys.github.io/blob/master/_posts/mediawiki8.png?raw=true)
+
+Upload the file, and now you should be able to include navigation bars!
+
+For example, this source:
+
+```
+{{Navbox
+| name       = Test{{subst:void|Don't change anything on this line. It will change itself when you save.}}
+| title      =
+| listclass  = hlist
+| state      = {{{state|}}}
+
+| above      = Test
+| image      =
+
+| group1     = Test
+| list1      = Test
+
+| group2     = Test
+| list2      = Test
+
+| below      = Test
+}}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et est a velit porttitor malesuada. Suspendisse aliquam condimentum diam. Nullam placerat et diam nec maximus. Nunc porta risus magna, at posuere orci placerat et. Donec imperdiet magna eget finibus mattis. Pellentesque eget malesuada magna, in luctus dui. Praesent interdum augue nisi, fringilla condimentum purus vehicula in. Integer rhoncus egestas efficitur. Nunc convallis ante a sodales varius. Etiam dictum sem ac commodo egestas. Praesent ut fringilla nisl. Cras pharetra urna in quam aliquet elementum. Sed tempor ligula vulputate est ultrices porta.
+```
+
+produces this page on the wiki:
+
+![Mediawiki page](https://github.com/clintonboys/clintonboys.github.io/blob/master/_posts/mediawiki9.png?raw=true)
 
 
 
