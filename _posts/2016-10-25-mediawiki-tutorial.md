@@ -76,7 +76,7 @@ Now we can set up the wiki.
 
 Navigate to http://XXX.XXX.XXX.XX in your browser, with the XXXs replaced by your server's IP. You should see this page:
 
-![Set up](https://github.com/clintonboys/clintonboys.github.io/blob/master/_posts/mediawiki3.png?raw=true)
+![Set up](https://github.com/clintonboys/clintonboys.github.io/blob/master/_posts/mediawiki3.png =250x)
 
 Click set up the wiki and follow the instructions. Most things should be self-explanatory; on the database settings section you will need to enter the settings from before:
 
@@ -96,7 +96,7 @@ on the server, copy the text into the editor, then press `ESC` and type `:wq` to
 
 Now if you navigate to http://XXX.XXX.XXX.XXX/index.php/Main_Page, you should see the basic MediaWiki page:
 
-<img src="https://github.com/clintonboys/clintonboys.github.io/blob/master/_posts/mediawiki5.png" width="200" height="200" />
+![Mediawiki page](https://github.com/clintonboys/clintonboys.github.io/blob/master/_posts/mediawiki5.png?raw=true)
 
 There are two small changes you're going to want to make to `LocalSettings.php`: the first is to change the variable `$wgLogo` to point to whichever image you want to use for your logo. You can put a file on the server and refer to its path, or upload an image to the web and refer to the URL. Note that the image must be exactly 160x160 pixels, and that instead of automatically resizing, MediaWiki just crops this from the top left corner of whichever image you use. 
 
