@@ -17,13 +17,13 @@ For example, let's imagine a pollster is trying to understand how voters in the 
 
 They commission a poll of 550 voters with the following results:
 
-| Party | Votes | %  | 
-|-------|-------|----| 
-| ALP   | 220   | 40 |
-| LIB   | 130   | 24 | 
-| GRN   | 100   | 18 | 
-| ONP   |  50   |  9 |
-| NXT   |  50   |  9 |
+| Party | Votes | pct  | 
+|-------|-------|------| 
+| ALP   | 220   | 40   |
+| LIB   | 130   | 24   | 
+| GRN   | 100   | 18   | 
+| ONP   |  50   |  9   |
+| NXT   |  50   |  9   |
 
 In a first-past-the-post race, as in the UK, this poll would conclude that the ALP is leading in the seat by 10 percentage points, with some margin of error that could be calculated easily, and would be fairly uncontroversial because the ALP lead is large and statistically significant. 
 
