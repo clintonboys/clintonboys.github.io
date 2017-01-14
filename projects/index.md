@@ -8,9 +8,9 @@ image:
 
 ## Data
 
-- It's an ongoing project of mine to develop a forecasting model for elections in Australia. I've made a number of posts on this website about the pitfalls and difficulties of coming up with such a model (starting [here](http://www.clintonboys.com/aus-election-model-1/)). I'm calling the model I'm building [Emma Chisit](http://www.clintonboys.com/emma-chisit/). 
+- It's an ongoing project of mine to develop a forecasting model for elections in Australia. I've made a number of posts on this website about the pitfalls and difficulties of coming up with such a model (starting [here](http://www.clintonboys.com/aus-election-model-1/)). I'm calling the model I'm building [Emma Chisit](http://www.clintonboys.com/emma-chisit/); it wasn't ready in time for the 2016 election but I'm hoping it will be for the next one. 
 - I wrote a <a href="https://github.com/clintonboys/gumtree_scraper" target="_blank">primitive scraper</a> for trading post website gumtree.com using the Python packages BeautifulSoup and requests, which persistently searches the site for a given query and sends an email using Mandrill when there are new results (for example when you're after concert tickets). 
-- I wrote a <a href="https://github.com/clintonboys/trendy-scraper" target="_blank">trendy scraper</a> for Google trends which gives daily data for queries across long timescales (Google trends only outputs weekly data for periods longer than a few months). **UPDATE**: Since I wrote this scraper, Google has changed its API and my code no longer works. 
+- I wrote a <a href="https://github.com/clintonboys/trendy-scraper" target="_blank">trendy scraper</a> for Google trends which gives daily data for queries across long timescales (Google trends only outputs weekly data for periods longer than a few months). **UPDATE** (10/10/2016): Since I wrote this scraper, Google has changed its API and my code no longer works. 
 - I wrote a very basic poll aggregator (starting [here](http://www.clintonboys.com/israel-poll-aggregator-1/)) for the 2015 Israeli elections; like all the polls it aggregated it turned out to be very wrong in the end.  
 - There are some other posts on this website about data and data science:
   - [Here](http://www.clintonboys.com/itunes-and-pitchfork/) I quantify how much of a Pitchfork sychophant I am (not as much as I thought). 
@@ -18,6 +18,7 @@ image:
   - Starting [here](http://www.clintonboys.com/qanda-tweets/) I do some sentiment analysis of Twitter data for tweets posted during the broadcast of an Australian political panel show infamous for its lively Twitter feed. 
   - [Here](https://github.com/clintonboys/lifetime_flight_simulator) I wrote a tongue-in-cheek game to demonstrate the safety of air travel. 
   - [Here](http://www.clintonboys.com/five-months-of-data-science/) and [here](http://www.clintonboys.com/one-year-of-data-science/) I talk about my experience transitioning into the world of data and data science from academia.
+- In 2016 I started looking into simulating cricket matches with the goal of performing some data mining on the simulations; the series of posts starts [here](http://www.clintonboys.com/cricket-scoreboards-1/).
 
 ## Mathematics
 
@@ -36,5 +37,6 @@ image:
 ## Other
 
 - I'm a keen amateur (very) photographer: all over this website you can find examples of my photographs taken all over the world.
+- [Here](https://github.com/clintonboys/call-your-mum) I made a simple Python application which reminds busy expats to call their mums.
 - I very much enjoy jogging, particularly in new and unexplored places.
 - When I was twelve I wrote a novel about a motley crew of magical futuristic cat detectives. It was well-received by my mother: I'm still searching for a publisher. 
