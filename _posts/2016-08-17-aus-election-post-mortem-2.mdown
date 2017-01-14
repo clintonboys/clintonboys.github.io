@@ -1,0 +1,14 @@
+---
+layout: post
+title: Australian federal election 2016 post-mortem II - third parties
+image:
+  feature: sample-image-17.jpg
+  credit: Mt Ossa, Tasmania, 2014
+---
+
+Third parties in Australia have a very peculiar effect on the electoral process. Unlike in American elections, Australian third parties can have a significant effect on the electoral outcome, and can even win seats. This is mainly due to two factors:
+
+1. compulsory voting, which increases the frequency of protest votes from electors who would otherwise not turnout, and
+2. preferential voting, which gives third parties' votes real electoral power in all contests. 
+
+
