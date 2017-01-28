@@ -40,7 +40,19 @@ $$
 f(X) = \mathbb{E}(Y\mid X),
 $$
 
-known as the *conditional expectation* or *regression function*. 
+known as the *conditional expectation* or *regression function*. This is a mathematical formulation of a fairly intuitive idea: the best prediction of $$Y$$ at the point $$X=x$$ is the conditional mean. 
+
+**Say something about conditional expectation at a point.**
+
+The question relevant to choosing a statistical model is therefore not "how do I choose a model to minimise the loss function" but rather "what practical implementation do I use to estimate the conditional expectation?"
+
+For a mathematician, the most obvious solution is to approximate the value of $$f$$ by enlarging our scope to a *neighbourhood* of $$x$$ and computing the mean. More precisely, at a point $$x$$ we want 
+
+$$
+\hat f(x) = \frac{1}{k}\sum_{x_i\in N_k(x)}y_i
+$$
+
+where $N_k(x)$ is a neighbourhood containing the $k$ closest points to $x$. 
 
 
 
