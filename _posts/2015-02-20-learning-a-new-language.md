@@ -15,4 +15,4 @@ It's also an exercise in patience. It's an amazing thing to think, when you sit 
 
 Finally, it gives an opportunity to refute the adage that human beings are unable to comprehend the exponential function (of course, this should really say "logistic function" as very few physical quantities can actually grow exponentially). You notice yourself getting better, and getting better quickly. 
 
-I've always loved languages, particularly grammer and phonology, and learning Hebrew has given me the amazing opportunity to learn by simply living. 
+I've always loved languages, particularly grammar and phonology, and learning Hebrew has given me the amazing opportunity to learn by simply living. 
