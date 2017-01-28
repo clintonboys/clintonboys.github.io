@@ -62,11 +62,7 @@ Metrics are organised into `domain` (in the mood example: self), `subdomain` (mo
 
 The text is parsed by spaces; for example I can send an email to `name+self@gmail.com` with subject `mood set 5 sick-with-cold 2016-09-27 08:00:00`. Parsing can obviously be made more sophisticated without too much effort. 
 
-The script is then scheduled to run every minute using `cron` with 
-
-```
-* * * * * cd /root/an-observed-life; /usr/bin/python an-observed-life.py
-```
+The script is then scheduled to run every minute using `cron` with `* * * * * cd /root/an-observed-life; /usr/bin/python an-observed-life.py`.
 
 --
 
