@@ -10,8 +10,6 @@ The Bias-Variance tradeoff is an extremely important concept in statistical mode
 
 **Introduction**
 
-We are going to be discussing 
+We are going to be discussing the general framework of using a statistical model to make predictions. We will have a training set of input data and correct responses, and use this to build a model that allows us to predict the response variable for new input. 
 
-![TPP data](http://mathurl.com/5euwuy.png?raw=true)
-
-tdhfkasdf kdjhf sdliuyh 
+$$a^2 + b^2 = c^2$$
