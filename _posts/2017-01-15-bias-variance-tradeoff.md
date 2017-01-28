@@ -62,11 +62,11 @@ $$
 
 Statisticians will immediately recognise these two terms as the *variance* $$\mathrm{Var}(Y) = \mathbb{E}(Y-\mathbb{E}(Y))^2$$ and the *bias squared* $$\mathrm{Bias}^2(Y) = (\mathbb{E}(Y) - f(X))^2.$$
 
-The bias is the average of the difference between the true values of the predictions and the predicted values. It is an estimate of the amount by which our model is "missing" the true relationship between $$X$$ and $$YY$. The variance gives is a measure of how sensitive the model is to changes in the input data's distribution. 
+The bias is the average of the difference between the true values of the predictions and the predicted values. It is an estimate of the amount by which our model is "missing" the true relationship between $$X$$ and $$Y$$. The variance gives is a measure of how sensitive the model is to changes in the input data's distribution. 
 
-Since everything is positive, and since errors are unavoidable, we can expect both of these terms to appear no matter which model we choose. But surely not all models are equal in the amount of variance and bias they introduce. Can we minimise one, and must it always come at the cost of the other? Is it possible to minimise both simultaneously? 
+Since everything is positive, and since errors are unavoidable, we can expect both of these terms to be present no matter which model we choose. But surely not all models are equal in the amount of variance and bias they introduce. Can we minimise one, and must it always come at the cost of the other? Is it possible to minimise both simultaneously? 
 
-The fact that it is difficult to find models with simultaneously low variance and bias is known as the *bias-variance tradeoff*. 
+The fact is that it is difficult to find models with simultaneously low variance and bias and this is known as the *bias-variance tradeoff*. 
 
 In regression, we make assumptions about the data being linear which has the potential to greatly increase the inherent bias (by ignoring the possibility of non-linear true relationships in the data). The model is however fairly rigid and has a low variance.
 
