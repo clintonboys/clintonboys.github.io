@@ -11,7 +11,7 @@ I've always loved the sport of cricket, specifically the 5-day test match format
 I started to wonder about automatically "simulating" cricket matches. I quickly understood that doing this properly is an extremely demanding exercise in statistics and modelling that people have done PhDs in. This is for two main reasons:
 
 - there are an astounding amount of variables at any given moment in a cricket match (pitch, ground, home team, crowd, day, weather, fatigue, bowler skill, bowler handedness, ball speed, ball condition, batter skill, batter handedness, etc etc...)
-- there are several points in a cricket match where teams may have to make a strategic decision to declare or to enforce the follow-on and these decisions are very difficult to model as they depend mostly on captains' "intuition" or "feel" for the state of the match (and can include information about future weather or player injuries)
+- there are several points in a cricket match where teams may have to make a strategic decision to declare or to enforce the follow-on and these decisions are very difficult to model as they depend mostly on captains' "intuition" or "feel" for the state of the match (and can include information about future weather or player injuries). Correctly simulating these decisions requires very deep statistical models. 
 
 With a full simulator out of the question I decided the first step was to develop a basic simulation engine in Python which could produce logically accurate test match scorecards. This was a fun Python exercise which involved the following steps:
 
