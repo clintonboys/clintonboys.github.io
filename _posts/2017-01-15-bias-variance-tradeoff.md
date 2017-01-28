@@ -46,13 +46,15 @@ known as the *conditional expectation* or *regression function*. This is a mathe
 
 The question relevant to choosing a statistical model is therefore not "how do I choose a model to minimise the loss function" but rather "what practical implementation do I use to estimate the conditional expectation?"
 
-For a mathematician, the most obvious solution is to approximate the value of $$f$$ by enlarging our scope to a *neighbourhood* of $$x$$ and computing the mean. More precisely, at a point $$x$$ we want 
+For a mathematician, one of the most obvious solutions is to approximate the value of $$f$$ by enlarging our scope to a *neighbourhood* of $$x$$ and computing the mean. More precisely, at a point $$x$$ we want 
 
 $$
 \hat f(x) = \frac{1}{k}\sum_{x_i\in N_k(x)}y_i
 $$
 
-where $N_k(x)$ is a neighbourhood containing the $k$ closest points to $x$. 
+where $N_k(x)$ is a neighbourhood containing the $k$ closest points to $x$. This approach is known as $$k$$-*nearest neighbours*. 
+
+Another obvious solution is to assume that the regression function $$f(x)$$ can be approximated by a linear function $$\hat f(x) = \beta\cdot x$$. This linear equation can be solved easily and leads to the familiar linear regression equations. 
 
 
 
