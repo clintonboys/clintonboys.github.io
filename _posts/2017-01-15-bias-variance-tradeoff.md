@@ -42,8 +42,6 @@ $$
 
 known as the *conditional expectation* or *regression function*. This is a mathematical formulation of a fairly intuitive idea: the best prediction of $$Y$$ at the point $$X=x$$ is the conditional mean. 
 
-**Say something about conditional expectation at a point.**
-
 The question relevant to choosing a statistical model is therefore not "how do I choose a model to minimise the loss function" but rather "what practical implementation do I use to estimate the conditional expectation?"
 
 For a mathematician, one of the most obvious solutions is to approximate the value of $$f$$ by enlarging our scope to a *neighbourhood* of $$x$$ and computing the mean. More precisely, at a point $$x$$ we want 
@@ -62,9 +60,17 @@ $$
 \mathbb{E}(Y-f(X))^2 = \mathbb{E}(Y-\mathbb{E}(Y))^2 + (\mathbb{E}(Y) - f(X))^2.
 $$
 
-Statisticians will immediately recognise these two terms as the *variance* $$\mathrm{Var}(Y) = \mathbb{E}(Y-mathbb{E}(Y))^2$$ and the *bias squared* $$\mathrm{Bias}^2(Y) = (\mathbb{E}(Y) - f(X))^2.$$
+Statisticians will immediately recognise these two terms as the *variance* $$\mathrm{Var}(Y) = \mathbb{E}(Y-\mathbb{E}(Y))^2$$ and the *bias squared* $$\mathrm{Bias}^2(Y) = (\mathbb{E}(Y) - f(X))^2.$$
 
+The bias is the average of the difference between the true values of the predictions and the predicted values. It is an estimate of the amount by which our model is "missing" the true relationship between $$X$$ and $$YY$. The variance gives is a measure of how sensitive the model is to changes in the input data's distribution. 
 
+Since everything is positive, and since errors are unavoidable, we can expect both of these terms to appear no matter which model we choose. But surely not all models are equal in the amount of variance and bias they introduce. Can we minimise one, and must it always come at the cost of the other? Is it possible to minimise both simultaneously? 
+
+The fact that it is difficult to find models with simultaneously low variance and bias is known as the *bias-variance tradeoff*. 
+
+In regression, we make assumptions about the data being linear which has the potential to greatly increase the inherent bias (by ignoring the possibility of non-linear true relationships in the data). The model is however fairly rigid and has a low variance.
+
+In $$k$$-nearest neighbours, for small $$k$$, the model is highly flexible and provides very little bias. However as $$k$$ grows larger, for technical reasons the bias increases much faster than the variance and the error can become quite large. 
 
 
 
