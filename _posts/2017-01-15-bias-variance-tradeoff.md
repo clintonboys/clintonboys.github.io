@@ -26,7 +26,7 @@ In order to know how well our model is doing, we need a way to measure its error
 $$
 \begin{align*}
 L:\mathbb{R}\times\mathbb{R}&\to \mathbb{R}\\
-(Y,f(X))\mapsto L(Y,f(X)).
+(Y,f(X))&\mapsto L(Y,f(X)).
 \end{align*}
 $$
 
