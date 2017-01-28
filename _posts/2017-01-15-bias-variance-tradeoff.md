@@ -56,6 +56,20 @@ where $N_k(x)$ is a neighbourhood containing the $k$ closest points to $x$. This
 
 Another obvious solution is to assume that the regression function $$f(x)$$ can be approximated by a linear function $$\hat f(x) = \beta\cdot x$$. This linear equation can be solved easily and leads to the familiar linear regression equations. 
 
+Can we say more about our error in general? Note that 
+
+$$
+\mathbb{E}(Y-f(X))^2 = \mathbb{E}(Y-\mathbb{E}(Y))^2 + (\mathbb{E}(Y) - f(X))^2.
+$$
+
+Statisticians will immediately recognise these two terms as the *variance* $$\mathrm{Var}(Y) = \mathbb{E}(Y-mathbb{E}(Y))^2$$ and the *bias squared* $$\mathrm{Bias}^2(Y) = (\mathbb{E}(Y) - f(X))^2.$$
+
+
+
+
+
+
+
 
 
 
