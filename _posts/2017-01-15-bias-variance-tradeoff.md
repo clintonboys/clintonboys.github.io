@@ -12,4 +12,11 @@ The Bias-Variance tradeoff is an extremely important concept in statistical mode
 
 We are going to be discussing the general framework of using a statistical model to make predictions. We will have a training set of input data and correct responses, and use this to build a model that allows us to predict the response variable for new input. 
 
-Formally, let our model be represented by a function $$f:\mathbb{R}^p\to\mathbb{R}: X\mapsto Y=f(X).$$
+Formally, let our model be represented by a function
+
+$$
+\begin{align*}
+f:\mathbb{R}^p&\to\mathbb{R}\\
+X&\mapsto Y=f(X)
+\end{align*}
+$$
