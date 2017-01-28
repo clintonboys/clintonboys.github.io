@@ -22,10 +22,10 @@ image:
 
 ## Mathematics
 
-- My PhD thesis, submitted in 2014, was titled *Alternating quiver Hecke algebras*. It consisted of a careful and complete study of a new family of algebras, which generalise and build on important recent work. The main theorem of my thesis gives an explicit isomorphism between my new family of algebras and a family of classical objects which have been studied for over a century, providing new insight and structure for these objects. I'm in the process of submitting several papers to journals based on results in my thesis. I wrote a [FAQ](http://www.clintonboys.com/phd-faq/) about my PhD here. 
+- My [PhD thesis](http://ses.library.usyd.edu.au/bitstream/2123/12725/2/2015_Clinton_Boys_Thesis.pdf), submitted in 2014, was titled *Alternating quiver Hecke algebras*. It consisted of a careful and complete study of a new family of algebras, which generalise and build on important recent work. The main theorem of my thesis gives an explicit [isomorphism](https://en.wikipedia.org/wiki/Isomorphism) between my new family of algebras and a family of classical objects which have been studied for over a century, providing new insight and structure for these objects. I wrote a [FAQ](http://www.clintonboys.com/phd-faq/) about my PhD here. 
 - You can find a list of my published mathematics papers [here](https://arxiv.org/find/math/1/au:+Boys_C/0/1/0/all/0/1). 
 - I was involved in creating a series of <a href="http://sydney.edu.au/stuserv/maths_learning_centre/2unit.shtml" target="_blank">audio-visual learning modules</a> for the University of Sydney's Mathematics Learning Centre to help HSC students quickly develop mathematics skills which are prerequisites for university courses.
-- I ran the first-year linear algebra course MATH1002 for the University of Sydney Summer School in 2015. I took a much different approach to the course than in previous years, running the whole thing through a <a href="http://ss1002.wordpress.com" target="_blank">Wordpress blog</a>. I received a lot of very positive feedback from students on this experimental and forward-thinking course design.
+- I ran the first-year linear algebra course MATH1002 for the University of Sydney Summer School in 2015. I took a much different approach to the course than in previous years, running the whole thing through a [Wordpress blog](http://ss1002.wordpress.com). I received a lot of very positive feedback from students on this experimental and forward-thinking course design.
 
 ## Online courses
 
