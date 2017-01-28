@@ -30,4 +30,20 @@ L:\mathbb{R}\times\mathbb{R}&\to \mathbb{R}\\
 \end{align*}
 $$
 
-There are many different possible choices of loss functions, but the most commonly used in machine learning is the squared error $$L(Y,f(X)) = (Y-f(X))^2$$. 
+There are many different possible choices of loss functions, but the most commonly used in machine learning is the squared error $$L(Y,f(X)) = (Y-f(X))^2$$ (the most obvious choice, $$L(Y,f(X)) = \left|Y-f(X)\right|$$ is also widely used). 
+
+In theory, deciding on our model is now easy, or at least, the problem is precisely formulated. We need to choose the function $f$ which minimises the expected loss, i.e. minimises $$\mathbb{E}(Y-f(X))^2$$. 
+
+Some manipulation (see here or here) shows that there is a simple solution to this problem: the function which minimises the expected squared loss is given by
+
+$$
+f(X) = \mathbb{E}(Y\mid X),
+$$
+
+known as the *conditional expectation* or *regression function*. 
+
+
+
+
+
+
