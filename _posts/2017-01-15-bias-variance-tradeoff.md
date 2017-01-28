@@ -12,6 +12,6 @@ The Bias-Variance tradeoff is an extremely important concept in statistical mode
 
 We are going to be discussing 
 
-![TPP data](http://mathurl.com/5euwuy.png)
+![TPP data](http://mathurl.com/5euwuy.png?raw=true)
 
 tdhfkasdf kdjhf sdliuyh 
