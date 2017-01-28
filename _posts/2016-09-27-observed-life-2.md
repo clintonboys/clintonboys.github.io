@@ -60,6 +60,10 @@ in order that Python will be able to read and write to the table. The final step
 
 Metrics are organised into `domain` (in the mood example: self), `subdomain` (mood), `operation` (allows for incremental updates or inserting new values), `update` (the actual value), `note` (any associated text information or metadata) and `time` (the timestamp associated with the data). The emails are caught by being sent to `name+domain@gmail.com`; helpful behaviour that Gmail allows. Mail is deleted from the inbox after being processed. 
 
+The text is parsed by spaces; for example I can send an email to `name+self@gmail.com` with subject `mood set 5 sick-with-cold 2016-09-27 08:00:00`. Parsing can obviously be made more sophisticated without too much effort. 
+
+--
+
 ```
 import pymysql
 import datetime
