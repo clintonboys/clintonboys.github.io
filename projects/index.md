@@ -19,6 +19,7 @@ image:
   - [Here](https://github.com/clintonboys/lifetime_flight_simulator) I wrote a tongue-in-cheek game to demonstrate the safety of air travel. 
   - [Here](http://www.clintonboys.com/five-months-of-data-science/) and [here](http://www.clintonboys.com/one-year-of-data-science/) I talk about my experience transitioning into the world of data and data science from academia.
 - In 2016 I started looking into simulating cricket matches with the goal of performing some data mining on the simulations; the series of posts starts [here](http://www.clintonboys.com/cricket-scoreboards-1/).
+- I am in the process of building a half-art half-data science project which I'm calling An observed life; the series of blog posts starts [here](http://www.clintonboys.com/observed-life-1/).
 
 ## Mathematics
 
