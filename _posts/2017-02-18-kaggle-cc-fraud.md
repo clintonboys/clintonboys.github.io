@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Detecting credit card fraud in R and Python
+title: Detecting credit card fraud in Python
 image:
   feature: sample-image-45.jpg
   credit: Paphos, Cyprus, 2016
