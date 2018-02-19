@@ -16,12 +16,9 @@ image:
 - I wrote a very basic poll aggregator (starting [here](http://www.clintonboys.com/israel-poll-aggregator-1/)) for the 2015 Israeli elections; like all the polls it aggregated it turned out to be very wrong in the end.  
 - There are some other posts on this website about data and data science:
   - [Here](http://www.clintonboys.com/itunes-and-pitchfork/) I quantify how much of a Pitchfork sychophant I am (not as much as I thought). 
-  - [Here](http://www.clintonboys.com/repetition-index/) I code up a typical vague data science question from a job interview. 
   - Starting [here](http://www.clintonboys.com/qanda-tweets/) I do some sentiment analysis of Twitter data for tweets posted during the broadcast of an Australian political panel show infamous for its lively Twitter feed. 
   - [Here](https://github.com/clintonboys/lifetime_flight_simulator) I wrote a tongue-in-cheek game to demonstrate the safety of air travel. 
-  - [Here](http://www.clintonboys.com/five-months-of-data-science/) and [here](http://www.clintonboys.com/one-year-of-data-science/) I talk about my experience transitioning into the world of data and data science from academia.
 - In 2016 I started looking into simulating cricket matches with the goal of performing some data mining on the simulations; the series of posts starts [here](http://www.clintonboys.com/cricket-scoreboards-1/).
-- I am in the process of building a half-art half-data science project which I'm calling An observed life; the series of blog posts starts [here](http://www.clintonboys.com/observed-life-1/).
 
 ## Mathematics
 
