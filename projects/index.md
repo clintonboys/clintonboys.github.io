@@ -8,17 +8,14 @@ image:
 
 ## Data
 
-- It's an ongoing project of mine to develop a forecasting model for elections in Australia. I've made a number of posts on this website about the pitfalls and difficulties of coming up with such a model (starting [here](http://www.clintonboys.com/aus-election-model-1/)). I'm calling the model I'm building [Emma Chisit](http://www.auselections.com/); it wasn't ready in time for the 2016 election but I'm hoping it will be for the next one. 
+- It's an ongoing project of mine to develop a forecasting model for elections in Australia. I've made a number of posts on this website about the pitfalls and difficulties of coming up with such a model (starting [here](http://www.clintonboys.com/aus-election-model-1/)).  
 - I wrote a <a href="https://github.com/clintonboys/gumtree_scraper" target="_blank">primitive scraper</a> for trading post website gumtree.com using the Python packages BeautifulSoup and requests, which persistently searches the site for a given query and sends an email using Mandrill when there are new results (for example when you're after concert tickets). 
-- I wrote a <a href="https://github.com/clintonboys/trendy-scraper" target="_blank">trendy scraper</a> for Google trends which gives daily data for queries across long timescales (Google trends only outputs weekly data for periods longer than a few months). 
-~~**UPDATE** (10/10/2016): Since I wrote this scraper, Google has changed its API and my code no longer works. I get a lot of requests about this code so hopefully one day soon I will find time to fix it.~~
-**UPDATE** (18/02/2017): There's a new version of the Trendy Scraper! See the post [here](http://www.clintonboys.com/google-trends-scraper-2/), or see the updated code in the <a href="https://github.com/clintonboys/trendy-scraper" target="_blank">Github repo</a>.  
+- I wrote a <a href="https://github.com/clintonboys/trendy-scraper" target="_blank">trendy scraper</a> for Google trends which gives daily data for queries across long timescales (Google trends only outputs weekly data for periods longer than a few months). See the post [here](http://www.clintonboys.com/google-trends-scraper-2/), or see the updated code in the <a href="https://github.com/clintonboys/trendy-scraper" target="_blank">Github repo</a>.  
 - I wrote a very basic poll aggregator (starting [here](http://www.clintonboys.com/israel-poll-aggregator-1/)) for the 2015 Israeli elections; like all the polls it aggregated it turned out to be very wrong in the end.  
 - There are some other posts on this website about data and data science:
   - [Here](http://www.clintonboys.com/itunes-and-pitchfork/) I quantify how much of a Pitchfork sychophant I am (not as much as I thought). 
   - Starting [here](http://www.clintonboys.com/qanda-tweets/) I do some sentiment analysis of Twitter data for tweets posted during the broadcast of an Australian political panel show infamous for its lively Twitter feed. 
   - [Here](https://github.com/clintonboys/lifetime_flight_simulator) I wrote a tongue-in-cheek game to demonstrate the safety of air travel. 
-- In 2016 I started looking into simulating cricket matches with the goal of performing some data mining on the simulations; the series of posts starts [here](http://www.clintonboys.com/cricket-scoreboards-1/).
 
 ## Mathematics
 
@@ -29,14 +26,13 @@ image:
 
 ## Online courses
 
-- I've been working on the John Hopkins University Coursera <a href="https://www.coursera.org/specialization/jhudatascience/1" target = "_blank">Data Science specialization</a>, which consists of nine courses in various aspects of data science (although I'm not working to their timetable or paying for the courses).
+- I completed many different parts of the John Hopkins University Coursera <a href="https://www.coursera.org/specialization/jhudatascience/1" target = "_blank">Data Science specialization</a>, which consists of nine courses in various aspects of data science.
 - I completed the Stanford University <a href="https://www.coursera.org/course/algo" target="_blank">Algorithms Part 1</a> Coursera course and am currently working on <a href="https://www.coursera.org/course/algo2" target = "_blank">Algorithms Part 2</a>.
 - I completed the Coursera specialisation on <a href ="https://www.coursera.org/specializations/scala">Functional Programming in Scala</a>. 
-- I worked on a <a href="https://github.com/clintonboys/kaggle_fb_circles" target = "_blank">Kaggle competition</a> for learning social circles from Facebook data and have written some basic models using the Python package networkx for thinking about the data and the problem.
 
 ## Other
 
 - I'm a keen amateur (very) photographer: all over this website you can find examples of my photographs taken all over the world.
 - [Here](https://github.com/clintonboys/call-your-mum) I made a simple Python application which reminds busy expats to call their mums.
-- I very much enjoy jogging, particularly in new and unexplored places.
+- I very much enjoy jogging, particularly new places I haven't explored yet.
 - When I was twelve I wrote a novel about a motley crew of magical futuristic cat detectives. It was well-received by my mother: I'm still searching for a publisher. 

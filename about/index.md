@@ -8,7 +8,7 @@ image:
 
 Welcome to the personal website of Clinton Boys. I am an Australian mathematician and data scientist living and working in Tel Aviv. 
 
-This website contains my [blog](http://www.clintonboys.com/posts/), as well as a collection of my personal [projects](http://www.clintonboys.com/projects/). [This post](http://www.clintonboys.com/uses-this/) details the hardware and software I use to get things done. 
+This website contains my [blog](http://www.clintonboys.com/posts/), as well as a collection of my personal [projects](http://www.clintonboys.com/projects/).  
 
 I am very interested in the crossover between mathematics, data and the social sciences, with a keen interest in elections and forecasting, as well as using data to solve and explore social problems. 
 
