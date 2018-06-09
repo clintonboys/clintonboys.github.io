@@ -2,8 +2,8 @@
 layout: post
 title: Forecasting Australian elections V - The tricky seats
 image:
-  feature: sample-image-11.jpg
-  credit: Blue Mountains, New South Wales, 2011. 
+  feature: sample-image-34.jpg
+  credit: Panjim, Goa, India, 2015. 
 
 ---
 

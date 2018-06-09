@@ -3,7 +3,7 @@ layout: post
 title: Difficulties in forecasting elections in Australia III - Preferential voting
 image:
   feature: sample-image-17.jpg
-  credit: Mt Ossa, Tasmania, 2014
+  credit: Negev Desert, Israel, 2014
 
 ---
 

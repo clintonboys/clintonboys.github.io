@@ -2,8 +2,8 @@
 layout: post
 title: Installing MediaWiki on a DigitalOcean droplet (including Wikipedia navbars)
 image:
-  feature: sample-image-9.jpg
-  credit: Cascade Mountains, Oregon, United States, 2013
+  feature: sample-image-19.jpg
+  credit: British Library, London, 2013
 
 ---
 
@@ -163,11 +163,11 @@ Upload the file, and now you should be able to include navigation bars!
 For example, this source:
 
 ```
-{{Navbox
-| name       = Test{{subst:void|Don't change anything on this line. It will change itself when you save.}}
+\{\{Navbox
+| name       = Test\{\{subst:void|Don't change anything on this line. It will change itself when you save.\}\}
 | title      =
 | listclass  = hlist
-| state      = {{{state|}}}
+| state      = \{\{\{state|\}\}\}
 
 | above      = Test
 | image      =
@@ -179,7 +179,7 @@ For example, this source:
 | list2      = Test
 
 | below      = Test
-}}
+\}\}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et est a velit porttitor malesuada. Suspendisse aliquam condimentum diam. Nullam placerat et diam nec maximus. Nunc porta risus magna, at posuere orci placerat et. Donec imperdiet magna eget finibus mattis. Pellentesque eget malesuada magna, in luctus dui. Praesent interdum augue nisi, fringilla condimentum purus vehicula in. Integer rhoncus egestas efficitur. Nunc convallis ante a sodales varius. Etiam dictum sem ac commodo egestas. Praesent ut fringilla nisl. Cras pharetra urna in quam aliquet elementum. Sed tempor ligula vulputate est ultrices porta.
 ```

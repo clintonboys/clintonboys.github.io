@@ -2,8 +2,8 @@
 layout: post
 title: Fixing the Trendy scraper
 image:
-  feature: sample-image-13.jpg
-  credit: Wellington, New Zealand, 2014
+  feature: sample-image-4.jpg
+  credit: Rob Roy National Park, New Zealand, 2014
 
 ---
 
