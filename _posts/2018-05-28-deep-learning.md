@@ -29,16 +29,63 @@ by a function $$f(X, \theta)$$ which may depend further on some parameters $$\th
 of machine learning can be expressed as an attempt to approximate $$f$$ in a way which minimizes
 a specified cost function (the choice of cost function is usually motivated probabilistically). 
 
-A *neural network with a single hidden layer* is a finite linear combination of the form
+For a given input $$X\in\mathbb{R}^n$$, a **neural network with a single hidden layer** is a finite linear combination of the form
 
 $$
 \sum_{j=1}^N\alpha_j\sigma(y_j^TX+\theta_j)
 $$
 
-where $$N,\alpha_j\in \mathbb{R}$$, and $$\sigma$$ is a special type of non-linear function we will discuss later. 
+where $$N,\alpha_j\in \mathbb{R}$$, $$y_j\in\mathbb{R}^n$$ and $$\sigma$$ is a special type of non-linear function we will discuss later. The $$\alpha_j$$'s are called the *weights*, the $$\theta_j$$ the *biases* and $$\sigma$$ is called the *activation function*. 
 
 ![Neural network](https://github.com/clintonboys/clintonboys.github.io/blob/master/_posts/nn.png?raw=true)
 
-- deep learning introduction
-- motivation of neural network
-- definition; purely mathematical
+The above picture explains the analogy with the human brain; given an input vector $X$ (touch input from skin, audio input from the ears, etc.), signals are sent to various 
+neurons which "activate" according to these inputs and a collection of weights. This behaviour then cascades through
+various layers of the network, resulting finally in an output (don't touch the fire, say "yes", etc.). 
+
+We will be less concerned in this article with the "machine learning" theory behind neural networks -- for
+example I don't want to discuss the algorithms which are used to train the networks, or techniques for 
+feature selection or choosing the right activation function or number of "hidden layers". Rather, we will
+discuss a mathematical theorem which provides a solid theoretical basis for why neural networks are so powerful. 
+
+## The universal approximation theorem
+
+Universality theorems are omnipresent in mathematics. The setup is classic, and gives the illusion of a genius mind
+at work, inventing a solution from thin air and then proceeding to prove it is the unique one which suits
+a given set of circumstances. In actuality, the *workflow* is entirely opposite: first a family of functions or a 
+mathematical object is studied by its occurences in specific examples. Through careful study of these examples,
+its utility becomes clear and the question of generalisation and universality arises. 
+
+So seeing the above family of functions occurring in many different places, the natural question is: what can we use 
+them for? The answer turns out to be just about everything: in a way which can be made mathematically precise,
+neural networks with a single layer can be used to approximate any continuous function. Let's state this theorem a 
+little more clearly. The following theorem comes from a [paper](https://www.dartmouth.edu/~gvc/Cybenko_MCSS.pdf) of Cybenko. A **sigmoidal** function is one which "looks" like a sigmoid: $$\sigma(x)\to1$$ as $$x\to\infty$$ and $$\sigma(x)\to0$$ as $$x\to-\infty$$.  
+
+---
+
+**Universal approximation theorem for neural networks (Cybenko)**
+
+Let $$\sigma$$ be any continuous sigmoidal function. Then finite sums of the form 
+
+$$
+G(x) = \sum_{j=1}^N \alpha_j\sigma(y_j^Tx + \theta_j)
+$$
+
+are dense in the set $$C(I_n)$$ of continuous functions on the unit cube. 
+
+---
+
+For those who don't remember their undergraduate analysis, there is a theoretical definition of 
+density [here](https://en.wikipedia.org/wiki/Dense_set), but for our purposes it is enough to think of it
+as meaning that there are "enough" of these functions to be able to use them as "building blocks" to build
+any function to any required level of accuracy. 
+
+The proof of this remarkable theorem uses fairly standard functional analysis techniques. First we show that 
+a slightly weaker but easier-to-work with family of functions (called **discriminatory** functions) 
+satisfy the conditions of the theorem. Then it proceeds to prove, using a standard functional analysis method,
+that sigmoidal functions belong to this category. 
+
+
+
+
+
