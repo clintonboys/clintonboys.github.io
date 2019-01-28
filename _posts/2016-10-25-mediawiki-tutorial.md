@@ -161,29 +161,6 @@ Now go to http://XXX.XXX.XXX.XXX/index.php/Special:Import, choose the file that 
 Upload the file, and now you should be able to include navigation bars!
 
 For example, this source:
-
-```
-{{Navbox
-| name       = Test{{subst:void|Don't change anything on this line. It will change itself when you save.}}
-| title      =
-| listclass  = hlist
-| state      = {{{state|}}}
-
-| above      = Test
-| image      =
-
-| group1     = Test
-| list1      = Test
-
-| group2     = Test
-| list2      = Test
-
-| below      = Test
-}}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et est a velit porttitor malesuada. Suspendisse aliquam condimentum diam. Nullam placerat et diam nec maximus. Nunc porta risus magna, at posuere orci placerat et. Donec imperdiet magna eget finibus mattis. Pellentesque eget malesuada magna, in luctus dui. Praesent interdum augue nisi, fringilla condimentum purus vehicula in. Integer rhoncus egestas efficitur. Nunc convallis ante a sodales varius. Etiam dictum sem ac commodo egestas. Praesent ut fringilla nisl. Cras pharetra urna in quam aliquet elementum. Sed tempor ligula vulputate est ultrices porta.
-```
-
 produces this page on the wiki:
 
 ![Mediawiki page](https://github.com/clintonboys/clintonboys.github.io/blob/master/_posts/mediawiki9.png?raw=true)
