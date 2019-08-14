@@ -8,7 +8,7 @@ image:
 
 ## Data
 
-- It's an ongoing project of mine to develop a forecasting model for elections in Australia. I've made a number of posts on this website about the pitfalls and difficulties of coming up with such a model (starting [here](http://www.clintonboys.com/aus-election-model-1/)).  
+- It was an ongoing project of mine to develop a forecasting model for elections in Australia. I made a number of posts on this website about the pitfalls and difficulties of coming up with such a model (starting [here](http://www.clintonboys.com/aus-election-model-1/)).  
 - I wrote a <a href="https://github.com/clintonboys/gumtree_scraper" target="_blank">primitive scraper</a> for trading post website gumtree.com using the Python packages BeautifulSoup and requests, which persistently searches the site for a given query and sends an email using Mandrill when there are new results (for example when you're after concert tickets). 
 - I wrote a <a href="https://github.com/clintonboys/trendy-scraper" target="_blank">trendy scraper</a> for Google trends which gives daily data for queries across long timescales (Google trends only outputs weekly data for periods longer than a few months). See the post [here](http://www.clintonboys.com/google-trends-scraper-2/), or see the updated code in the <a href="https://github.com/clintonboys/trendy-scraper" target="_blank">Github repo</a>.  
 - I wrote a very basic poll aggregator (starting [here](http://www.clintonboys.com/israel-poll-aggregator-1/)) for the 2015 Israeli elections; like all the polls it aggregated it turned out to be very wrong in the end.  
@@ -16,6 +16,8 @@ image:
   - [Here](http://www.clintonboys.com/itunes-and-pitchfork/) I quantify how much of a Pitchfork sychophant I am (not as much as I thought). 
   - Starting [here](http://www.clintonboys.com/qanda-tweets/) I do some sentiment analysis of Twitter data for tweets posted during the broadcast of an Australian political panel show infamous for its lively Twitter feed. 
   - [Here](https://github.com/clintonboys/lifetime_flight_simulator) I wrote a tongue-in-cheek game to demonstrate the safety of air travel. 
+  - [Here](http://www.clintonboys.com/kaggle-cc-fraud/) I play with an unbalanced Kaggle dataset on credit card fraud.
+  - [Here](http://www.clintonboys.com/deep-learning/), [here](http://www.clintonboys.com/weak-law/) and [here](http://www.clintonboys.com/regression/) are some more mathematically-inclined posts about the theory behind some common machine learning / data science concepts. 
 
 ## Mathematics
 
@@ -27,7 +29,7 @@ image:
 ## Online courses
 
 - I completed many different parts of the John Hopkins University Coursera <a href="https://www.coursera.org/specialization/jhudatascience/1" target = "_blank">Data Science specialization</a>, which consists of nine courses in various aspects of data science.
-- I completed the Stanford University <a href="https://www.coursera.org/course/algo" target="_blank">Algorithms Part 1</a> Coursera course and am currently working on <a href="https://www.coursera.org/course/algo2" target = "_blank">Algorithms Part 2</a>.
+- I completed the Stanford University Coursera courses <a href="https://www.coursera.org/course/algo" target="_blank">Algorithms Part 1</a> and <a href="https://www.coursera.org/course/algo2" target = "_blank">Algorithms Part 2</a>.
 - I completed the Coursera specialisation on <a href ="https://www.coursera.org/specializations/scala">Functional Programming in Scala</a>. 
 
 ## Other
