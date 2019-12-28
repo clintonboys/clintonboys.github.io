@@ -8,8 +8,10 @@ image:
 
 Welcome to the personal website of Clinton Boys. I am an Australian mathematician, data scientist and engineer living and working in Tel Aviv. 
 
-This website contains my [blog](http://www.clintonboys.com/posts/), as well as a collection of my personal [projects](http://www.clintonboys.com/projects/).  
+This website contains my [blog](http://www.clintonboys.com/posts/), as well as a collection of my personal [projects](http://www.clintonboys.com/projects/).
 
-I am very interested in the crossover between mathematics, data and the social sciences, with a keen interest in elections and forecasting, as well as using data to solve and explore social problems. I also love music, travel and politics. 
+I am very interested in the crossover between mathematics, data and the social sciences, with a keen interest in elections and forecasting, as well as using data to solve and explore social problems. I also love music, travel and reading books. 
 
-The photographs across this website were all taken by me during my various travels. The website itself is served off [Github pages](https://pages.github.com/), using the [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) theme by Michael Rose and the [MathJax](https://www.mathjax.org/) tool for displaying LaTeX. 
+The photographs across this website were all taken by me during my various travels. The website itself is served off [Github pages](https://pages.github.com/), using the [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) theme by Michael Rose and the [MathJax](https://www.mathjax.org/) tool for displaying LaTeX.
+
+For a bit more about me, you can check out my [answers](http://www.clintonboys.com/uses-this/) to the questions from [The Setup](http://usesthis.com). 

@@ -51,11 +51,6 @@ $$
 
 This is a function of $$\beta$$ which we can minimise using vector calculus to find the coefficients which give the best model. 
 
-\frametitle{Least squares - example}
-\begin{figure}[h!]
-  \includegraphics[width=0.5\linewidth]{regression1.png}
-\end{figure}
-
 Differentiating with respect to $$\beta$$:
 
 $$
@@ -126,7 +121,7 @@ then the least-squares estimator is the best unbiased linear estimator of the pa
 
 #### Proof. 
 
-Let $$\tilde\beta$$ be another unbiased linear estimator for $$\beta$$, say $$tilde\beta=Cy+m$$. 
+Let $$\tilde\beta$$ be another unbiased linear estimator for $$\beta$$, say $$\tilde\beta=Cy+m$$. 
 
 Then
 
@@ -211,7 +206,7 @@ and take its logarithm (log-likelihood)
 - maximise numerically using Newton–Raphson
 
 
-####Other examples:
+#### Other examples:
 
 - Poisson regression: Assume that the errors are distributed according to a Poisson distribution instead of normal. 
 - Exponential response data
@@ -236,7 +231,7 @@ Most intuitive and easiest solution:
 - e.g.: choose the simplest model (fewest features) within one standard error of the minimum
 
 
-### Ridge regression}
+### Ridge regression
 
 Ridge regression is a method for shrinking coefficients by imposing a penalty on their combined size. 
 
@@ -261,7 +256,7 @@ In turns out that ridge regression and the LASSO behave similarly, but the LASSO
 
 Why do we need to do this?
 
-### Principal component analysis}
+### Principal component analysis
 
 PCA is another way to deal with intercorrelated features. The idea is to replace the initial feature list with linear combinations of features which explain the highest possible amounts of variance. 
 
@@ -300,7 +295,7 @@ $$
 $$
 
 
-### Support vector machines for regression}
+### Support vector machines for regression
 
 A *support vector machine* is a model for performing classification. To simplify notation, we describe the problem in one-dimension.
 

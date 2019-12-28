@@ -8,11 +8,9 @@ image:
 
 ## Data
 
-- It was an ongoing project of mine to develop a forecasting model for elections in Australia. I made a number of posts on this website about the pitfalls and difficulties of coming up with such a model (starting [here](http://www.clintonboys.com/aus-election-model-1/)).  
-- I wrote a <a href="https://github.com/clintonboys/gumtree_scraper" target="_blank">primitive scraper</a> for trading post website gumtree.com using the Python packages BeautifulSoup and requests, which persistently searches the site for a given query and sends an email using Mandrill when there are new results (for example when you're after concert tickets). 
-- I wrote a <a href="https://github.com/clintonboys/trendy-scraper" target="_blank">trendy scraper</a> for Google trends which gives daily data for queries across long timescales (Google trends only outputs weekly data for periods longer than a few months). See the post [here](http://www.clintonboys.com/google-trends-scraper-2/), or see the updated code in the <a href="https://github.com/clintonboys/trendy-scraper" target="_blank">Github repo</a>.  
-- I wrote a very basic poll aggregator (starting [here](http://www.clintonboys.com/israel-poll-aggregator-1/)) for the 2015 Israeli elections; like all the polls it aggregated it turned out to be very wrong in the end.  
-- There are some other posts on this website about data and data science:
+- It was an ongoing project of mine to develop a forecasting model for elections in Australia called [Emma Chisit](https://www.oxfordreference.com/view/10.1093/acref/9780195563160.001.0001/acref-9780195563160-e-1151). I made a number of posts on this website about the pitfalls and difficulties of coming up with such a model (starting [here](http://www.clintonboys.com/aus-election-model-1/)). I haven't found a lot of time for the project recently but hope to return to it someday. 
+- I wrote a <a href="https://github.com/clintonboys/trendy-scraper" target="_blank">trendy scraper</a> for Google trends which gives daily data for queries across long timescales (Google trends only outputs weekly data for periods longer than a few months). See the post [here](http://www.clintonboys.com/google-trends-scraper-2/), or see the updated code in the <a href="https://github.com/clintonboys/trendy-scraper" target="_blank">Github repo</a>.
+- My [blog](http://www.clintonboys.com/posts/) contains a bunch of posts about data and data science:
   - [Here](http://www.clintonboys.com/itunes-and-pitchfork/) I quantify how much of a Pitchfork sychophant I am (not as much as I thought). 
   - Starting [here](http://www.clintonboys.com/qanda-tweets/) I do some sentiment analysis of Twitter data for tweets posted during the broadcast of an Australian political panel show infamous for its lively Twitter feed. 
   - [Here](https://github.com/clintonboys/lifetime_flight_simulator) I wrote a tongue-in-cheek game to demonstrate the safety of air travel. 
@@ -23,18 +21,10 @@ image:
 
 - My [PhD thesis](http://ses.library.usyd.edu.au/bitstream/2123/12725/2/2015_Clinton_Boys_Thesis.pdf), submitted in 2014, was titled *Alternating quiver Hecke algebras*. It consisted of a careful and complete study of a new family of algebras, which generalise and build on important recent work. The main theorem of my thesis gives an explicit [isomorphism](https://en.wikipedia.org/wiki/Isomorphism) between my new family of algebras and a family of classical objects which have been studied for over a century, providing new insight and structure for these objects. I wrote a [FAQ](http://www.clintonboys.com/phd-faq/) about my PhD here. 
 - You can find a list of my published mathematics papers [here](https://arxiv.org/find/math/1/au:+Boys_C/0/1/0/all/0/1). 
-- I was involved in creating a series of <a href="http://sydney.edu.au/stuserv/maths_learning_centre/2unit.shtml" target="_blank">audio-visual learning modules</a> for the University of Sydney's Mathematics Learning Centre to help HSC students quickly develop mathematics skills which are prerequisites for university courses.
-- I ran the first-year linear algebra course MATH1002 for the University of Sydney Summer School in 2015. I took a much different approach to the course than in previous years, running the whole thing through a [Wordpress blog](http://ss1002.wordpress.com). I received a lot of very positive feedback from students on this experimental and forward-thinking course design.
-
-## Online courses
-
-- I completed many different parts of the John Hopkins University Coursera <a href="https://www.coursera.org/specialization/jhudatascience/1" target = "_blank">Data Science specialization</a>, which consists of nine courses in various aspects of data science.
-- I completed the Stanford University Coursera courses <a href="https://www.coursera.org/course/algo" target="_blank">Algorithms Part 1</a> and <a href="https://www.coursera.org/course/algo2" target = "_blank">Algorithms Part 2</a>.
-- I completed the Coursera specialisation on <a href ="https://www.coursera.org/specializations/scala">Functional Programming in Scala</a>. 
+- I ran the first-year linear algebra course MATH1002 for the University of Sydney Summer School in 2015. I took a much different approach to the course than in previous years, running the whole thing through a Wordpress blog. 
 
 ## Other
 
 - I'm a keen amateur (very) photographer: all over this website you can find examples of my photographs taken all over the world.
 - [Here](https://github.com/clintonboys/call-your-mum) I made a simple Python application which reminds busy expats to call their mums.
 - I very much enjoy jogging, particularly new places I haven't explored yet.
-- When I was twelve I wrote a novel about a motley crew of magical futuristic cat detectives. It was well-received by my mother: I'm still searching for a publisher. 

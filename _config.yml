@@ -4,6 +4,8 @@ title:            Clinton Boys
 locale:           en_AU
 url:              
 
+future:
+  - true
 
 # Jekyll configuration
 
@@ -42,7 +44,6 @@ owner:
   github: clintonboys
   stackoverflow: 5677207/clinton-boys
   linkedin: clintonboys
-  instagram: clinton.boys
   lastfm: #username
   tumblr: #username
   pinterest: #username
