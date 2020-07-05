@@ -1,10 +1,6 @@
 ---
 layout: post
 title: Aggregating Israeli opinion polls II - The Aggregator 
-image:
-  feature: sample-image-14.jpg
-  credit: Agmon HaHula, Israel, 2014
-
 ---
 
 Having produced a series of reliability weightings, I scraped Wikipedia for opinion polls for this year's election in the last thirty days (following methodology from 538 where polls beyond this period lose their utility) (israeli_2015_polls.csv). We have to combine the reliability weightings with a recency weighting: more recent polls are weighted more highly. We're going to use the brilliant datetime package to sort out all the dates. 

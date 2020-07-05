@@ -1,10 +1,6 @@
 ---
 layout: post
 title: Difficulties in forecasting elections in Australia II - Constituency sizes
-image:
-  feature: sample-image-8.jpg
-  credit: Blue Mountains, New South Wales, 2014
-
 ---
 
 

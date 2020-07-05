@@ -1,9 +1,6 @@
 ---
 layout: post
 title: Sentiment analysis of Q&A tweets I - Sentiment analysis using out-of-the-box tools
-image:
-  feature: sample-image-27.jpg
-  credit: Amsterdam, The Netherlands, 2012
 ---
 
 For a while I've been keen to learn how to use the Twitter API to scrape tweets. In this post I'll do some basic sentiment analysis on tweets I scraped during the Monday 20/4 airing of QandA, an Australian current affairs panel show which has become infamous in Australia for its lively Twitter feed. 

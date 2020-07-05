@@ -1,10 +1,6 @@
 ---
 layout: post
 title: Lifetime flight simulator
-image:
-  feature: sample-image-22.jpg
-  credit: Royal National Park, New South Wales, 2014
-
 ---
 
 I spent a few hours today writing a basic first draft of a data-driven text-based "game" which demonstrates just how safe air travel is. The code for the game is all available in [this](https://github.com/clintonboys/lifetime_flight_simulator) GitHub repository.

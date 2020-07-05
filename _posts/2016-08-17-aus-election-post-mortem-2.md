@@ -1,9 +1,6 @@
 ---
 layout: post
 title: Australian federal election 2016 post-mortem II - third parties
-image:
-  feature: sample-image-17.jpg
-  credit: Mt Ossa, Tasmania, 2014
 ---
 
 Third parties in Australia have a very peculiar effect on the electoral process. Unlike in American elections, Australian third parties can have a significant effect on the electoral outcome, and can even win seats. This is mainly due to two factors

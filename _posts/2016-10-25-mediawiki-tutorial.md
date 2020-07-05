@@ -1,10 +1,6 @@
 ---
 layout: post
 title: Installing MediaWiki on a DigitalOcean droplet (including Wikipedia navbars)
-image:
-  feature: sample-image-9.jpg
-  credit: Cascade Mountains, Oregon, United States, 2013
-
 ---
 
 This post will explain from scratch how to install MediaWiki on a DigitalOcean droplet, including how to set up Wikipedia-style navigation bars. It's something I needed to do for a project I'm working on in a volunteer capacity and I had a tough time finding resources so decided to write up a detailed explanation myself. Here I'm assuming you're using MacOS or Unix (i.e. some OS with a Unix-based terminal). 

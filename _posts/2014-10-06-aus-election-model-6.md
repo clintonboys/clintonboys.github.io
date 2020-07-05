@@ -1,10 +1,6 @@
 ---
 layout: post
 title: Difficulties in forecasting elections in Australia VI - Economic index
-image:
-  feature: sample-image-12.jpg
-  credit: Newtown, New South Wales, 2012
-
 ---
 
 In this post I'll explain why it's difficult to economic index to include in our model. In the FiveThirtyEight model, the underlying idea is that a strong economy tends to help the incumbent party. I haven't done a huge amount of research but I would assume this assumption is weaker in Australian parliamentary elections than in American presidential elections. 

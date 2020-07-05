@@ -1,10 +1,6 @@
 ---
 layout: post
 title: Difficulties in forecasting elections in Australia IV - Redistributions
-image:
-  feature: sample-image-20.jpg
-  credit: Black Mountain, Australian Capital Territory, 2012. 
-
 ---
 
 

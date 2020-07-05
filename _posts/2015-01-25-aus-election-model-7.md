@@ -1,10 +1,6 @@
 ---
 layout: post
 title: Forecasting Australian elections I - Poll reliability
-image:
-  feature: sample-image-11.jpg
-  credit: Blue Mountains, New South Wales, 2011. 
-
 ---
 
 In a series of posts last year (starting [here](http://www.clintonboys.com/aus-election-model-1/)) I discussed the difficulties in building a model for predicting Australian elections. In the next series of posts, I want to build a few basic pieces of this model. 

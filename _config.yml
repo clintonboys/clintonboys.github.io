@@ -17,6 +17,10 @@ sass:
   style: compressed
 gems:
   - jekyll-sitemap
+  - jekyll-paginate
+
+paginate: 10
+paginate_path: posts/page:num/
 
 kramdown:
   auto_ids: true
@@ -24,13 +28,14 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   use_coderay: false
-
+  
+minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 
 # Site owner
 owner:
   name: Clinton Boys
   avatar: bio-photo.jpg
-  bio: "I am an Australian data scientist and mathematician, living in Tel Aviv."
+  bio: "Australian data scientist and mathematician, living in Tel Aviv."
   email: clintonboys@icloud.com
   disqus-shortname: 
   twitter: psephologue
@@ -42,7 +47,6 @@ owner:
     ad-slot: 
   bing-verify: 
   github: clintonboys
-  stackoverflow: 5677207/clinton-boys
   linkedin: clintonboys
   lastfm: #username
   tumblr: #username
@@ -58,3 +62,5 @@ owner:
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+
+plugins: [jekyll-paginate]

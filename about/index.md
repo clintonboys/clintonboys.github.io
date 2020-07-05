@@ -1,17 +1,15 @@
 ---
 layout: page
 title: About
-image:
-  feature: sample-image-1.jpg
-  credit: Berlin, 2012
 ---
 
-Welcome to the personal website of Clinton Boys. I am an Australian mathematician, data scientist and engineer living and working in Tel Aviv. 
+I am an Australian mathematician, data scientist and engineer living and working in Tel Aviv. If this is your first time visiting my site, you might want to start with my [now](http://www.clintonboys.com/now) page to see what I'm up to and what's on my mind at the moment. 
 
-This website contains my [blog](http://www.clintonboys.com/posts/), as well as a collection of my personal [projects](http://www.clintonboys.com/projects/).
+I graduated from the University of Sydney in 2011 with a First Class Honours degree in Pure Mathematics, and then in 2015 with a PhD in Mathematics. You can find answers to some frequently asked questions about my PhD [here](http://www.clintonboys.com/phd-faq/).
 
-I am very interested in the crossover between mathematics, data and the social sciences, with a keen interest in elections and forecasting, as well as using data to solve and explore social problems. I also love music, travel and reading books. 
+In 2015 I moved to Tel Aviv and have been working since then as a data scientist at various startups. Currently I'm working at [Via](http://ridewithvia.com). In my five years' experience I have become more and more of a generalist, incorporating software engineering, algorithm development and a lot of other tools into my toolkit. If you're interested in more details, you can find my resume [here](http://www.clintonboys.com/clinton-boys_cv.pdf).
 
-The photographs across this website were all taken by me during my various travels. The website itself is served off [Github pages](https://pages.github.com/), using the [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) theme by Michael Rose and the [MathJax](https://www.mathjax.org/) tool for displaying LaTeX.
+If you'd like to know more about the tools I use to get things done, you can find my answers to the [usesthis](http://usesthis.com) questionnaire [here](http://www.clintonboys.com/uses-this/). 
 
-For a bit more about me, you can check out my [answers](http://www.clintonboys.com/uses-this/) to the questions from [The Setup](http://usesthis.com). 
+The website itself is served off [Github pages](https://pages.github.com/), using the [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) theme by Michael Rose with some small customisations, and the [MathJax](https://www.mathjax.org/) plugin for displaying LaTeX.
+

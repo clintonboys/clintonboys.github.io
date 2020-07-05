@@ -1,9 +1,6 @@
 ---
 layout: post
 title: Sentiment analysis of Q&A tweets II - Training a custom sentiment dictionary
-image:
-  feature: sample-image-6.jpg
-  credit: Big Sur National Park, California, 2013
 ---
 
 Up to the limits of my own patience, I hand-classified as many tweets from the April 20 broadcast of QandA as positive, negative (or spam), with the goal of using these to train a sentiment dictionary to use on the April 27 broadcast's tweets. I also removed all retweets from the dataset (which I suppose I should have done in the previous post as well). There was a slight problem in the way I'd written the tweets to file and forgotten to remove the new-line characters within tweets, so my code was also reading all these irrelevant lines as separate tweets. 
