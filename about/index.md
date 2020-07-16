@@ -9,11 +9,12 @@ I graduated from the University of Sydney in 2011 with a First Class Honours deg
 
 In 2015 I moved to Tel Aviv and have been working since then as a data scientist at various startups. Currently I'm working at [Via](http://ridewithvia.com). In my five years' experience I have become more and more of a generalist, incorporating software engineering, algorithm development and a lot of other tools into my toolkit. If you're interested in more details, you can find my resume [here](http://www.clintonboys.com/clinton_boys_cv.pdf).
 
-My [blog](http://www.clintonboys.com/posts) contains posts with four main themes:
+My [blog](http://www.clintonboys.com/posts) contains posts with five main themes:
 
 - **Data and data science**. Some examples are [this](http://www.clintonboys.com/bias-variance-tradeoff/) post on the bias-variance tradeoff and [this](http://www.clintonboys.com/itunes-and-pitchfork/) small project where I do some analysis on my taste in music. 
 - **Elections and modelling**. Some examples are the series of posts starting [here](http://www.clintonboys.com/aus-election-model-1/) about the pitfalls and difficulties of coming up with a model for forecasting Australian elections, or [this](http://www.clintonboys.com/uk-av-sim/) post which simulates the 2019 UK election under the Australian system. 
 - **Mathematics, statistics and computer science**. Some examples are [this](http://www.clintonboys.com/weak-law/) post on the weak law of large numbers from a geometric perspective, or [this](http://www.clintonboys.com/deep-learning/) discussion of a universality property of neural networks. 
+- **emacs**. The best place to start is the first [post](http://www.clintonboys.com/emacs-i/) in my series on my emacs configuration. 
 - **General hacking and programming**. Some examples are the most popular post on this site, about a [script](http://www.clintonboys.com/google-trends-scraper-2/) I wrote that stitches together Google Trends data from different timescales, or [this](http://www.clintonboys.com/lifetime-flight-simulator/) tongue-in-cheek lifetime flight simulator. 
 
 If you'd like to know more about the tools I use to get things done, you can find my answers to the [usesthis](http://usesthis.com) questionnaire [here](http://www.clintonboys.com/uses-this/). 
