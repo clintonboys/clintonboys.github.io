@@ -19,7 +19,7 @@ Lately I've fallen rather deeply down the rabbit-hole of configuring emacs and I
 
 ### Other stuff
 
-- My son Leo was born in February so much of my time at the moment is devoted to him. 
+- My son Leo was born in February and much of my time at the moment is devoted to him. 
 - I am reading on and off about quantum computing; in particular from [this](https://quantum.country/qcvc) source which has been very enjoyable. My goal here is to try and understand Shor's algorithm for quantum factorisation and why this has the theoretical capacity to upend RSA cryptography. 
 
 #### Books
