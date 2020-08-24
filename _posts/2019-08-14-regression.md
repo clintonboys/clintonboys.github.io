@@ -12,21 +12,21 @@ It turned out to be quite a difficult thing to do, since the range of experience
 Regression is *the art and science of estimating the relationships between variables*. We will revise the basic ideas behind regression, discuss some important theoretical results and then look into some more advanced topics and methods. 
 
 ### Linear regression
-We have a set of $p$ features $(x_1,x_2,\ldots,x_p)$ and are trying to use them to predict the value of a continuous dependent variable $$y$$. 
+We have a set of $p$ features $(x_1,x_2,\ldots,x_p)$ and are trying to use them to predict the value of a continuous dependent variable $y$. 
 
 **Examples**
 
-- $$y$$ is the height of a person and $$x_1, x_2,x_3$$ are their age, mother's height and father's height.
-- $$y$$ is the expected arrival time of a delivery and $$x_1, x_2, x_3$$ are its distance from the dropoff, the average driving speed in the city and the amount of rain. 
+- $y$ is the height of a person and $x_1, x_2,x_3$ are their age, mother's height and father's height.
+- $y$ is the expected arrival time of a delivery and $x_1, x_2, x_3$ are its distance from the dropoff, the average driving speed in the city and the amount of rain. 
 
 
-The simplest possible non-trivial model is linear: let us assume that $$y$$ changes as some linear combination 
+The simplest possible non-trivial model is linear: let us assume that $y$ changes as some linear combination 
 
-$$
+\[
 y = \beta_0 + \sum_{i=1}^p \beta_i x_i
-$$
+\]
 
-of the $$x_i$$. How can we find the coefficients $$\beta_i$$?
+of the $x_i$. How can we find the coefficients $\beta_i$?
 
 The answer is by using a collection of *training data*, i.e. a set of $$N$$ vectors 
 
