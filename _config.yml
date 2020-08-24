@@ -11,6 +11,7 @@ future:
 
 permalink:   /:categories/:title/
 markdown:    kramdown
+mathjax:     true
 highlighter: rouge
 sass:
   sass_dir: _sass

@@ -9,10 +9,12 @@ We are going to be discussing the general framework of using a statistical model
 
 Formally, let our model be represented by a function
 
-\\begin{align}
+$$
+\begin{align}
 f:\mathbb{R}^p&\to\mathbb{R}\nonumber\\
 X&\mapsto f(X)\nonumber
-\\end{align}
+\end{align}
+$$
 
 $f$ can represent many different examples. If our expected output $Y$ is continuous, this is the setup for *regression*, and if $Y$ takes discrete (or categorical) values, this is the setup for *classification*. 
 
