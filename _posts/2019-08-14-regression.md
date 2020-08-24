@@ -22,17 +22,17 @@ We have a set of $p$ features $(x_1,x_2,\ldots,x_p)$ and are trying to use them 
 
 The simplest possible non-trivial model is linear: let us assume that $y$ changes as some linear combination 
 
-\[
+\\[
 y = \beta_0 + \sum_{i=1}^p \beta_i x_i
-\]
+\\]
 
 of the $x_i$. How can we find the coefficients $\beta_i$?
 
 The answer is by using a collection of *training data*, i.e. a set of $N$ vectors 
 
-\[
+\\[
 (x_{11},x_{12},\ldots,x_{1p}), (x_{21},x_{22},\ldots,x_{2p}),\cdots(x_{N1},x_{N2},\ldots,x_{Np})
-\]
+\\]
 
 for which we know the true output values $$\{y_1,\ldots,y_N\}$$, find the coefficients which minimise the overall sum of squared differences from the true values:
 
