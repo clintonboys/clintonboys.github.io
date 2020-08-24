@@ -22,29 +22,29 @@ We have a set of $p$ features $(x_1,x_2,\ldots,x_p)$ and are trying to use them 
 
 The simplest possible non-trivial model is linear: let us assume that $y$ changes as some linear combination 
 
-\\[
-y = \beta_0 + \sum_{i=1}^p \beta_i x_i
-\\]
+\begin{equation}
+y = \beta_0 + \sum_{i=1}^p \beta_i x_i \nonumber
+\end{equation}
 
 of the $x_i$. How can we find the coefficients $\beta_i$?
 
 The answer is by using a collection of *training data*, i.e. a set of $N$ vectors 
 
-\\[
-(x_{11},x_{12},\ldots,x_{1p}), (x_{21},x_{22},\ldots,x_{2p}),\cdots(x_{N1},x_{N2},\ldots,x_{Np})
-\\]
+\begin{equation}
+(x_{11},x_{12},\ldots,x_{1p}), (x_{21},x_{22},\ldots,x_{2p}),\cdots,(x_{N1},x_{N2},\ldots,x_{Np})\nonumber
+\end{equation}
 
-for which we know the true output values $$\{y_1,\ldots,y_N\}$$, find the coefficients which minimise the overall sum of squared differences from the true values:
+for which we know the true output values $\{y_1,\ldots,y_N\}$, find the coefficients which minimise the overall sum of squared differences from the true values:
 
-$$
-\mathcal{RSS}(\beta_0,\ldots,\beta_p)=\sum_{i=1}^N \Bigl[y_i-\Bigl(\beta_0 + \sum_{j=1}^p \beta_i x_{ij})\Bigr]^2.
-$$
+\begin{equation}
+\mathcal{RSS}(\beta_0,\ldots,\beta_p)=\sum_{i=1}^N \Bigl[y_i-\Bigl(\beta_0 + \sum_{j=1}^p \beta_i x_{ij})\Bigr]^2.\nonumber
+\end{equation}
 
-**Easier:** reframe in vector notation $$x_i=(x_{i1},x_{i2},\ldots,x_{ip})$$, $$X=[x_1,x_2,\ldots,x_N]^T$$:
+**Easier:** reframe in vector notation $x_i=(x_{i1},x_{i2},\ldots,x_{ip})$, $X=[x_1,x_2,\ldots,x_N]^T$:
 
-$$
-\mbox{model: }\; y=X\cdot\beta,\quad \mathcal{R}(\beta)=\sum_{i=1}^N (y_i-x_i \cdot\beta)^2=(y-X\beta)^T(y-X\beta).
-$$
+\begin{equation}
+\mbox{model: }\; y=X\cdot\beta,\quad \mathcal{R}(\beta)=\sum_{i=1}^N (y_i-x_i \cdot\beta)^2=(y-X\beta)^T(y-X\beta).\nonumber
+\end{equation}
 
 This is a function of $$\beta$$ which we can minimise using vector calculus to find the coefficients which give the best model. 
 
