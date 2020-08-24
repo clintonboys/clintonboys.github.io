@@ -12,7 +12,7 @@ It turned out to be quite a difficult thing to do, since the range of experience
 Regression is *the art and science of estimating the relationships between variables*. We will revise the basic ideas behind regression, discuss some important theoretical results and then look into some more advanced topics and methods. 
 
 ### Linear regression
-We have a set of $$p$$ features $$(x_1,x_2,\ldots,x_p)$$ and are trying to use them to predict the value of a continuous dependent variable $$y$$. 
+We have a set of $p$ features $(x_1,x_2,\ldots,x_p)$ and are trying to use them to predict the value of a continuous dependent variable $$y$$. 
 
 **Examples**
 
