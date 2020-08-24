@@ -57,11 +57,9 @@ Another obvious solution is to assume that the regression function $f(x)$ can be
 
 Can we say more about our error in general? Note that 
 
-$$
-\begin{equation}
+\\begin{equation}
 \mathbb{E}(Y-f(X))^2 = \mathbb{E}(Y-\mathbb{E}(Y))^2 + (\mathbb{E}(Y) - f(X))^2.\nonumber
-\end{equation}
-$$
+\\end{equation}
 
 Statisticians will immediately recognise these two terms as the *variance* $\mathrm{Var}(Y) = \mathbb{E}(Y-\mathbb{E}(Y))^2$ and the *bias squared* $\mathrm{Bias}^2(Y) = (\mathbb{E}(Y) - f(X))^2.$
 
