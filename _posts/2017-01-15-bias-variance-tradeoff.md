@@ -9,19 +9,23 @@ We are going to be discussing the general framework of using a statistical model
 
 Formally, let our model be represented by a function
 
+$$
 \begin{align}
 f:\mathbb{R}^p&\to\mathbb{R}\nonumber\\
 X&\mapsto f(X)\nonumber
 \end{align}
+$$
 
 $f$ can represent many different examples. If our expected output $Y$ is continuous, this is the setup for *regression*, and if $Y$ takes discrete (or categorical) values, this is the setup for *classification*. 
 
 In order to know how well our model is doing, we need a way to measure its error. In statisical decision theory, this is known as a *loss function*
 
+$$
 \begin{align}
 L:\mathbb{R}\times\mathbb{R}&\to \mathbb{R}\nonumber\\
 (Y,f(X))&\mapsto L(Y,f(X)).\nonumber
 \end{align}
+$$
 
 There are many different possible choices of loss functions, but the most commonly used in machine learning is the squared error $L(Y,f(X)) = (Y-f(X))^2$ (the most obvious choice, $L(Y,f(X)) = \mid Y-f(X)\mid $ is also widely used). 
 
@@ -29,9 +33,11 @@ In theory, deciding on our model is now easy, or at least, the problem is precis
 
 Some manipulation (see here or here) shows that there is a simple solution to this problem: the function which minimises the expected squared loss is given by
 
+$$
 \begin{equation}
 f(X) = \mathbb{E}(Y\mid X),\nonumber
 \end{equation}
+$$
 
 known as the *conditional expectation* or *regression function*. This is a mathematical formulation of a fairly intuitive idea: the best prediction of $Y$ at the point $X=x$ is the conditional mean. 
 
@@ -39,9 +45,11 @@ The question relevant to choosing a statistical model is therefore not "how do I
 
 For a mathematician, one of the most obvious solutions is to approximate the value of $f$ by enlarging our scope to a *neighbourhood* of $x$ and computing the mean. More precisely, at a point $x$ we want 
 
+$$
 \begin{equation}
 \hat f(x) = \frac{1}{k}\sum_{x_i\in N_k(x)}y_i\nonumber
 \end{equation}
+$$
 
 where $N_k(x)$ is a neighbourhood containing the $k$ closest points to $x$. This approach is known as $k$-*nearest neighbours*. 
 
@@ -49,9 +57,11 @@ Another obvious solution is to assume that the regression function $f(x)$ can be
 
 Can we say more about our error in general? Note that 
 
+$$
 \begin{equation}
 \mathbb{E}(Y-f(X))^2 = \mathbb{E}(Y-\mathbb{E}(Y))^2 + (\mathbb{E}(Y) - f(X))^2.\nonumber
 \end{equation}
+$$
 
 Statisticians will immediately recognise these two terms as the *variance* $\mathrm{Var}(Y) = \mathbb{E}(Y-\mathbb{E}(Y))^2$ and the *bias squared* $\mathrm{Bias}^2(Y) = (\mathbb{E}(Y) - f(X))^2.$
 
