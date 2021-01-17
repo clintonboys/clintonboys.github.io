@@ -33,7 +33,7 @@ I realised I missed the academic experience of sitting in lectures and learning 
 
 #### Music
 
-- *Crooked Fingers* by *Crooked Fingers*. 
+- *Crooked Fingers* by Crooked Fingers. 
 - *Idiot Prayer:* Nick Cave alone at Alexandra Palace. 
 - *songs* by Adrianne Lenker.
 - *Third* by Big Star. 
