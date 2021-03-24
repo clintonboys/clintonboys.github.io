@@ -5,7 +5,7 @@ title: Now
 
 This page contains a quick overview of what I'm doing right now. I try to update it every couple of months. 
 
-Last updated: January 5, 2021
+Last updated: March 23, 2021. You can see the full history of this page [here](https://github.com/clintonboys/clintonboys.github.io/commits/master/now/index.md). 
 
 ---
 
@@ -13,27 +13,20 @@ Last updated: January 5, 2021
 
 I've been working at [Via](http://ridewithvia.com) since August 2018. I'm leading a team of data scientists and algorithm engineers building tools to solve supply planning problems.
 
-### emacs
+### Digital garden
 
-Lately I've fallen rather deeply down the rabbit-hole of configuring emacs and I'm spending more and more time using it as a tool for pretty much everything I do on a computer outside the browser. I've recently made my personal configuration, which I built from scratch after studying a bunch of interesting peoples' configurations, available on [Github](https://github.com/clintonboys/emacs.d) for interested people to look at. My main achievement in the last few months is successfully setting up emacs as a Python IDE which means I can now spend most of my workday there too. 
-
-### RL
-
-I realised I missed the academic experience of sitting in lectures and learning things by someone smart explaining them to you, so I found a subject I've always wanted to understand and started watching a fantastic lecture series on Youtube: David Silvers from DeepMind has a freely available [ten lecture course](https://www.youtube.com/playlist?list=PLqYmG7hTraZBiG_XpjnPrSNw-1XQaM_gB) on reinforcement learning. Enjoying it immensely. 
+I have become very interested in the idea of digital gardens in the last year or so and have created my own [here](http://mtsolitary.com). It is supposed to be a much less polished place to share my notes and thoughts. There is a growing community online of people building these carefully tended online spaces and I find the idea inspiring. 
 
 ### Other stuff
 
-- My son Leo was born in February 2020 and much of my time at the moment is devoted to him. 
-- I'm finally getting back into running after almost a year off (possibly related to the previous item). 
+- Watching in real time as a human learns how to walk and to speak. 
 
 #### Books
 
 - *Infinite Jest* by David Foster Wallace. 
-- *The Arab of the Future* by Riad Sattouf. 
 
 #### Music
 
-- *Crooked Fingers* by Crooked Fingers. 
-- *Idiot Prayer:* Nick Cave alone at Alexandra Palace. 
-- *songs* by Adrianne Lenker.
-- *Third* by Big Star. 
+- *Mwng* by Super Furry Animals.
+- *Atlantic* by The Weather Report.
+- *They Want My Soul* by Spoon. 
