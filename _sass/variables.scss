@@ -18,9 +18,9 @@ $alt-font: $base-font;
    Colors
    ========================================================================== */
 
-$bodycolor      : #fff;
+$bodycolor      : #e3e2df;/* #fff; */
 $body-color     : $bodycolor;
-$textcolor      : #333332;
+$textcolor      : #1a2a3a;/*#333332; */
 $text-color     : $textcolor;
 $border-color   : $text-color;
 $basecolor 		  : #343434;	  
@@ -29,6 +29,7 @@ $bordercolor    : $basecolor;
 $white          : #fff;
 $black          : #111;
 $accentcolor    : $black;
+$background-color: #e3e2df;
 
 /* buttons */
 $primary			: $black;

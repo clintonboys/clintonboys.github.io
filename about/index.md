@@ -3,11 +3,11 @@ layout: page
 title: About
 ---
 
-I am an Australian mathematician, data scientist and engineer living and working in Tel Aviv. If this is your first time visiting my site, you might want to start with my [now]({{ site.baseurl }}{% link now/index.md %}) page to see what I'm up to and what's on my mind at the moment. 
+I am an Australian mathematician, data scientist and engineer living and working in Tel Aviv. You can visit my [now]({{ site.baseurl }}{% link now/index.md %}) page to see what I'm up to and what's on my mind at the moment. 
 
 I graduated from the University of Sydney in 2011 with a First Class Honours degree in Pure Mathematics, and then in 2015 with a PhD in Mathematics. You can find answers to some frequently asked questions about my PhD [here]({% post_url 2015-01-19-phd-faq %}).
 
-In 2015 I moved to Tel Aviv and have been working since then as a data scientist at various startups. Currently I'm working at [Via](http://ridewithvia.com). In my five years' experience I have become more and more of a generalist, incorporating software engineering, algorithm development and a lot of other tools into my toolkit. If you're interested in more details, you can find my resume [here]({{ site.baseurl }}{% link clinton_boys_cv.pdf %}).
+In 2015 I moved to Tel Aviv and have been working since then as a data scientist at various startups. Currently I'm working at [Via](http://ridewithvia.com). In my six years' experience I have become more and more of a generalist, incorporating software engineering, algorithm development and a lot of other tools into my toolkit. If you're interested in more details, you can find my resume [here]({{ site.baseurl }}{% link clinton_boys_cv.pdf %}).
 
 My [blog]({{ site.baseurl }}{% link posts/index.md %}) contains posts with five main themes:
 
@@ -21,5 +21,5 @@ If you'd like to know more about the tools I use to get things done, you can fin
 
 ### Colophon
 
-The website itself is served off [Github pages](https://pages.github.com/), using the [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) theme by Michael Rose with some small customisations, and the [MathJax](https://www.mathjax.org/) plugin for displaying LaTeX.
+This site is served off [Github pages](https://pages.github.com/), using [Jekyll](https://jekyllrb.com) with the [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) theme by Michael Rose with some small customisations, and the [MathJax](https://www.mathjax.org/) plugin for displaying LaTeX.
 
