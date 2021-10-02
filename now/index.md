@@ -5,32 +5,35 @@ title: Now
 
 This page contains a quick overview of what I'm doing right now. I try to update it every couple of months. 
 
-Last updated: April 9, 2021. You can see the full history of this page [here](https://github.com/clintonboys/clintonboys.github.io/commits/master/now/index.md). 
+Last updated: October 2, 2021. You can see the full history of this page [here](https://github.com/clintonboys/clintonboys.github.io/commits/master/now/index.md). 
 
 ---
 
 ### Work
 
-I've been working at [Via](http://ridewithvia.com) since August 2018. I'm leading a team of data scientists and algorithm engineers building tools to solve supply planning problems.
+I've been working at [Via](http://ridewithvia.com) since August 2018. I'm leading a team of data scientists and algorithm engineers building tools to solve supply optimization problems.
 
 ### Digital garden
 
-I have become very interested in the idea of [digital gardens](https://maggieappleton.com/garden-history) in the last year or so and have created my own [here](http://mtsolitary.com). It is supposed to be a much less polished place to share my notes and thoughts, a small public-facing slice of my much larger [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten). 
+My [digital garden](https://mtsolitary.com) is growing slowly but surely and I'm really enjoying it, it has grown into something I'm quite proud of. 
 
-There is a growing community online of people building these carefully tended online spaces and I find the idea inspiring. I've tied it in very nicely with my recent delve into the emacs / org-mode / org-roam rabbithole. 
+### Haskell 
+
+I started working on a Haskell implementation of the Lox language in Robert Nystrom's [Crafting Interpreters](https://craftinginterpreters.com) book. This scratches two itches at once: learning Haskell, which is something I've always wanted to do but never really found time or an excuse for, and also building a much deeper understanding of how programming languages are built and function. 
 
 ### Life
 
-- Watching in real time as a tiny human learns how to walk and speak. 
-- Back riding my bike after a while and really enjoying it. 
-- Got the new M1 MacBook Air. The most significant upgrade in using a computer since the first time I had an SSD drive. 
+- Spending lots of time drawing with my son.
+- The weather is finally reasonable again here so we're spending a lot of time outside in the park.
+- Working on my record collection. 
 
 #### Books
 
-- *Infinite Jest* by David Foster Wallace (doing my best on my second attempt). 
+- *The Amazing Adventures of Kavalier and Clay* by Michael Chabon.
+- *How to Do Nothing* by Jenny Odell. 
 
 #### Music
 
-- *Mwng* by Super Furry Animals.
-- *Atlantic* by The Weather Report.
-- *They Want My Soul* by Spoon. 
+- *Time (The Revelator)* by Gillian Welch
+- *Laura Stevenson* by Laura Stevenson
+- *New Long Leg* by Dry Cleaning
