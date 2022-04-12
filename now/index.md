@@ -5,35 +5,38 @@ title: Now
 
 This page contains a quick overview of what I'm doing right now. I try to update it every couple of months. 
 
-Last updated: October 2, 2021. You can see the full history of this page [here](https://github.com/clintonboys/clintonboys.github.io/commits/master/now/index.md). 
+Last updated: April 12, 2022. You can see the full history of this page [here](https://github.com/clintonboys/clintonboys.github.io/commits/master/now/index.md). 
 
 ---
 
 ### Work
 
-I've been working at [Via](http://ridewithvia.com) since August 2018. I'm leading a team of data scientists and algorithm engineers building tools to solve supply optimization problems.
+I've been working at [Via](http://ridewithvia.com) since August 2018, doing all sorts of different stuff, algorithms, data science, and lately a lot more software engineering and web development. 
 
 ### Digital garden
 
-My [digital garden](https://mtsolitary.com) is growing slowly but surely and I'm really enjoying it, it has grown into something I'm quite proud of. 
+Like I wrote last time, my [digital garden](https://mtsolitary.com) continues to grow into something I am proud of. 
 
-### Haskell 
+### Bayesian statistics
 
-I started working on a Haskell implementation of the Lox language in Robert Nystrom's [Crafting Interpreters](https://craftinginterpreters.com) book. This scratches two itches at once: learning Haskell, which is something I've always wanted to do but never really found time or an excuse for, and also building a much deeper understanding of how programming languages are built and function. 
+I've been thinking about and reading about Bayesian methods a lot lately, it's a really elegant and nice way of looking at statistics that I always wanted to know more about. 
 
 ### Life
 
-- Spending lots of time drawing with my son.
-- The weather is finally reasonable again here so we're spending a lot of time outside in the park.
-- Working on my record collection. 
+- We spent two months back in Australia over the southern hemisphere summer.
+- I got the new 14" MacBook Pro, what a fantastically powerful machine. 
+- I'm trying harder to be conscious of my time on devices: I am significantly reducing my time reading news and idly browsing, and instead doing something interesting, or doing something offline. 
+- Maybe related to the above, I have developed an interest in birds, which I share with my son. 
 
 #### Books
 
-- *The Amazing Adventures of Kavalier and Clay* by Michael Chabon.
-- *How to Do Nothing* by Jenny Odell. 
+- *Puff Piece* by John Safran. 
+- *Assassin's Apprentice* by Robin Hobb. 
+- *Statistical Rethinking* by Richard McElreath. 
+- *A Pattern Language* by Christopher Alexander. 
 
 #### Music
 
-- *Time (The Revelator)* by Gillian Welch
-- *Laura Stevenson* by Laura Stevenson
-- *New Long Leg* by Dry Cleaning
+- *Dragon New Warm Mountain I Believe In You* by Big Thief.
+- *Painless* by Nilufer Yanya. 
+- *When You Land Here, It's Time to Return* by Flake Music. 
