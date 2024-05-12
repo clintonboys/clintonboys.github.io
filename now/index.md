@@ -5,30 +5,31 @@ title: Now
 
 This page contains a quick overview of what I'm doing right now. I try to update it every couple of months. 
 
-Last updated: November 3, 2023. You can see the full history of this page [here](https://github.com/clintonboys/clintonboys.github.io/commits/master/now/index.md). 
+Last updated: May 12, 2023. You can see the full history of this page [here](https://github.com/clintonboys/clintonboys.github.io/commits/master/now/index.md). 
 
 ---
 
 ### Relocation to London
 
-I relocated to London in August this year with my wife and children. We are currently finding our feet in southeast London and have been very lucky with the weather so far. 
+I relocated to London in August last year with my wife and children. We are through our first winter here and are really enjoying exploring this wonderful city, and recalibrating our relationship to sunshine.
 
 ### Work
 
-I've been working at [Via](http://ridewithvia.com) since 2018, doing all sorts of different stuff, mostly related to algorithms and data science and then building interesting and useful products around these things. 
+I've been working at [Via](http://ridewithvia.com) since 2018, doing all sorts of different and interesting stuff, mostly related to algorithms and data science and then building interesting and useful products around these things. Lately I am spending a lot of time on more "core" engineering projects, with a focus on system design, performance, efficiency and scale. 
 
-### Digital garden
+### Big walk
 
-Progress on my "digital garden", [Mt Solitary](https://mtsolitary.com) has been slow these last few months as I have been handling the relocation. When the pace of life is high, it's nice to have something like this to look at and remember that it has been slower in the past and will be slower again in the future. 
+In March I did a 1-day, 40km walk along a significant part of the [Green Chain Walk](https://tfl.gov.uk/modes/walking/green-chain-walk) in southeast London. This walk was mostly inspired by [Craig Mod](https://www.craigmod.com)'s inspiring writing about the magic of long-distance solo walking over the years. I hope I can find the time and energy to do more things like this in the near future.
 
 #### Books
 
-- *Unruly* by David Mitchell. 
-- *Faith Hope and Carnage* by Nick Cave and Sean O'Hagan. 
+- *Collected Poems* by Philip Larkin
+- *A Month in the Country* by J.L. Carr
+- *Notes on the Synthesis of Form* by Christopher Alexander
 
 #### Music
 
-- *Band on the Run* by Paul McCartney and Wings. 
-- *Javelin* by Sufjan Stevens. 
-- [New material](https://www.youtube.com/watch?v=4Y_sqiC6ht0) from Joanna Newsom, the first in eight years. 
+- *Only God Was Above Us* by Vampire Weekend
+- *Bright Future* by Adrianne Lenker
+- *Surfer Rosa* by Pixies
 
