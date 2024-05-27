@@ -5,7 +5,7 @@ title: Projects
 
 ## Data
 
-- It was an ongoing project of mine to develop a forecasting model for elections in Australia called [Emma Chisit](https://www.oxfordreference.com/view/10.1093/acref/9780195563160.001.0001/acref-9780195563160-e-1151). I made a number of posts on this website about the pitfalls and difficulties of coming up with such a model (starting [here](http://www.clintonboys.com/aus-election-model-1/)). I haven't found a lot of time for the project recently but hope to return to it someday. 
+- It was an ongoing project of mine to develop a forecasting model for elections in Australia called [Emma Chisit](https://www.oxfordreference.com/view/10.1093/acref/9780195563160.001.0001/acref-9780195563160-e-1151). I made a number of posts on this website about the pitfalls and difficulties of coming up with such a model (starting [here](http://www.clintonboys.com/aus-election-model/)). I haven't found a lot of time for the project recently but hope to return to it someday. 
 - I wrote a <a href="https://github.com/clintonboys/trendy-scraper" target="_blank">trendy scraper</a> for Google trends which gives daily data for queries across long timescales (Google trends only outputs weekly data for periods longer than a few months). See the post [here](http://www.clintonboys.com/google-trends-scraper-2/), or see the updated code in the <a href="https://github.com/clintonboys/trendy-scraper" target="_blank">Github repo</a>.
 - My [blog](http://www.clintonboys.com/posts/) contains a bunch of posts about data and data science:
   - [Here](http://www.clintonboys.com/itunes-and-pitchfork/) I quantify how much of a Pitchfork sychophant I am (not as much as I thought). 

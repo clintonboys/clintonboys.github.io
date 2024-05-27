@@ -1,0 +1,1178 @@
+bundler: failed to load command: jekyll (/usr/local/bin/jekyll)
+Bundler::GemNotFound: Could not find hitimes-1.2.2 in any of the sources
+  /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/bundler/spec_set.rb:91:in `block in materialize'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/bundler/spec_set.rb:85:in `map!'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/bundler/spec_set.rb:85:in `materialize'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/bundler/definition.rb:170:in `specs'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/bundler/definition.rb:237:in `specs_for'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/bundler/definition.rb:226:in `requested_specs'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/bundler/runtime.rb:108:in `block in definition_method'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/bundler/runtime.rb:20:in `setup'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/bundler.rb:107:in `setup'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/bundler/setup.rb:20:in `<top (required)>'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 1.135 seconds.
+ Auto-regeneration: enabled for '/Users/clinton/Documents/technical/dev/clintonboys.github.io'
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.0.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.408 seconds.
+ Auto-regeneration: enabled for '/Users/clinton/Documents/technical/dev/clintonboys.github.io'
+    Server address: http://127.0.0.1:4000
+  Server running... press ctrl-c to stop.
+[2020-07-02 23:27:23] ERROR `/images/apple-touch-icon-144x144-precomposed.png' not found.
+[2020-07-02 23:27:23] ERROR `/images/apple-touch-icon-114x114-precomposed.png' not found.
+[2020-07-02 23:27:23] ERROR `/images/apple-touch-icon-72x72-precomposed.png' not found.
+[2020-07-02 23:27:23] ERROR `/images/apple-touch-icon-precomposed.png' not found.
+[2020-07-02 23:27:23] ERROR `/apple-touch-icon-precomposed.png' not found.
+[2020-07-02 23:27:23] ERROR `/apple-touch-icon.png' not found.
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.776 seconds.
+ Auto-regeneration: enabled for '/Users/clinton/Documents/technical/dev/clintonboys.github.io'
+    Server address: http://127.0.0.1:4000
+  Server running... press ctrl-c to stop.
+      Regenerating: 1 file(s) changed at 2020-07-03 10:23:54
+                    nohup.out
+                    ...done in 1.083333 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:24:00
+                    nohup.out
+                    ...done in 0.569636 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:24:49
+                    about/#index.md#
+                    ...done in 0.227292 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:25:12
+                    nohup.out
+                    ...done in 0.260085 seconds.
+                    
+      Regenerating: 3 file(s) changed at 2020-07-03 10:25:57
+                    about/index.md
+                    about/.#index.md
+                    about/#index.md#
+                    ...done in 0.227133 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:26:17
+                    nohup.out
+                    ...done in 0.334306 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:26:17
+                    nohup.out
+                    ...done in 0.308101 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2020-07-03 10:26:30
+                    about/index.md
+                    about/.#index.md
+                    ...done in 0.251811 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2020-07-03 10:26:46
+                    about/index.md
+                    about/.#index.md
+                    ...done in 0.257117 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:26:56
+                    nohup.out
+                    ...done in 0.334498 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2020-07-03 10:26:58
+                    about/index.md
+                    about/.#index.md
+                    ...done in 0.284866 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:27:06
+                    nohup.out
+                    ...done in 0.231264 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:27:12
+                    nohup.out
+                    ...done in 0.289655 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:27:39
+                    nohup.out
+                    ...done in 0.294509 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:27:43
+                    about/#index.md#
+                    ...done in 0.225297 seconds.
+                    
+      Regenerating: 3 file(s) changed at 2020-07-03 10:27:44
+                    about/index.md
+                    about/.#index.md
+                    about/#index.md#
+                    ...done in 0.215572 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:27:48
+                    nohup.out
+                    ...done in 0.231877 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:27:51
+                    nohup.out
+                    ...done in 0.250833 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:27:56
+                    nohup.out
+                    ...done in 0.251103 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2020-07-03 10:28:04
+                    about/index.md
+                    about/.#index.md
+                    ...done in 0.243327 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:28:11
+                    nohup.out
+                    ...done in 0.343493 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:28:20
+                    nohup.out
+                    ...done in 0.239738 seconds.
+                    
+      Regenerating: 3 file(s) changed at 2020-07-03 10:28:21
+                    index.md
+                    nohup.out
+                    .#index.md
+                    ...done in 0.267849 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:28:41
+                    nohup.out
+                    ...done in 0.412315 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:29:01
+                    nohup.out
+                    ...done in 0.223073 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:29:10
+                    nohup.out
+                    ...done in 0.256966 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:29:21
+                    nohup.out
+                    ...done in 0.242356 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:29:26
+                    nohup.out
+                    ...done in 0.248229 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:29:33
+                    nohup.out
+                    ...done in 0.256927 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:29:38
+                    nohup.out
+                    ...done in 0.253399 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:29:44
+                    nohup.out
+                    ...done in 0.286914 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:29:50
+                    nohup.out
+                    ...done in 0.265475 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:30:17
+                    nohup.out
+                    ...done in 0.224042 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2020-07-03 10:30:18
+                    nohup.out
+                    .#_config.yml
+                    ...done in 0.324856 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:30:19
+                    nohup.out
+                    ...done in 0.231687 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:30:59
+                    nohup.out
+                    ...done in 0.240578 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:31:06
+                    nohup.out
+                    ...done in 0.599561 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:31:06
+                    nohup.out
+                    ...done in 0.98425 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:31:08
+                    nohup.out
+                    ...done in 0.716601 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:31:08
+                    nohup.out
+                    ...done in 0.316985 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:31:19
+                    nohup.out
+                    ...done in 0.268748 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:31:19
+                    nohup.out
+                    ...done in 0.330092 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:31:34
+                    nohup.out
+                    ...done in 0.207881 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:31:35
+                    nohup.out
+                    ...done in 0.270436 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:31:36
+                    nohup.out
+                    ...done in 0.234961 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:31:36
+                    nohup.out
+                    ...done in 0.249022 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:31:39
+                    nohup.out
+                    ...done in 0.266701 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:31:40
+                    nohup.out
+                    ...done in 0.222774 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:31:40
+                    nohup.out
+                    ...done in 0.267504 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2020-07-03 10:31:43
+                    _layouts/home.html
+                    _layouts/.#home.html
+                    ...done in 0.233341 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:31:43
+                    nohup.out
+                    ...done in 0.385056 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:31:44
+                    nohup.out
+                    ...done in 0.234776 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:31:44
+                    nohup.out
+                    ...done in 0.225548 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:31:51
+                    _templates/#archive#
+                    ...done in 0.289396 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:31:51
+                    nohup.out
+                    ...done in 0.260085 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:31:55
+                    nohup.out
+                    ...done in 0.221384 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:31:56
+                    nohup.out
+                    ...done in 0.232561 seconds.
+                    
+      Regenerating: 3 file(s) changed at 2020-07-03 10:31:56
+                    _layouts/home.html
+                    nohup.out
+                    _layouts/.#home.html
+                    ...done in 0.573837 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:31:57
+                    nohup.out
+                    ...done in 0.364676 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:31:58
+                    nohup.out
+                    ...done in 0.255072 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:31:58
+                    nohup.out
+                    ...done in 0.237916 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:33:18
+                    nohup.out
+                    ...done in 0.344523 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:33:19
+                    nohup.out
+                    ...done in 0.267726 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:33:20
+                    nohup.out
+                    ...done in 0.296068 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:33:20
+                    nohup.out
+                    ...done in 0.28372 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2020-07-03 10:34:27
+                    assets/css/main.scss
+                    assets/css/.#main.scss
+[31m  Conversion error: Jekyll::Converters::Scss encountered an error while converting 'assets/css/main.scss':[0m
+[31m                    Error: File to import not found or unreadable: minimal-mistakes/skins/default. on line 11:1 of main.scss >> @import "minimal-mistakes/skins/default"; ^ [0m
+[33m             Error: Error: File to import not found or unreadable: minimal-mistakes/skins/default. on line 11:1 of main.scss >> @import "minimal-mistakes/skins/default"; ^ [0m
+[33m             Error: Run jekyll build --trace for more information.[0m
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:34:28
+                    nohup.out
+[31m  Conversion error: Jekyll::Converters::Scss encountered an error while converting 'assets/css/main.scss':[0m
+[31m                    Error: File to import not found or unreadable: minimal-mistakes/skins/default. on line 11:1 of stdin >> @import "minimal-mistakes/skins/default"; ^ [0m
+[33m             Error: Error: File to import not found or unreadable: minimal-mistakes/skins/default. on line 11:1 of stdin >> @import "minimal-mistakes/skins/default"; ^ [0m
+[33m             Error: Run jekyll build --trace for more information.[0m
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:34:45
+                    nohup.out
+[31m  Conversion error: Jekyll::Converters::Scss encountered an error while converting 'assets/css/main.scss':[0m
+[31m                    Error: File to import not found or unreadable: minimal-mistakes/skins/default. on line 11:1 of main.scss >> @import "minimal-mistakes/skins/default"; ^ [0m
+[33m             Error: Error: File to import not found or unreadable: minimal-mistakes/skins/default. on line 11:1 of main.scss >> @import "minimal-mistakes/skins/default"; ^ [0m
+[33m             Error: Run jekyll build --trace for more information.[0m
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:34:45
+                    nohup.out
+[31m  Conversion error: Jekyll::Converters::Scss encountered an error while converting 'assets/css/main.scss':[0m
+[31m                    Error: File to import not found or unreadable: minimal-mistakes/skins/default. on line 11:1 of stdin >> @import "minimal-mistakes/skins/default"; ^ [0m
+[33m             Error: Error: File to import not found or unreadable: minimal-mistakes/skins/default. on line 11:1 of stdin >> @import "minimal-mistakes/skins/default"; ^ [0m
+[33m             Error: Run jekyll build --trace for more information.[0m
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:34:46
+                    nohup.out
+[31m  Conversion error: Jekyll::Converters::Scss encountered an error while converting 'assets/css/main.scss':[0m
+[31m                    Error: File to import not found or unreadable: minimal-mistakes/skins/default. on line 11:1 of main.scss >> @import "minimal-mistakes/skins/default"; ^ [0m
+[33m             Error: Error: File to import not found or unreadable: minimal-mistakes/skins/default. on line 11:1 of main.scss >> @import "minimal-mistakes/skins/default"; ^ [0m
+[33m             Error: Run jekyll build --trace for more information.[0m
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:34:46
+                    nohup.out
+[31m  Conversion error: Jekyll::Converters::Scss encountered an error while converting 'assets/css/main.scss':[0m
+[31m                    Error: File to import not found or unreadable: minimal-mistakes/skins/default. on line 11:1 of stdin >> @import "minimal-mistakes/skins/default"; ^ [0m
+[33m             Error: Error: File to import not found or unreadable: minimal-mistakes/skins/default. on line 11:1 of stdin >> @import "minimal-mistakes/skins/default"; ^ [0m
+[33m             Error: Run jekyll build --trace for more information.[0m
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:34:47
+                    nohup.out
+[31m  Conversion error: Jekyll::Converters::Scss encountered an error while converting 'assets/css/main.scss':[0m
+[31m                    Error: File to import not found or unreadable: minimal-mistakes/skins/default. on line 11:1 of main.scss >> @import "minimal-mistakes/skins/default"; ^ [0m
+[33m             Error: Error: File to import not found or unreadable: minimal-mistakes/skins/default. on line 11:1 of main.scss >> @import "minimal-mistakes/skins/default"; ^ [0m
+[33m             Error: Run jekyll build --trace for more information.[0m
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:34:47
+                    nohup.out
+[31m  Conversion error: Jekyll::Converters::Scss encountered an error while converting 'assets/css/main.scss':[0m
+[31m                    Error: File to import not found or unreadable: minimal-mistakes/skins/default. on line 11:1 of stdin >> @import "minimal-mistakes/skins/default"; ^ [0m
+[33m             Error: Error: File to import not found or unreadable: minimal-mistakes/skins/default. on line 11:1 of stdin >> @import "minimal-mistakes/skins/default"; ^ [0m
+[33m             Error: Run jekyll build --trace for more information.[0m
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:36:05
+                    nohup.out
+[31m  Conversion error: Jekyll::Converters::Scss encountered an error while converting 'assets/css/main.scss':[0m
+[31m                    Error: File to import not found or unreadable: minimal-mistakes/skins/default. on line 11:1 of main.scss >> @import "minimal-mistakes/skins/default"; ^ [0m
+[33m             Error: Error: File to import not found or unreadable: minimal-mistakes/skins/default. on line 11:1 of main.scss >> @import "minimal-mistakes/skins/default"; ^ [0m
+[33m             Error: Run jekyll build --trace for more information.[0m
+                    
+      Regenerating: 2 file(s) changed at 2020-07-03 10:36:12
+                    nohup.out
+                    .#_config.yml
+[31m  Conversion error: Jekyll::Converters::Scss encountered an error while converting 'assets/css/main.scss':[0m
+[31m                    Error: File to import not found or unreadable: minimal-mistakes/skins/default. on line 11:1 of stdin >> @import "minimal-mistakes/skins/default"; ^ [0m
+[33m             Error: Error: File to import not found or unreadable: minimal-mistakes/skins/default. on line 11:1 of stdin >> @import "minimal-mistakes/skins/default"; ^ [0m
+[33m             Error: Run jekyll build --trace for more information.[0m
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:36:12
+                    nohup.out
+[31m  Conversion error: Jekyll::Converters::Scss encountered an error while converting 'assets/css/main.scss':[0m
+[31m                    Error: File to import not found or unreadable: minimal-mistakes/skins/default. on line 11:1 of main.scss >> @import "minimal-mistakes/skins/default"; ^ [0m
+[33m             Error: Error: File to import not found or unreadable: minimal-mistakes/skins/default. on line 11:1 of main.scss >> @import "minimal-mistakes/skins/default"; ^ [0m
+[33m             Error: Run jekyll build --trace for more information.[0m
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:36:31
+                    nohup.out
+[31m  Conversion error: Jekyll::Converters::Scss encountered an error while converting 'assets/css/main.scss':[0m
+[31m                    Error: File to import not found or unreadable: minimal-mistakes/skins/default. on line 11:1 of stdin >> @import "minimal-mistakes/skins/default"; ^ [0m
+[33m             Error: Error: File to import not found or unreadable: minimal-mistakes/skins/default. on line 11:1 of stdin >> @import "minimal-mistakes/skins/default"; ^ [0m
+[33m             Error: Run jekyll build --trace for more information.[0m
+                    
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+[31m  Conversion error: Jekyll::Converters::Scss encountered an error while converting 'assets/css/main.scss':[0m
+[31m                    Error: File to import not found or unreadable: minimal-mistakes/skins/default. on line 11:1 of main.scss >> @import "minimal-mistakes/skins/default"; ^ [0m
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.0.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.64 seconds.
+ Auto-regeneration: enabled for '/Users/clinton/Documents/technical/dev/clintonboys.github.io'
+    Server address: http://127.0.0.1:4000
+  Server running... press ctrl-c to stop.
+      Regenerating: 1 file(s) changed at 2020-07-03 10:37:44
+                    nohup.out
+                    ...done in 0.845382 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:37:45
+                    nohup.out
+                    ...done in 0.694768 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:37:46
+                    nohup.out
+                    ...done in 0.261699 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:37:47
+                    nohup.out
+                    ...done in 0.258195 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:37:48
+                    nohup.out
+                    ...done in 0.290236 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:37:48
+                    nohup.out
+                    ...done in 0.34239 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:37:49
+                    nohup.out
+                    ...done in 0.300732 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:37:50
+                    nohup.out
+                    ...done in 0.408896 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:37:51
+                    nohup.out
+                    ...done in 0.300774 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:37:52
+                    nohup.out
+                    ...done in 0.262749 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:37:52
+                    nohup.out
+                    ...done in 0.295631 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:43:56
+                    nohup.out
+                    ...done in 0.303007 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:43:57
+                    nohup.out
+                    ...done in 0.351644 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:43:57
+                    nohup.out
+                    ...done in 0.3134 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:43:58
+                    nohup.out
+                    ...done in 0.282483 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:43:58
+                    nohup.out
+                    ...done in 0.293907 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:44:03
+                    nohup.out
+                    ...done in 0.227125 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:44:04
+                    nohup.out
+                    ...done in 0.283564 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:44:05
+                    nohup.out
+                    ...done in 0.241778 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:44:05
+                    nohup.out
+                    ...done in 0.248122 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:46:30
+                    nohup.out
+                    ...done in 0.222093 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:46:31
+                    nohup.out
+                    ...done in 0.396267 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:46:31
+                    nohup.out
+                    ...done in 0.470362 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:46:32
+                    nohup.out
+                    ...done in 0.298065 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:46:32
+                    nohup.out
+                    ...done in 0.344358 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2020-07-03 10:46:33
+                    _posts/2019-12-21-uk-av-sim.md
+                    _posts/.#2019-12-21-uk-av-sim.md
+                    ...done in 0.634536 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:46:34
+                    nohup.out
+                    ...done in 0.454505 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:46:34
+                    nohup.out
+                    ...done in 0.443859 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:46:35
+                    nohup.out
+                    ...done in 0.25162 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:46:35
+                    nohup.out
+                    ...done in 0.268786 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2020-07-03 10:46:36
+                    _posts/2019-12-21-uk-av-sim.md
+                    _posts/.#2019-12-21-uk-av-sim.md
+                    ...done in 0.451047 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:46:37
+                    nohup.out
+                    ...done in 0.573543 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:46:38
+                    nohup.out
+                    ...done in 0.47195 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 10:46:38
+                    nohup.out
+                    ...done in 0.315756 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 11:33:22
+                    nohup.out
+                    ...done in 0.238695 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 11:33:22
+                    nohup.out
+                    ...done in 0.249223 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2020-07-03 11:35:47
+                    nohup.out
+                    _posts/#2019-12-21-uk-av-sim.md#
+                    ...done in 0.227141 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 11:35:48
+                    nohup.out
+                    ...done in 0.27579 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 11:35:48
+                    nohup.out
+                    ...done in 0.240606 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 11:35:57
+                    nohup.out
+                    ...done in 0.464454 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 11:35:58
+                    nohup.out
+                    ...done in 0.522491 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 11:35:58
+                    nohup.out
+                    ...done in 0.599629 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 11:35:59
+                    nohup.out
+                    ...done in 0.258458 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 11:35:59
+                    nohup.out
+                    ...done in 0.282189 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 11:37:04
+                    nohup.out
+                    ...done in 0.286213 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 11:37:04
+                    nohup.out
+                    ...done in 0.397243 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 11:37:05
+                    nohup.out
+                    ...done in 0.25048 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 11:37:07
+                    nohup.out
+                    ...done in 0.301353 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 11:37:07
+                    nohup.out
+                    ...done in 0.576089 seconds.
+                    
+      Regenerating: 4 file(s) changed at 2020-07-03 11:37:08
+                    _posts/2019-12-21-uk-av-sim.md
+                    nohup.out
+                    _posts/.#2019-12-21-uk-av-sim.md
+                    _posts/#2019-12-21-uk-av-sim.md#
+                    ...done in 0.301894 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 11:37:09
+                    nohup.out
+                    ...done in 0.292725 seconds.
+                    
+      Regenerating: 4 file(s) changed at 2020-07-03 11:37:09
+                    nohup.out
+                    _templates/archive
+                    _templates/#archive#
+                    _templates/.#archive
+                    ...done in 0.418279 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 11:37:10
+                    nohup.out
+                    ...done in 0.36366 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 11:37:11
+                    nohup.out
+                    ...done in 0.258315 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-07-03 11:37:11
+                    nohup.out
+                    ...done in 0.281158 seconds.
+                    
+[2020-07-03 12:16:16] ERROR `/now' not found.
+[2020-07-03 12:16:17] ERROR `/now' not found.
+[2020-07-03 12:16:25] ERROR `/now/' not found.
+[2020-07-03 12:16:25] ERROR `/now/' not found.
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 1.346 seconds.
+ Auto-regeneration: enabled for '/Users/clinton/Documents/technical/dev/clintonboys.github.io'
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.0.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.38 seconds.
+ Auto-regeneration: enabled for '/Users/clinton/Documents/technical/dev/clintonboys.github.io'
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.0.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+[2020-07-03 12:59:02] ERROR Errno::ENOENT: No such file or directory @ rb_file_s_stat - /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site/assets/js/scripts.min.js
+	/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/webrick/httpservlet/filehandler.rb:45:in `stat'
+	/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/webrick/httpservlet/filehandler.rb:45:in `do_GET'
+	/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/webrick/httpservlet/abstract.rb:105:in `service'
+	/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/webrick/httpservlet/filehandler.rb:306:in `exec_handler'
+	/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/webrick/httpservlet/filehandler.rb:237:in `do_GET'
+	/Users/clinton/Documents/technical/dev/clintonboys.github.io/vendor/bundle/ruby/2.6.0/gems/jekyll-4.0.0/lib/jekyll/commands/serve/servlet.rb:160:in `do_GET'
+	/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/webrick/httpservlet/abstract.rb:105:in `service'
+	/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/webrick/httpservlet/filehandler.rb:233:in `service'
+	/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+	/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+	/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+                    done in 0.463 seconds.
+ Auto-regeneration: enabled for '/Users/clinton/Documents/technical/dev/clintonboys.github.io'
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.0.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.406 seconds.
+ Auto-regeneration: enabled for '/Users/clinton/Documents/technical/dev/clintonboys.github.io'
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.0.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.364 seconds.
+ Auto-regeneration: enabled for '/Users/clinton/Documents/technical/dev/clintonboys.github.io'
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.0.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.354 seconds.
+ Auto-regeneration: enabled for '/Users/clinton/Documents/technical/dev/clintonboys.github.io'
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.0.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.399 seconds.
+ Auto-regeneration: enabled for '/Users/clinton/Documents/technical/dev/clintonboys.github.io'
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.0.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.395 seconds.
+ Auto-regeneration: enabled for '/Users/clinton/Documents/technical/dev/clintonboys.github.io'
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.0.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.437 seconds.
+ Auto-regeneration: enabled for '/Users/clinton/Documents/technical/dev/clintonboys.github.io'
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.0.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.378 seconds.
+ Auto-regeneration: enabled for '/Users/clinton/Documents/technical/dev/clintonboys.github.io'
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.0.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.365 seconds.
+ Auto-regeneration: enabled for '/Users/clinton/Documents/technical/dev/clintonboys.github.io'
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.0.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.515 seconds.
+ Auto-regeneration: enabled for '/Users/clinton/Documents/technical/dev/clintonboys.github.io'
+[2020-07-03 13:24:39] ERROR `/images/bio-photo.jpg' not found.
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.0.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+[2020-07-03 13:24:55] ERROR `/images/bio-photo.jpg' not found.
+[2020-07-03 13:24:55] ERROR `/images/bio-photo.jpg' not found.
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.456 seconds.
+ Auto-regeneration: enabled for '/Users/clinton/Documents/technical/dev/clintonboys.github.io'
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.0.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.406 seconds.
+ Auto-regeneration: enabled for '/Users/clinton/Documents/technical/dev/clintonboys.github.io'
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.0.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.745 seconds.
+ Auto-regeneration: enabled for '/Users/clinton/Documents/technical/dev/clintonboys.github.io'
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.0.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.715 seconds.
+ Auto-regeneration: enabled for '/Users/clinton/Documents/technical/dev/clintonboys.github.io'
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.0.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.428 seconds.
+ Auto-regeneration: enabled for '/Users/clinton/Documents/technical/dev/clintonboys.github.io'
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.0.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.401 seconds.
+ Auto-regeneration: enabled for '/Users/clinton/Documents/technical/dev/clintonboys.github.io'
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.0.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.858 seconds.
+ Auto-regeneration: enabled for '/Users/clinton/Documents/technical/dev/clintonboys.github.io'
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.0.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.645 seconds.
+ Auto-regeneration: enabled for '/Users/clinton/Documents/technical/dev/clintonboys.github.io'
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.0.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.736 seconds.
+ Auto-regeneration: enabled for '/Users/clinton/Documents/technical/dev/clintonboys.github.io'
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.0.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.646 seconds.
+ Auto-regeneration: enabled for '/Users/clinton/Documents/technical/dev/clintonboys.github.io'
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.0.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+[33m       Deprecation: You appear to have pagination turned on, but you haven't included the `jekyll-paginate` gem. Ensure you have `plugins: [jekyll-paginate]` in your configuration file.[0m
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 1.394 seconds.
+ Auto-regeneration: enabled for '/Users/clinton/Documents/technical/dev/clintonboys.github.io'
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.0.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+[33m       Deprecation: You appear to have pagination turned on, but you haven't included the `jekyll-paginate` gem. Ensure you have `plugins: [jekyll-paginate]` in your configuration file.[0m
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.727 seconds.
+ Auto-regeneration: enabled for '/Users/clinton/Documents/technical/dev/clintonboys.github.io'
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.0.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+[33m       Deprecation: You appear to have pagination turned on, but you haven't included the `jekyll-paginate` gem. Ensure you have `plugins: [jekyll-paginate]` in your configuration file.[0m
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+[33mYAML Exception reading /Users/clinton/Documents/technical/dev/clintonboys.github.io/index.md: (<unknown>): found character that cannot start any token while scanning for the next token at line 5 column 1 [0m
+                    done in 0.686 seconds.
+ Auto-regeneration: enabled for '/Users/clinton/Documents/technical/dev/clintonboys.github.io'
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.0.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+[33m       Deprecation: You appear to have pagination turned on, but you haven't included the `jekyll-paginate` gem. Ensure you have `plugins: [jekyll-paginate]` in your configuration file.[0m
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.585 seconds.
+ Auto-regeneration: enabled for '/Users/clinton/Documents/technical/dev/clintonboys.github.io'
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.0.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+[33m       Deprecation: You appear to have pagination turned on, but you haven't included the `jekyll-paginate` gem. Ensure you have `plugins: [jekyll-paginate]` in your configuration file.[0m
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.684 seconds.
+ Auto-regeneration: enabled for '/Users/clinton/Documents/technical/dev/clintonboys.github.io'
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.0.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+[33m       Deprecation: You appear to have pagination turned on, but you haven't included the `jekyll-paginate` gem. Ensure you have `plugins: [jekyll-paginate]` in your configuration file.[0m
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.614 seconds.
+ Auto-regeneration: enabled for '/Users/clinton/Documents/technical/dev/clintonboys.github.io'
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.0.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+[33m       Deprecation: You appear to have pagination turned on, but you haven't included the `jekyll-paginate` gem. Ensure you have `plugins: [jekyll-paginate]` in your configuration file.[0m
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 1.031 seconds.
+ Auto-regeneration: enabled for '/Users/clinton/Documents/technical/dev/clintonboys.github.io'
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.0.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+[33m        Pagination: Pagination is enabled, but I couldn't find an index.html page to use as the pagination templatex. Skipping pagination.[0m
+                    done in 1.018 seconds.
+ Auto-regeneration: enabled for '/Users/clinton/Documents/technical/dev/clintonboys.github.io'
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.0.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+[33m        Pagination: Pagination is enabled, but I couldn't find an index.html page to use as the pagination template. Skipping pagination.[0m
+                    done in 0.848 seconds.
+ Auto-regeneration: enabled for '/Users/clinton/Documents/technical/dev/clintonboys.github.io'
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.0.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+[33m        Pagination: Pagination is enabled, but I couldn't find an index.html page to use as the pagination template. Skipping pagination.[0m
+                    done in 0.827 seconds.
+ Auto-regeneration: enabled for '/Users/clinton/Documents/technical/dev/clintonboys.github.io'
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.0.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+[33m        Pagination: Pagination is enabled, but I couldn't find an index.html page to use as the pagination template. Skipping pagination.[0m
+                    done in 0.598 seconds.
+ Auto-regeneration: enabled for '/Users/clinton/Documents/technical/dev/clintonboys.github.io'
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.0.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+[33m        Pagination: Pagination is enabled, but I couldn't find an index.html page to use as the pagination template. Skipping pagination.[0m
+                    done in 0.655 seconds.
+ Auto-regeneration: enabled for '/Users/clinton/Documents/technical/dev/clintonboys.github.io'
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.0.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+[33m        Pagination: Pagination is enabled, but I couldn't find an index.html page to use as the pagination template. Skipping pagination.[0m
+                    done in 0.437 seconds.
+ Auto-regeneration: enabled for '/Users/clinton/Documents/technical/dev/clintonboys.github.io'
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.0.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+[33m        Pagination: Pagination is enabled, but I couldn't find an index.html page to use as the pagination template. Skipping pagination.[0m
+                    done in 0.442 seconds.
+ Auto-regeneration: enabled for '/Users/clinton/Documents/technical/dev/clintonboys.github.io'
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.0.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+[2020-07-05 15:17:31] ERROR bad URI `/%7B%'.
+[2020-07-05 15:17:32] ERROR bad URI `/%7B%'.
+[2020-07-05 15:17:35] ERROR bad URI `/%7B%'.
+[2020-07-05 15:17:35] ERROR bad URI `/%7B%'.
+[2020-07-05 15:17:41] ERROR bad URI `/%7B%'.
+[2020-07-05 15:17:41] ERROR bad URI `/%7B%'.
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+[33m        Pagination: Pagination is enabled, but I couldn't find an index.html page to use as the pagination template. Skipping pagination.[0m
+[33m     Build Warning: Layout 'post-index' requested in posts/index.md does not exist.[0m
+[2020-07-05 15:17:54] ERROR bad URI `/%7B%'.
+                    done in 0.461 seconds.
+ Auto-regeneration: enabled for '/Users/clinton/Documents/technical/dev/clintonboys.github.io'
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.0.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+[2020-07-05 15:17:54] ERROR bad URI `/%7B%'.
+[2020-07-05 15:17:55] ERROR bad URI `/%7B%'.
+[2020-07-05 15:17:58] ERROR bad URI `/%7B%'.
+[2020-07-05 15:17:59] ERROR bad URI `/%7B%'.
+[2020-07-05 15:17:59] ERROR bad URI `/%7B%'.
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+[33m        Pagination: Pagination is enabled, but I couldn't find an index.html page to use as the pagination template. Skipping pagination.[0m
+[33m     Build Warning: Layout 'post-index' requested in posts/index.md does not exist.[0m
+                    done in 0.386 seconds.
+ Auto-regeneration: enabled for '/Users/clinton/Documents/technical/dev/clintonboys.github.io'
+[2020-07-05 15:18:16] ERROR bad URI `/%7B%'.
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.0.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+[33m        Pagination: Pagination is enabled, but I couldn't find an index.html page to use as the pagination template. Skipping pagination.[0m
+[33m     Build Warning: Layout 'post-index' requested in posts/index.md does not exist.[0m
+                    done in 1.064 seconds.
+ Auto-regeneration: enabled for '/Users/clinton/Documents/technical/dev/clintonboys.github.io'
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.0.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+[33m        Pagination: Pagination is enabled, but I couldn't find an index.html page to use as the pagination template. Skipping pagination.[0m
+                    done in 0.988 seconds.
+ Auto-regeneration: enabled for '/Users/clinton/Documents/technical/dev/clintonboys.github.io'
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.0.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+[33m     Build Warning: Layout 'default' requested in posts/index.html does not exist.[0m
+[33m     Build Warning: Layout 'default' requested in posts/page2/index.html does not exist.[0m
+[33m     Build Warning: Layout 'default' requested in posts/page3/index.html does not exist.[0m
+[33m     Build Warning: Layout 'default' requested in posts/page4/index.html does not exist.[0m
+                    done in 0.388 seconds.
+ Auto-regeneration: enabled for '/Users/clinton/Documents/technical/dev/clintonboys.github.io'
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.0.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+Configuration file: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_config.yml
+            Source: /Users/clinton/Documents/technical/dev/clintonboys.github.io
+       Destination: /Users/clinton/Documents/technical/dev/clintonboys.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.515 seconds.
+ Auto-regeneration: enabled for '/Users/clinton/Documents/technical/dev/clintonboys.github.io'
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.0.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m

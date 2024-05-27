@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Scraping Gumtree
+image:
+  feature: sample-image-9.jpg
+  credit: Cascade Mountains, Oregon, 2013
 ---
 
 Gumtree.com.au is a trading post website, largely used by private sellers interacting with each other off-site to sell used goods. One particularly common use for Gumtree is concert tickets: this is one of the main uses I have for it. 

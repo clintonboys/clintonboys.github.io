@@ -19,7 +19,7 @@ The aim of the model is twofold:
 - outside election campaigns, provide a sophisticated poll aggregator that takes into account pollster accuracy, and provides a probabilistic "nowcast" for **each seat** in the legislature
 - within an election campaign, providing the above, together with a trend-based forecast
 
-Ideally, I'd like to have the model be fully automated, including at the level of scraping the web to update itself to include new polls. I'd like to provide some analysis of its results when reported. It's worth noting that, as far as I am aware, this would be a completely different approach to any that [currently exist](http://www.clintonboys.com/aus-election-model-5/). 
+Ideally, I'd like to have the model be fully automated, including at the level of scraping the web to update itself to include new polls. I'd like to provide some analysis of its results when reported. It's worth noting that, as far as I am aware, this would be a completely different approach to any that [currently exist](http://www.clintonboys.com/aus-election-model/). 
 
 **How is it different from existing models?**
 
@@ -31,7 +31,7 @@ As various pieces of the model are built, I'll update this section. Usually ther
 
 29/3/15: As I only have a database of federal polling data, I have spent five days scraping the web for state poll data.
 
-31/3/15: First version of [pollster weight calculator](http://www.clintonboys.com/aus-election-model-7/) is built. 
+31/3/15: First version of [pollster weight calculator](http://www.clintonboys.com/aus-election-model/) is built. 
 
 5/4/15: Working on an object-oriented skeleton of the model which will initially work with a few dummy polling places and seats. 
 

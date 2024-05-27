@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Forecasting Australian elections III - Emma Chisit v1.0
+title: Emma Chisit
 ---
 
 I've spent the last few months of my spare time writing code for a [model](http://www.clintonboys.com/emma-chisit/) to forecast Australian elections. I'm calling the model Emma Chisit. A very basic first version of the model is finished, and I wanted to write up a few things about how it works, mainly so I can explain the current shortcomings, and the improvements I want to make down the line. The good thing is that I've written the bones of many of the core parts of the model, and have something that mostly works and is easy to improve. 
@@ -15,7 +15,7 @@ The model uses the following data:
 
 **Poll aggregator to swings**
 
-The current heart of the model is a poll aggregator. I'm using the same code that I wrote for my [Israeli poll aggregator](http://www.clintonboys.com/israel-poll-aggregator-1/), which accounts for pollster reliability (measured across my entire poll database, including state polls) and recency. The model computes a poll aggregate (which has a much greater historical tendency for accuracy than the individual pollsters) and then the implied swing (percentage change) from the previous election's results. 
+The current heart of the model is a poll aggregator. I'm using the same code that I wrote for my [Israeli poll aggregator](http://www.clintonboys.com/israel-poll-aggregator/), which accounts for pollster reliability (measured across my entire poll database, including state polls) and recency. The model computes a poll aggregate (which has a much greater historical tendency for accuracy than the individual pollsters) and then the implied swing (percentage change) from the previous election's results. 
 
 **Four-party model and runoff simulator**
 

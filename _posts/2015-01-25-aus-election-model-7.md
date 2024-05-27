@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Forecasting Australian elections I - Poll reliability
+title: Correcting for reliability in Australian election polls
 ---
 
-In a series of posts last year (starting [here](http://www.clintonboys.com/aus-election-model-1/)) I discussed the difficulties in building a model for predicting Australian elections. In the next series of posts, I want to build a few basic pieces of this model. 
+In a [post](http://www.clintonboys.com/aus-election-model/) last year, I discussed the difficulties in building a model for predicting Australian elections. In the next series of posts, I want to build a few basic pieces of this model. 
 
 The first piece of the model I want to build is a series of reliability weights for pollsters. First let's have a look at who the main pollsters are in Australian elections.
 

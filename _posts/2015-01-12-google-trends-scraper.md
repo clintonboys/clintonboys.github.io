@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Scraping and joining Google trends searches
+image:
+  feature: sample-image-13.jpg
+  credit: Wellington, New Zealand, 2014
 ---
 
 **UPDATE 2** (18/2/2017): I have fixed the code so the trendy scraper is now working again. The updated code is in [Github](https://github.com/clintonboys/trendy-scraper) and there is a post on the blog here. I made a few improvements along the way.  

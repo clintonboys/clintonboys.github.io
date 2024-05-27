@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Forecasting Australian elections II - Clustering electorates by demographic variables
+title: Clustering Australian electorates by demographic variables
 ---
 
 In this post we'll use census data to cluster Australian federal electorates according to their demographic similarity. This is a good exercise for me to use some basic clustering algorithms, and it's a component I'd like to use in my final model. 

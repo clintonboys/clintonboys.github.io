@@ -1,7 +1,7 @@
 # Site wide configuration
 
 title:            Clinton Boys
-locale:           en_AU
+locale:           en_GB
 url:              https://www.clintonboys.com
 
 future:
@@ -36,10 +36,10 @@ minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon
 owner:
   name: Clinton Boys
   avatar: bio-photo.jpg
-  bio: "Australian data scientist and mathematician, living in London."
-  email: clintonboys@icloud.com
+  bio: "Australian programmer and mathematician, living in London."
+  email: me@clintonboys.com
   disqus-shortname: 
-  twitter: _clintonboys
+  twitter: #username
   google:
     plus: #username
     verify: 
