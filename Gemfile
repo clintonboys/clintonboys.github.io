@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
-ruby "~> 2.6.0"
-gem "json", "2.0.2"
+gem "json"
 gem 'jekyll'
 gem "jekyll-sitemap"
-gem 'octopress', '~> 3.0.0.rc.12'
+gem 'octopress'
 gem 'jekyll-paginate'
