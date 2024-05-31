@@ -6,7 +6,7 @@ image:
   credit: Berlin, Germany, 2012
 ---
 
-In this post I answer the interview questions from [The Setup](http://usesthis.com/). This is an updated version of this post which I first wrote [here](http://www.clintonboys.com/uses-this-old/) in April 2015. 
+In this post I answer the interview questions from [The Setup](http://usesthis.com/). This is an updated version of this post which I first wrote [here]({{ site.baseurl }}{% link _posts/2015-04-02-uses-this-very_old.md %}) in April 2015. 
 
 **Who are you and what do you do?**
 

@@ -211,5 +211,5 @@ This code is available in a [Github repo](https://github.com/clintonboys/trendy-
 
 **UPDATE** (24/10/2016): Google has made significant changes to their Trends product which means this code no longer works. I'm working on updating it and will write a new post when this is done. 
 
-**UPDATE 2** (18/2/2017): I have fixed the code so the trendy scraper is now working again. The updated code is in [Github](https://github.com/clintonboys/trendy-scraper) and there is a post on the blog [here](https://www.clintonboys.com/google-trends-scraper-2/). I made a few improvements along the way.  
+**UPDATE 2** (18/2/2017): I have fixed the code so the trendy scraper is now working again. The updated code is in [Github](https://github.com/clintonboys/trendy-scraper) and there is a post on the [blog]({{ site.baseurl }}{% link _posts/2017-02-11-google-trends-scraper-2.md %}). I made a few improvements along the way.  
 
