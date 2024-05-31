@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Multilevel regression
+image:
+  feature: sample-image-72.jpg
+  credit: Hong Kong, 2019
 ---
 
 This post is about what people usually mean when they use the term "heirarchical regression", which is one of those confusing terms in statistics that can have different meanings to different people. I've noticed people using "heirarchical regression" to refer to two things:

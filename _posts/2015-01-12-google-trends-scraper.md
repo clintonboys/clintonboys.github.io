@@ -6,12 +6,6 @@ image:
   credit: Wellington, New Zealand, 2014
 ---
 
-**UPDATE 2** (18/2/2017): I have fixed the code so the trendy scraper is now working again. The updated code is in [Github](https://github.com/clintonboys/trendy-scraper) and there is a post on the blog here. I made a few improvements along the way.  
-
-**UPDATE** (24/10/2016): Google has made significant changes to their Trends product which means this code no longer works. I'm working on updating it and will write a new post when this is done. 
-
-***
-
 If you search Google trends for a term like "taylor+swift", and set your timescale to "2004 to present", you'll get an interesting graph that does demonstrate the meteoric rise to stardom of the pop star. 
 
 ![Taylor swift](https://github.com/clintonboys/clintonboys.github.io/blob/master/_posts/taylorswift.png?raw=true)
@@ -215,5 +209,7 @@ Finally we rescale everything again so it is consistent with Google's 0-100 scal
 
 This code is available in a [Github repo](https://github.com/clintonboys/trendy-scraper). There's definitely room for a bunch of improvements but it does what I need it to do at the moment. 
 
+**UPDATE** (24/10/2016): Google has made significant changes to their Trends product which means this code no longer works. I'm working on updating it and will write a new post when this is done. 
 
+**UPDATE 2** (18/2/2017): I have fixed the code so the trendy scraper is now working again. The updated code is in [Github](https://github.com/clintonboys/trendy-scraper) and there is a post on the blog [here](https://www.clintonboys.com/google-trends-scraper-2/). I made a few improvements along the way.  
 

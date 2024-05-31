@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Fixing the Trendy scraper
+image:
+  feature: sample-image-13.jpg
+  credit: Wellington, New Zealand, 2014
 ---
 
 My [Google trends scraper](http://www.clintonboys.com/google-trends-scraper/) is the most popular post on this site, and I've been getting questions about it for the last year or so, ever since Google changed the way the data is pulled and displayed on the [trends site](https://trends.google.com/trends/explore).

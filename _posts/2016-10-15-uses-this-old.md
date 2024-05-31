@@ -1,6 +1,9 @@
 ---
 layout: post
 title: The Setup
+image:
+  feature: sample-image-25.jpg
+  credit: Berlin, Germany, 2012
 ---
 
 In this post I answer the interview questions from [The Setup](http://usesthis.com/). This is an updated version of this post which I first wrote [here](http://www.clintonboys.com/uses-this-old/) in April 2015. 

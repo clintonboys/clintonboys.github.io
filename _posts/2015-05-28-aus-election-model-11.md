@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Forecasting Australian elections - the tricky seats
+image:
+  feature: sample-image-10.jpg
+  credit: Stella Maris, Haifa, Israel, 2014
 ---
 
 In this post I want to look at the most difficult seats from the 2013 election for my basic model: those eleven seats whose final two candidates in the runoff process were *not* the ALP and the Coalition (more technically: their two-candidate preferred result was not a two-party-preferred result). Hopefully a closer analysis of these seats will give me an idea of how to properly set up the model to account for seats of this type. Below is a list of these seats, the top two parties, and in brackets the party which placed third.

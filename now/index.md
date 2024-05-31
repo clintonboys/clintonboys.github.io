@@ -1,6 +1,9 @@
 ---
 layout: page
 title: Now
+image:
+  feature: mts9-1-grey.jpg
+  credit: Mt. Solitary, Blue Mountains, NSW, 2021
 ---
 
 This page contains a quick overview of what I'm doing right now. I try to update it every couple of months. 

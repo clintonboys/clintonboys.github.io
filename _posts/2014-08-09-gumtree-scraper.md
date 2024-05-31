@@ -26,7 +26,7 @@ I'd not done much web scraping before but I'd heard good things about BeautifulS
     OFFER_CHOICE=['k0?ad=offering','k0?ad=wanted']
     ARTIST_URL="arctic+monkeys"#re.sub("\s",+,artist)
 
-I then used the requests package to scrape a gumtree results page and dump the JSON output; this scrapes the nth result page (Gumtree limits to 10 results per pagee). 
+I then used the requests package to scrape a gumtree results page and dump the JSON output; this scrapes the $n$th result page (Gumtree limits to 10 results per page). 
 
     def scrape_gumtree_page_n(n):
         current_time=int(time.time())
@@ -92,16 +92,16 @@ I wanted to run the scraper constantly in the background, preferably on an Amazo
 	    subj=artist+' '+city
 	    body=json.dumps(result)
 	    message = {
-	     'from_email': 'cboys@maths.usyd.edu.au',
+	     'from_email': '...',
 	     'from_name': 'Clinton Boys',
-	     'headers': {'Reply-To': 'cdsboys@gmail.com'},
+	     'headers': {'Reply-To': '...'},
 	     'important': True,
 	     'preserve_recipients': None,
 	     'return_path_domain': None,
 	     'signing_domain': None,
 	     'subject': subj,
 	     'text': body,
-	     'to': [{'email': 'cdsboys@gmail.com',
+	     'to': [{'email': '...',
 	             'name': 'Clinton Boys',
 	             'type': 'to'}],
 	    }

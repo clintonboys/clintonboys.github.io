@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Deep learning and the universal approximation theorem
+image:
+  feature: sample-image-49.jpg
+  credit: Eden, New South Wales, 2018
 ---
 
 Deep learning, and in particular deep neural networks, is one of the most popular and 

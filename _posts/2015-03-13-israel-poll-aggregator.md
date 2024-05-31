@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Aggregating Israeli opinion polls
+image:
+  feature: sample-image-14.jpg
+  credit: Agmon HaHula, Israel, 2014
 ---
 
 The Israeli electoral system is completely different to the Australian system. 120 representatives are elected to the Knesset from a single at-large electorate. Members must be registered to a party; parties submit lists of candidates in an order they want them to be elected, candidates are then elected to the Knesset from these lists based on a proportion of votes received by each party, provided the vote is greater than the electoral threshhold (currently 3.25%, a significant increase from the previous election). 

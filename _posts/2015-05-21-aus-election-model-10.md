@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Marginal seat polls and the strong transition model
+image:
+  feature: sample-image-2.jpg
+  credit: Cradle Mountain National Park, Tasmania, 2014. 
 ---
 
 As I've recently (and finally) become gainfully employed, I haven't been able to devote a huge amount of time to my [model](http://www.clintonboys.com/emma-chisit/) for forecasting Australian elections. I have spent some time rewriting my sloppy code, fixing some redundancies and bugs, and improving the model to include the first few things on my [to-do list](http://www.clintonboys.com/aus-election-model-9/). 
