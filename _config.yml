@@ -2,7 +2,7 @@
 
 title:            Clinton Boys
 locale:           en_GB
-url:              https://www.clintonboys.com
+url:              https://clintonboys-github-io.vercel.app
 
 future:
   - true
