@@ -6,11 +6,9 @@ image:
   credit: Mt. Solitary, Blue Mountains, NSW, 2021
 ---
 
-This page contains a quick overview of what I'm doing right now. I try to update it every couple of months. 
+<i>Last updated: May 12, 2024.</i> 
 
-Last updated: May 12, 2024. You can see the full history of this page [here](https://github.com/clintonboys/clintonboys.github.io/commits/master/now/index.md). 
-
----
+This page contains a quick overview of what I'm doing right now. I try to update it every couple of months. You can see the full history of this page [here](https://github.com/clintonboys/clintonboys.github.io/commits/master/now/index.md). 
 
 ### Relocation to London
 
