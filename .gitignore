@@ -9,5 +9,4 @@ _asset_bundler_cache
 .bundle/
 .jekyll-cache/
 _posts/.jekyll-cache/
-vendor/
 new-images/
