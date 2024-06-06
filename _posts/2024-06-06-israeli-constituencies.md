@@ -274,8 +274,8 @@ This is an important quote: Fix a threshold $\lambda$. The dynamic program will 
 
     status = model.optimize(max_seconds=10800)
 
-But after I went through the paper again I realised the whole point of the first "phase" of their algorithm is that you allow census blocks to be split, so you need LP variables for each of the population. So probably I need to use a MCF implementation; I will try OR-tools at first.
+But after I went through the paper again I realised the whole point of the first "phase" of their algorithm is that you allow census blocks to be split, so you need LP variables for each of the population. So probably I need to use a MCF implementation; I would like to try OR-tools at first.
 
 ![Statistical areas by population](/assets/winner_by_electorate.png)
 
-TK
+I didn't completely get to finish this project, but the above picture gives the basic idea, it's just missing the final "contiguity" constraint which is harder to encode. I didn't get around to this yet, but if someone else would like to pick up from here I would be very keen to see a final map! 

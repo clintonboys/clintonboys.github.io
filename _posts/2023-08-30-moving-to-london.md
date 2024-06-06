@@ -8,15 +8,8 @@ image:
 
 This is a quick post to announce that I have relocated with my family to London this August. After eight years in Tel Aviv we are looking for a new adventure, and London has always been one of our favourite cities in the world. 
 
-My eight years working in Tel Aviv have taught me so much that I am not sure I would be able to write down a full list. When I started out I had a lot of theoretical, statistical and mathematical knowledge, and had taught myself to program, but that was about it. In the last eight years I have learnt how to design, build, operate and maintain many complicated systems at high scale. I have learned about databases, data processing and storage, data analytics and business intelligence, dashboard building and observability, distributed workloads using HDFS and Spark, the universe of containerisation and infrastructure as code: Docker, Terraform, CloudFormation, Kubernetes. 
+My eight years working in Tel Aviv have taught me so much that I am not sure I would be able to write down a full list. I have had the opportunity to work with a whole bunch of very talented and smart people, many of whom I will continue to work with remotely after my relocation. 
 
-I've learned how to 
-
-- Infra
-  - APIs, Databases, ETL, Distributed computing, Docker, Terraform, Kubernetes
-- Languages
-  - C, Clojure, Haskell, Julia, Python, R, Rust, SQL, Typescript
-- Libraries
-  - Flask, numpy, OR-tools, pulp, pytorch, python-mip, React, scipy, sklearn, stan, statsmodels, Tensorflow
-- Other
-  - AWS, emacs, GAP, git, \LaTeX, Lean, Linux, Mathematica, MATLAB, Nix
+- family and I moved to London this August
+- eight years in TLV, sign off
+- what's exciting about London
