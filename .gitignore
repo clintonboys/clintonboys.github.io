@@ -10,3 +10,4 @@ _asset_bundler_cache
 .jekyll-cache/
 _posts/.jekyll-cache/
 new-images/
+/vendor
