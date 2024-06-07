@@ -10,7 +10,7 @@ image:
 
 I read the book recently and really enjoyed it. I felt like it gives words and a solid theory to a deeply intuitive idea: that designing or building something requires a very detailed and studied understanding of what you are designing or building it for. This simple idea almost sounds like a tautology, but it is remarkable how often it is abused, ignored or degraded. Below are a few notes and thoughts I had while reading the book, which I would really recommend to anyone interested in designing and building systems of any kind. 
 
-The text is full of analogies and metaphors, which at the beginning try to capture the highly intuitive notion of "fit" and "misfit" of forms. 
+The text is full of analogies and metaphors, which at the beginning try to capture the highly intuitive notion of "fit" and "misfit" of forms of all kinds. The very first metaphor is of iron filings in a magnetic field: the process which dictates the form is not visible, but certainly exists. The same is true, Alexander reckons, for many other kinds of invisible forces: cultural, environmental, physical, human, which inform and ultimately shape the form of all manner of things in the world. 
 
 - magnetic filings example
 - self-conscious vs. unselfconsious cultures
