@@ -18,7 +18,7 @@ First of all, the country (which has no states) is split into population-based e
 
 On top of the electorates, each voter actually casts *two* ballots: one for his electorate, and another "party-list" ballot for his favoured party. An additional 49 seats are allocated proportionally to parties according to the party-list votes they receive. 
 
-This gives a total of 120 seats. After an election, the process of forming a government proceeds the same as in Australia, although due to the lack of preferential voting and the party-list system, hung parliaments are a much more common occurence. 
+This gives a total of 120 seats. After an election, the process of forming a government proceeds the same as in Australia, although due to the lack of preferential voting and the party-list system, hung parliaments are a much more common occurrence. 
 
 ## Reshaping the Australian electoral map
 

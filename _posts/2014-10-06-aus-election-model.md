@@ -23,7 +23,7 @@ There is an understandable desire for electoral forecasting to be accurate. Nate
 - an average of opinion polls, weighted for pollster past accuracy
 - demographic data at a seat level
 - past election data
-- redistrubution data
+- redistribution data
 - preference data
 - an economic index
 
@@ -81,6 +81,6 @@ The FiveThirtyEight model uses only a few variables to come up with an economic 
 - forecasted GDP
 - stock market
 
-The problem with trying to use this data (or similar data) in Australia is that very few economic variables are published monthly or more frequently by the ABS. This makes using the economic index to guide a forecast built with poll data problematic, as the economic index is operating on a different timescale. I spent a bit of time trying to come up with analoguous variables to these to use, but there just aren't enough variables released on small timescales to make what I would think is a reasonable index. 
+The problem with trying to use this data (or similar data) in Australia is that very few economic variables are published monthly or more frequently by the ABS. This makes using the economic index to guide a forecast built with poll data problematic, as the economic index is operating on a different timescale. I spent a bit of time trying to come up with analogous variables to these to use, but there just aren't enough variables released on small timescales to make what I would think is a reasonable index. 
 
 For this reason, at least at first, I'm not going to include an economic index in my model, until I can find a way to make a more meaningful one, and until I have done more research to test which particular economic variables are correlated strongly with election results. This again highlights the significant difficulties in aping the FiveThirtyEight model, and is another reason why I'm planning on coming up with a different idea. 

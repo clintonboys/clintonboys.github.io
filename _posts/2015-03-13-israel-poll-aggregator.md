@@ -6,7 +6,7 @@ image:
   credit: Agmon HaHula, Israel, 2014
 ---
 
-The Israeli electoral system is completely different to the Australian system. 120 representatives are elected to the Knesset from a single at-large electorate. Members must be registered to a party; parties submit lists of candidates in an order they want them to be elected, candidates are then elected to the Knesset from these lists based on a proportion of votes received by each party, provided the vote is greater than the electoral threshhold (currently 3.25%, a significant increase from the previous election). 
+The Israeli electoral system is completely different to the Australian system. 120 representatives are elected to the Knesset from a single at-large electorate. Members must be registered to a party; parties submit lists of candidates in an order they want them to be elected, candidates are then elected to the Knesset from these lists based on a proportion of votes received by each party, provided the vote is greater than the electoral threshold (currently 3.25%, a significant increase from the previous election). 
 
 It is difficult to provide a probabilistic model of what the Israeli government will look like after the election, even with the significant amount of polling that exists, because Israel's proportional representation system has meant, like many European countries in the post-war period, majority governments never occur. Rather, the election is just the first phase of a process that is followed by political wrangling and deals behind closed doors to form a coalition government (and these are often very unstable: the current election is more than twelve months early because of the breakdown of a previous coalition). 
 

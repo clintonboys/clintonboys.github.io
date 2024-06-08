@@ -43,7 +43,7 @@ The file I have here, called `2006_census_data_by_division.csv`, is available in
     census <- read.csv('2006_census_data_by_division.csv')
     pop <- as.numeric(as.character(census$Total_population[1:150]))
 
-Need to do a whole bunch of coersion; notice that we convert to character before numeric otherwise we get the numeric value of the ASCII characters. 
+Need to do a whole bunch of coercion; notice that we convert to character before numeric otherwise we get the numeric value of the ASCII characters. 
 
     Var1 <- as.numeric(as.character(census$Labour_force_aged_45_years_and_over22[1:150]))/pop
 

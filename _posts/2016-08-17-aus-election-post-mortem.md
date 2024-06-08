@@ -18,7 +18,7 @@ The "honeymoon period" of a new leader is a phrase that gets a lot of airtime in
 
 The interesting question is whether this is a feature of Australian politics in general, or whether this particularly dramatic course was peculiar to Turnbull. 
 
-This century, there have been eleven changes of leadership in the two major parties. For each change in leadership, I looked the average of the five polls taken immediately before and immediately after the change and obtained the following list. The **Gov?** column indicates whether the parter was in government (3 times) or not (8 times), and the **How** column indicates the way the old leader was removed: either deposed (6 times), resigned (3 times), or retired (2 times). 
+This century, there have been eleven changes of leadership in the two major parties. For each change in leadership, I looked the average of the five polls taken immediately before and immediately after the change and obtained the following list. The **Gov?** column indicates whether the party was in government (3 times) or not (8 times), and the **How** column indicates the way the old leader was removed: either deposed (6 times), resigned (3 times), or retired (2 times). 
 
 | Year | Month     | Party | Old Leader       | New Leader       | Gov? | How      | Before | After | Change | 
 |------|-----------|-------|------------------|------------------|------|----------|--------|-------|--------| 

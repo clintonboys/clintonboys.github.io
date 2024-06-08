@@ -24,7 +24,7 @@ The first piece of the model I want to build is a series of reliability weights 
 
 There are other minor pollsters floating around but we won't have enough data on them to create a weighting. We'll have to come up with a rule to assign polls not on this list a weight in the model.
 
-Let's look at elections in Australia in the last ten years. There have been eighteen elections for either the Federal government or the state governments in NSW, QLD, VIC, SA and WA since then (we exclude the territories, and TAS because its system is compeltely different to the others).
+Let's look at elections in Australia in the last ten years. There have been eighteen elections for either the Federal government or the state governments in NSW, QLD, VIC, SA and WA since then (we exclude the territories, and TAS because its system is completely different to the others).
 
 I want to calculate accuracy for the firms above for whenever polled these elections; we will just use the final poll they released before election day. We'll use primary and TPP (two-party-preferred) data for our calculations. Some pollsters won't have all eighteen data points because they only poll federal elections. 
 
@@ -32,7 +32,7 @@ Collecting the state polling data took a really long time. Federal data has been
 
 Newspoll data is all available on their website in a fairly accessible form. Morgan data is also available but hidden in single media releases for each poll so it's a bit of a pain. The other pollsters are much more opaque with their data. Galaxy was helpful and actually responded to an email request with a whole bunch of data. 
 
-I'm keeping all the code for my model on a Github repository [here](https://github.com/clintonboys/emma-chisit). I've called the model Emma Chisit. 
+I'm keeping all the code for my model on a Github repository [here](https://github.com/clintonboys/emma-chisit). I've called the model [*Emma Chisit*](https://en.m.wiktionary.org/wiki/Emma_Chisit). 
 
 After spending countless hours scraping polls, I was ready to build the poll weight calculator. Because I'm on a bit of an object-oriented binge at the moment, I decided to do it this way. First we create a poll class, and then a special inheritance for elections. 
 
