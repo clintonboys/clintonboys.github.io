@@ -11,3 +11,4 @@ _asset_bundler_cache
 _posts/.jekyll-cache/
 new-images/
 /vendor
+.idea/
