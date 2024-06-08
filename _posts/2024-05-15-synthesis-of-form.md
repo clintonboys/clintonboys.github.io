@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Notes on Notes on the Synthesis of Form
+title: Notes on <i>Notes on the Synthesis of Form</i>
 image:
   feature: sample-image-58.jpg
   credit: Sdei Boker, Israel, 2023
@@ -10,11 +10,15 @@ image:
 
 I read the book recently and really enjoyed it. I felt like it gives words and a solid theory to a deeply intuitive idea: that designing or building something requires a very detailed and studied understanding of what you are designing or building it for. This simple idea almost sounds like a tautology, but it is remarkable how often it is abused, ignored or degraded. Below are a few notes and thoughts I had while reading the book, which I would really recommend to anyone interested in designing and building systems of any kind. 
 
+### Part I
+
 The first part of the text is full of analogies and metaphors, which at the beginning try to capture the highly intuitive notion of "fit" and "misfit" of forms of all kinds. The very first metaphor is of iron filings in a magnetic field: the process which dictates the form that the filings jump into when the field is switched on is not visible, but certainly exists. The same is true, Alexander reckons, for many other kinds of invisible forces: cultural, environmental, physical, human, which inform and ultimately shape the form of all manner of things in the world. 
 
 The central focus of this part is on the difference between what Alexander calls "selfconscious" and "unselfconscious" cultures. He is hesitant to give a more loaded meaning, but it is clear from the examples that he gives that he is talking about pre- and post-enlightenment thinking. Individualism and skepticism of tradition are very problematic for the kind of generational form-making processes, like those which design the certain dwellings that tribes around the world build depending on their environment. These processes happen through the accumulation of small "corrections of misfits" -- fixing things when they are broken -- across generations, with no single person acting as anything more than an agent in some natural process of convergence to an equilibrium. When theories and opinions emerge, these cause fatal friction to these natural form-making processes. He argues that selfconscious cultures have a tendency to try to break large design problems down into subproblems based on contrived divisions, ultimately sourced from our ambiguous and culturally loaded languages, which do not reflect the subdivisions that would emerge in the "natural" process (all feels a bit inspired by Plato's Cave). 
 
 > Detailed analysis of the problem of designing urban family houses, for instance, has shown that the usually accepted functional categories like acoustics, circulation, and accom­modation are inappropriate for this problem. Similarly, the principle of the "neighborhood," one of the old chestnuts of city-planning theory, has been shown to be an inadequate mental component of the residential planning problem. *(p66)*
+
+### Part II
 
 The second part of the book presents a framework for studying and decomposing design problems which Alexander suggests is free of this bias. He proposes a new method, an additional abstraction on top of the existing "selfconscious" method, which "eradicates its bias and retains only its abstract structural features; this second picture may then be examined according to precisely defined operations, in a way not subject to the bias of language and experience" (p77). 
 
@@ -57,7 +61,11 @@ We can use these $$c_{ij}$$ as the weights of links in our graph. He notes that 
 
 He wants to search the graph for dense subclusters, where he believes can be found "particularly strong identifiable physical aspect[s] of the problem". (p122) I think this sounds a lot like the [min-cut](https://en.wikipedia.org/wiki/Minimum_cut) problem. 
 
-Into the maths now: for a partition $$\pi$$ of a set $$S$$ we define a "measure of information transfer" $$R(\pi)$$. We then use this to partition $$M$$, and then successively partition the subsets in the partition, until we obtain a full tree of sets where each leaf is a singleton. He claims that the output of this process, if your set $$M$$ and data $$L$$ is rich enough, is a constructive diagram that can provide insights about the desired form. The next part of the text is a 36-page case study, using the methods derived in the book to determine the form of a rural Indian village, which produces the following constructive diagram:
+Into the maths now: for a partition $$\pi$$ of a set $$S$$ we define a "measure of information transfer" $$R(\pi)$$. We then use this to partition $$M$$, and then successively partition the subsets in the partition, until we obtain a full tree of sets where each leaf is a singleton. He claims that the output of this process, if your set $$M$$ and data $$L$$ is rich enough, is a constructive diagram that can provide insights about the desired form.
+
+### Appendices
+
+The next part of the text is a 36-page case study, using the methods derived in the book to determine the form of a rural Indian village, which produces the following constructive diagram:
 
 <center><img src="/assets/alexander5.png" alt="Alexander" width="400"/></center>
 <p></p>

@@ -8,7 +8,7 @@ image:
 
 In this post I will outline several of the difficulties involved in creating a model for forecasting Australian parliamentary elections. 
 
-## Introduction
+### Introduction
 
 In recent years, statistical approaches to electoral forecasting have become particularly popular. The most famous example in the past decade has been the rise of Nate Silver and his FiveThirtyEight model, which has been immensely successful in predicting outcomes of American elections, as well as bringing the notion of precise and robust electoral forecasting to the forefront of public discourse.
 
@@ -29,7 +29,7 @@ There is an understandable desire for electoral forecasting to be accurate. Nate
 
 to obtain probabilistic forecasts for each seat (this is my ultimate goal). 
 
-## Constituency sizes
+### Constituency sizes
 
 It is worthwhile noting that FiveThirtyEight does **not** attempt to forecast US congressional elections on a district-by-district basis (instead providing a probabilistic model for the Congressional makeup as a whole). This however is the sort of analysis one would expect in Australian elections to provide an analog to Silver's presidential forecasts. Except on an occasional, one-off basis, individual seats are **never** polled in Australia, so seat-by-seat data is non-existent (and when it is available, is too sporadic to be worthwhile).
 
@@ -37,7 +37,7 @@ The most robust and accurate opinion polling is conducted on a **countrywide** b
 
 In Australia, my idea is to turn each national poll into one hundred and fifty simulated seat polls, based on trends and demographic data, and then to perform the usual aggregation and regression on these polls. 
 
-## Preferential voting
+### Preferential voting
 
 A successful forecasting model for elections in Australia needs to take into account its unique preferential voting system. In federal elections, voters are required to number all candidates in order of preference: only numbering a first preference results in an informal vote (in various states, preferential voting is optional, and there is a significant movement, particularly among prominent psephologists, to move to optional preferential voting on a federal level).
 
@@ -45,7 +45,7 @@ The deciding metric in the election of an Australian Member of Parliament is his
 
 This is a difficult problem without an optimal solution. The best solution would be to obtain historical preference profiles for individual seats and use these to simulate each election as a series of run-off elections like the AEC does, performing this a number of times to obtain some sort of probabilistic estimate.
 
-## Redistributions
+### Redistributions
 
 As a fantastic bulwark against gerrymandering, and in a democratic statement that should be the envy of democracies worldwide, electoral districts in Australia are not fixed, but have boundaries which change according to shifting demographics as measured by census data. This makes precise comparisons between historical elections extremely difficult on a seat-by-seat basis, as many seats cease to exist between elections, or have become so distorted from their original boundaries that there is no meaning in comparing them.
 
@@ -53,13 +53,13 @@ If possible, I would like to obtain historical election data for, and extrapolat
 
 It should be clear that this would be an extremely lengthy and time-consuming process not without significant complications:
 
-- there are [nearly 8 000](http://www.aec.gov.au/about_aec/cea-notices/election-pp.htm) polling places in the country for federal elections
+- there are [nearly 8,000](http://www.aec.gov.au/about_aec/cea-notices/election-pp.htm) polling places in the country for federal elections
 - census data can be obtained grouped by federal district (and in some states, by state district), but **not** by polling place
 - I'm not sure if state electoral commissions publish results by polling place 
 
 It seems to me that, given the infeasibility of performing the above task, a better idea would be to perform some sort of correction for redistributions similar to what Antony Green does when calculating "nominal swings" (his figures get used by all media outlets all over the country). 
 
-## Existing models
+### Existing models
 
 There are plenty of existing models on the web for forecasting elections, or at the very least analysing and aggregating polls. As far as I'm aware, none provide the full model that I am proposing.
 
@@ -67,7 +67,7 @@ There are plenty of existing models on the web for forecasting elections, or at 
 - [The Poll Bludger](http://blogs.crikey.com.au/pollbludger/) (Crikey). Does a fairly simple poll aggregator. Otherwise lots of good analysis of elections and Australian politics. 
 - [The Phantom Trend](http://www.phantomtrend.com/). A sophisticated aggregator with some accuracy weightings. Has the humility to refer to themselves as "Like Nate Silver, only less accurate."
 
-## Economic index
+### Economic index
 
 Finally, I'll explain why it's difficult to economic index to include in our model. In the FiveThirtyEight model, the underlying idea is that a strong economy tends to help the incumbent party. I haven't done a huge amount of research but I would assume this assumption is weaker in Australian parliamentary elections than in American presidential elections. 
 

@@ -13,10 +13,10 @@ The site is however fairly lightweight, and doesn't have any sort of notificatio
 I decided to learn some basic web-scraping techniques to write a script that did all this work for me. I wanted the following features:
 
 1. To specify a keyword (e.g. "arctic monkeys"). 
-2. To have the script crawl Gumtree every x minutes. 
+2. To have the script crawl Gumtree every $$x$$ minutes. 
 3. To email me with any new results (within particular geographic areas or price brackets). 
 
-## 1. Scraping Gumtree
+### Scraping Gumtree
 
 I'd not done much web scraping before but I'd heard good things about BeautifulSoup in Python to parse the scraped html, together with the requests package to actually scrape the pages. Since I was looking for tickets to a particular show, I used the following parameters, which could of course be altered depending on the user's requirements:
 
@@ -40,7 +40,7 @@ I then used the requests package to scrape a gumtree results page and dump the J
 
 There was then a simple while loop to run this over all results pages. 
 
-## 2. Parsing JSON using BeautifulSoup
+### Parsing JSON using BeautifulSoup
 
 Having obtained a whole bunch of messy output from the scraper, I used the following code to parse using BeautifulSoup:
 
@@ -84,7 +84,7 @@ This returned things like
 
 which contains all the relevant information. This took me a while to write as I'd not dealt with JSON much before, so I had to figure everything out from scratch. It was very satisfying to run the parser successfully and have big page-sized chunks of horrible JSON condensed into little search result nuggets like the above.
 
-## 3. Mandrill email automation
+### Mandrill email automation
 
 I wanted to run the scraper constantly in the background, preferably on an Amazon Web Server instance, and have it send automated emails every time it found a new result. I had to register a Mandrill account to use their API; once an API key was generated I wrote the following very basic email template:
 
@@ -136,7 +136,7 @@ which I called in my function "regular_scraping":
 	    json_file.write(json.dumps(old_data))
 	    json_file.close()
 
-The last step was to set this up on an Amazon Web Server instance: I made a master file which put all these ingredients together: every x seconds (by default I chose 120), it ran the scraper across all results pages, looked through the neatened JSON for results, compared these to a master results file on disk, and if there were any new results, added to the file and sent an email through Mandrill. This was easy enough to set up, although there's still a bunch of memory leak issues because my code isn't great; after a while it will eventually crash the AWS instance. It did solve my initial problem though, which was the whole point of the exercise, and I did learn a whole lot of new techniques. 
+The last step was to set this up on an Amazon Web Server instance: I made a master file which put all these ingredients together: every $$x$$ seconds (by default I chose 120), it ran the scraper across all results pages, looked through the neatened JSON for results, compared these to a master results file on disk, and if there were any new results, added to the file and sent an email through Mandrill. This was easy enough to set up, although there's still a bunch of memory leak issues because my code isn't great; after a while it will eventually crash the AWS instance. It did solve my initial problem though, which was the whole point of the exercise, and I did learn a whole lot of new techniques. 
 
 
 
