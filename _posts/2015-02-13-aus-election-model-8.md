@@ -1,13 +1,16 @@
 ---
 layout: post
-title: Forecasting Australian elections II - Clustering electorates by demographic variables
+title: Clustering Australian electorates by demographic variables
+image:
+  feature: sample-image-18.jpg
+  credit: Cradle Mountain, Tasmania, 2014
 ---
 
 In this post we'll use census data to cluster Australian federal electorates according to their demographic similarity. This is a good exercise for me to use some basic clustering algorithms, and it's a component I'd like to use in my final model. 
 
 Remember that the important quantity in Australian parliamentary elections is the **swing** in each seat. If we can estimate the swing in each seat, we can assign seats using the Mackerras pendulum and get an election result. 
 
-Suppose we have come up with a nation-wide (or state-wide, or nation-wide but broken down by state) measure of swing. In a basic model, there may be an adjustment on a seat-by-seat basis based on a number of factors. Clustering seats together aims to eliminate this guesswork (such as assigning seats a classification like "rural" or "urban"). We will make small swing adjustments based on which clusters our seats belong to, calibrated by their mean collective swing as cluster at previous contests. As we mentioned in a previous post, this is all made much more complicated by [redistributions](http://www.clintonboys.com/aus-election-model-4/). 
+Suppose we have come up with a nation-wide (or state-wide, or nation-wide but broken down by state) measure of swing. In a basic model, there may be an adjustment on a seat-by-seat basis based on a number of factors. Clustering seats together aims to eliminate this guesswork (such as assigning seats a classification like "rural" or "urban"). We will make small swing adjustments based on which clusters our seats belong to, calibrated by their mean collective swing as cluster at previous contests. As we mentioned in a previous [post]({{ site.baseurl }}{% link _posts/2014-10-06-aus-election-model.md %}), this is all made much more complicated by redistributions. 
 
 Here I just want to choose the demographic variables we want to feed into the clustering algorithm, and come up with a sensible number of clusters. 
 
@@ -40,7 +43,7 @@ The file I have here, called `2006_census_data_by_division.csv`, is available in
     census <- read.csv('2006_census_data_by_division.csv')
     pop <- as.numeric(as.character(census$Total_population[1:150]))
 
-Need to do a whole bunch of coersion; notice that we convert to character before numeric otherwise we get the numeric value of the ASCII characters. 
+Need to do a whole bunch of coercion; notice that we convert to character before numeric otherwise we get the numeric value of the ASCII characters. 
 
     Var1 <- as.numeric(as.character(census$Labour_force_aged_45_years_and_over22[1:150]))/pop
 

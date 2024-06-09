@@ -23,9 +23,9 @@
       "{{ site.url }}/images/{{ page.image.feature }}"
     {% endif %}
   alt="{{ page.title }} feature image">
-  {% if page.image.credit %}
-    <span class="image-credit">Photo: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
-  {% endif %}
+  <!-- {% if page.image.credit %}
+    <span class="image-credit"><a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
+  {% endif %} -->
   </div><!-- /.image-wrap -->
 {% endif %}
 
@@ -37,10 +37,6 @@
     <h1>{{ page.title }}</h1>
     <div class="article-wrap">
       {{ content }}
-      {% if page.share != false %}
-        <hr />
-        {% include _social-share.html %}
-      {% endif %}
     </div><!-- /.article-wrap -->
     {% if site.owner.disqus-shortname and page.comments == true %}
       <section id="disqus_thread"></section><!-- /#disqus_thread -->

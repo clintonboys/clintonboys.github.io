@@ -6,3 +6,9 @@ _site
 codekit-config.json
 node_modules
 _asset_bundler_cache
+.bundle/
+.jekyll-cache/
+_posts/.jekyll-cache/
+new-images/
+/vendor
+.idea/

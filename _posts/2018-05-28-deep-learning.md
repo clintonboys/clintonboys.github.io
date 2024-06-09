@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Deep learning and the universal approximation theorem
+image:
+  feature: sample-image-49.jpg
+  credit: Eden, New South Wales, 2018
 ---
 
 Deep learning, and in particular deep neural networks, is one of the most popular and 
@@ -50,7 +53,7 @@ discuss a mathematical theorem which provides a solid theoretical basis for why 
 Universality theorems are omnipresent in mathematics. The setup is classic, and gives the illusion of a genius mind
 at work, inventing a solution from thin air and then proceeding to prove it is the unique one which suits
 a given set of circumstances. In actuality, the *workflow* is entirely opposite: first a family of functions or a 
-mathematical object is studied by its occurences in specific examples. Through careful study of these examples,
+mathematical object is studied by its occurrences in specific examples. Through careful study of these examples,
 its utility becomes clear and the question of generalisation and universality arises. 
 
 So seeing the above family of functions occurring in many different places, the natural question is: what can we use 

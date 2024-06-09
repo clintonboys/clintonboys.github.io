@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Call your mum
+image:
+  feature: sample-image-39.jpg
+  credit: Prague, Czech Republic, 2016
 ---
 
 Since moving overseas away from my family and friends nearly two years ago, one problem I have had is keeping in touch with everyone. A combination of distance, time zones and busy lives means it's easy to forget to say hi or check in on people back home.

@@ -1,6 +1,9 @@
 ---
 layout: post
 title: The Bias-Variance tradeoff
+image:
+  feature: sample-image-28.jpg
+  credit: Berlin, Germany, 2012
 ---
 
 The Bias-Variance tradeoff is an extremely important concept in statistical modelling which is often misinterpreted or poorly understood. In this post I'll give a gentle introduction to the idea, followed by a deeper and more general discussion from a mathematical perspective. 
@@ -18,7 +21,7 @@ $$
 
 $f$ can represent many different examples. If our expected output $Y$ is continuous, this is the setup for *regression*, and if $Y$ takes discrete (or categorical) values, this is the setup for *classification*. 
 
-In order to know how well our model is doing, we need a way to measure its error. In statisical decision theory, this is known as a *loss function*
+In order to know how well our model is doing, we need a way to measure its error. In statistical decision theory, this is known as a *loss function*
 
 $$
 \begin{align}

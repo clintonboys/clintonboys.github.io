@@ -1,13 +1,16 @@
 ---
 layout: post
 title: Pitchfork and my iTunes library 
+image:
+  feature: sample-image-7.jpg
+  credit: Spencer Butte, Oregon, 2013
 ---
 
 I listen to a lot of music and for more than a decade now my main source of discovering new music has been [Pitchfork.com](http://www.pitchfork.com), particularly since all my friends only listen to hard trap and hip-hop so getting diverse recommendations from them can be difficult.
 
 Pitchfork is a fairly divisive source of musical recommendations. Some people swear by it; some people hate it. I think Pitchfork is quite a useful source of music discovery, and I think they have some great writers on staff, especially for many of the genres I like. I don't swear by it, and I do try to read other sources for recommendations, but I think my musical tastes are heavily influenced by the website. 
 
-I decided to try and quantify exactly how much of my music taste and listening perferences are influenced by Pitchfork.com. 
+I decided to try and quantify exactly how much of my music taste and listening preferences are influenced by Pitchfork.com. 
 
 This required me to obtain two things:
 
@@ -60,5 +63,5 @@ This isn't a huge increase; only about 6.5%. Let's work out the average **weight
     Average play-weighted Pitchfork score of artists: 7.590
     [Finished in 16.3s]
 
-This is an increase of nearly 9% on the review mean. This analysis is a little imperfect because I haven't compensated for the fact that the artist names in the two different datasets may not be the same (for example even if they are capitalised differently they won't match with the code I've written above). This is a small issue however. I'd like to add in my Spotify listening data and old Last.fm data if I get a chance to get a fuller picture of precisely how much of a Pitchfork sychophant I am. I'd also like an idea of how my listening habits have changed over time. 
+This is an increase of nearly 9% on the review mean. This analysis is a little imperfect because I haven't compensated for the fact that the artist names in the two different datasets may not be the same (for example even if they are capitalised differently they won't match with the code I've written above). This is a small issue however. I'd like to add in my Spotify listening data and old Last.fm data if I get a chance to get a fuller picture of precisely how much of a Pitchfork sycophant I am. I'd also like an idea of how my listening habits have changed over time. 
 

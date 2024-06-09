@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Regression
+image:
+  feature: sample-image-50.jpg
+  credit: Majdal Shams, Golan Heights, 2019. 
 ---
 
 At work recently I gave a 90-minute colloquium talk on regression. We have a monthly series of talks where researchers and data scientists discuss fundamental topics at length, and although we'd had many interesting talks no one yet had given a thorough and solid introduction to regression theory. Seeing as I don't mind a challenge, I decided to give it a go.

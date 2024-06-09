@@ -1,6 +1,9 @@
 ---
 layout: post
-title: Forecasting Australian elections V - The tricky seats
+title: Forecasting Australian elections - the tricky seats
+image:
+  feature: sample-image-10.jpg
+  credit: Stella Maris, Haifa, Israel, 2014
 ---
 
 In this post I want to look at the most difficult seats from the 2013 election for my basic model: those eleven seats whose final two candidates in the runoff process were *not* the ALP and the Coalition (more technically: their two-candidate preferred result was not a two-party-preferred result). Hopefully a closer analysis of these seats will give me an idea of how to properly set up the model to account for seats of this type. Below is a list of these seats, the top two parties, and in brackets the party which placed third.
@@ -21,7 +24,7 @@ In this post I want to look at the most difficult seats from the 2013 election f
 
 I've grouped the seats into three types, but before that it's important to notice one thing: no matter what the top *two* candidates, the Coalition and the ALP are *always* in the top *three*. I haven't checked yet but I would imagine there are no historical exceptions to this in the last fifteen years.
 
-The first group are the five seats where either the ALP or the Coalition did not win the seat. The second group are seats where the ALP or Coaliation won the seat, but there was a non-traditional second place. The third group are within-Coalition seats: seats where the top two candidates were the Liberals and Nationals. These are the least important as presumably they are easy to forecast for the Coalition!
+The first group are the five seats where either the ALP or the Coalition did not win the seat. The second group are seats where the ALP or Coalition won the seat, but there was a non-traditional second place. The third group are within-Coalition seats: seats where the top two candidates were the Liberals and Nationals. These are the least important as presumably they are easy to forecast for the Coalition!
 
 Let's look at the seats more closely. For the first five seats, my model by definition got these wrong as it only expected ALP or Coalition victories. Let's see how hard these would have been to predict (and try not to overfit as we go!)
 
@@ -58,7 +61,7 @@ This is a subtle seat, as it was held by a strong independent (Tony Windsor) for
 
 **Mallee, O'Connor, Durack**: I am not concerned about modelling these types of seats, as my model will just award them to the Coalition, being unconcerned with their infighting in Western Australia. 
 
-The model thus only needs to incorporate a few things to be able to predict occurences like the above:
+The model thus only needs to incorporate a few things to be able to predict occurrences like the above:
 
 - estimate ALP and LIB preferences to other parties when necessary (can use historical data for this)
 - estimate personal vote corrections for particular members (Peter Brent does something like this in a pretty well-justified way although his entire website lives behind a paywall now)

@@ -1,9 +1,12 @@
 ---
 layout: post
 title: Fixing the Trendy scraper
+image:
+  feature: sample-image-13.jpg
+  credit: Wellington, New Zealand, 2014
 ---
 
-My [Google trends scraper](http://www.clintonboys.com/google-trends-scraper/) is the most popular post on this site, and I've been getting questions about it for the last year or so, ever since Google changed the way the data is pulled and displayed on the [trends site](https://trends.google.com/trends/explore).
+My [Google trends scraper]({{ site.baseurl }}{% link _posts/2015-01-12-google-trends-scraper.md %}) is the most popular post on this site, and I've been getting questions about it for the last year or so, ever since Google changed the way the data is pulled and displayed on the [trends site](https://trends.google.com/trends/explore).
 
 I finally found some free time, worked out how Google had changed the API behind the scenes, and changed my trendy scraper to work with the new version. I dramatically improved the code at the same time. Thanks to everyone who was interested! 
 
@@ -61,6 +64,6 @@ def parse_csv(csv_contents):
 
 These two functions then parse the response, pull the token and the request for the CSV and then simulates the second API call, saving the results as a pandas dataframe (much better than the previous code which had to actually save all the files to a local folder).
 
-The rest of the code is basically the same: you can read about the stitching process in the original [post](http://www.clintonboys.com/google-trends-scraper/) . 
+The rest of the code is basically the same: you can read about the stitching process in the original [post]({{ site.baseurl }}{% link _posts/2015-01-12-google-trends-scraper.md %}). 
 
 
