@@ -11,6 +11,7 @@ GEM
     eventmachine (1.2.7)
     ffi (1.16.3)
     forwardable-extended (2.6.0)
+    google-protobuf (3.23.4)
     google-protobuf (3.23.4-arm64-darwin)
     google-protobuf (3.23.4-x86_64-darwin)
     http_parser.rb (0.8.0)
@@ -70,13 +71,15 @@ GEM
     rb-inotify (0.11.1)
       ffi (~> 1.0)
     redcarpet (3.6.0)
-    rexml (3.2.8)
-      strscan (>= 3.0.9)
+    rexml (3.3.3)
+      strscan
     rouge (3.30.0)
     safe_yaml (1.0.5)
     sass-embedded (1.58.3-arm64-darwin)
       google-protobuf (~> 3.21)
     sass-embedded (1.58.3-x86_64-darwin)
+      google-protobuf (~> 3.21)
+    sass-embedded (1.58.3-x86_64-linux-gnu)
       google-protobuf (~> 3.21)
     strscan (3.1.0)
     terminal-table (3.0.2)
@@ -87,6 +90,7 @@ GEM
 
 PLATFORMS
   universal-darwin-23
+  x86_64-linux
 
 DEPENDENCIES
   jekyll (~> 4.3.3)
